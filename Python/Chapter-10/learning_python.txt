@@ -1,0 +1,2 @@
+Contains literally everything you need to know about Python and even more.
+Learning Python with Python Crash Course was an extremely positive experience! A great choice if you're new to Python.

@@ -1,0 +1,3 @@
+Hello, my name is Junny.
+I love Python!
+I love chilling in my room.
