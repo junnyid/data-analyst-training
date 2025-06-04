@@ -5,8 +5,8 @@ from (
     limit 20
 ) as numbers;
 
-/* Orther solution when you understand basic, I think it :)))
-/*
+/* if you want to understand for the detail
+
 select repeat ('* ', n)
 from (
 select 1 as n union all
@@ -29,4 +29,5 @@ select 17 union all
 select 18 union all
 select 19 union all
 select 20 ) as numbers
-*/
+
+ */
