@@ -1,0 +1,2 @@
+Select CITY, STATE
+from STATION 
