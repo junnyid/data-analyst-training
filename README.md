@@ -8,4 +8,6 @@ This is what I am learning by following the Data Analyst Roadmap - https://roadm
 - R: w3school, DA Roadmap,...
 - .....
 
+I will build a Data Pipeline in the future.
+
 (>o<) Loading 1000% by my power :vv
