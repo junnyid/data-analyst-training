@@ -1,0 +1,50 @@
+- Transforming complex datasets into clear and interpretable visual representations, facilitating better understanding and communication of data insights.
+    + Matplotlib is a paramount data visualization library used extensively by data analysts for generating a wide array of plots and graphs.
+    + ggplot2 stands tall as one of the primary tools for data analysts in R programming. It build graphs and charts layer by layer, thereby offering detailed control over graphical features and design.
+
+-----Vietnamese-----
+I. Data Visualization Libraries 
+Thư viện trực quan hóa dữ liệu là các công cụ hoặc gói phần mềm được sử dụng để tạo biểu đồ, đồ thị, bản đồ và hình ảnh.
+    - Nhìn thấy xu hướng, mẫu, hoặc ngoại lệ.
+    - Trình bày kết quả một cách trực quan và dễ hiểu
+    - Hỗ trợ phân tích và truyền đạt thông tin hiệu quả hơn.
+II. Matplotlib (Python)
+- Thư viện visualization cổ điển và phổ biến nhất trong Python.
+- Cung cấp khả năng tùy biến cao để vẽ các biểu đồ như: line plot, bar chart, scatter plot, histogram...
+- Ưu điểm: Linh hoạt, mạnh mẽ, tương thích tốt với NumPy và pandas. Dễ kết hợp với các thư viện khác như Seaborn, Pandas plot...
+- Nhược điểm: Cần nhiều dòng mã cho những biểu đồ phức tạp. Syntax dài dòng với người mới.
+Ví dụ: 
+                import matplotlib.pyplot as plt
+
+                # Dữ liệu
+                years = [2018, 2019, 2020, 2021, 2022]
+                sales = [150, 200, 250, 220, 300]
+
+                # Tạo biểu đồ đường
+                plt.plot(years, sales, marker='o', color='blue', label='Doanh số')
+                plt.title('Biểu đồ doanh số theo năm')
+                plt.xlabel('Năm')
+                plt.ylabel('Doanh số (triệu đồng)')
+                plt.legend()
+                plt.grid(True)
+                plt.show()
+III. ggplot2 (R)
+- Là một phần của hệ sinh thái tidyverse trong R.
+- Dựa trên Grammar of Graphics: xây dựng biểu đồ bằng cách kết hợp nhiều lớp (layers).
+- Ưu điểm: Cú pháp có hệ thống, dễ học với người mới. Biểu đồ đẹp mặc định, hỗ trợ nhiều tùy chọn nâng cao.
+- Nhược điểm: Cần nắm vững cú pháp ggplot để khai thác tối đa sức mạnh.
+Ví dụ:
+                library(ggplot2)
+
+                # Dữ liệu
+                years <- c(2018, 2019, 2020, 2021, 2022)
+                sales <- c(150, 200, 250, 220, 300)
+                df <- data.frame(years, sales)
+
+                # Tạo biểu đồ đường
+                ggplot(df, aes(x = years, y = sales)) +
+                geom_line(color = "blue") +
+                geom_point() +
+                labs(title = "Biểu đồ doanh số theo năm",
+                    x = "Năm",
+                    y = "Doanh số (triệu đồng)")

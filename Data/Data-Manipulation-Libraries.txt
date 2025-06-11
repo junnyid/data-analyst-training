@@ -1,0 +1,55 @@
+- Enabling efficient handling, transformation, and analysis of large datasets.
+- Python, a popular language for data science, offers several powerful libraries for this purpose. 
+    + Pandas is a highly versatile library that provides data structures like DataFrames, which allow for easy manipulation and analysis of tabular data. 
+    + NumPy, another fundamental library, offers support for large, multi-dimensional arrays and matrices, along with 
+
+----Vietnamese----
+I. Data manipulation libraries
+- Lưu trữ và xử lý dữ liệu hiệu quả
+- Thực hiện các thao tác: lọc dữ liệu, tính toán thống kê, xử lý dữ liệu, sắp xếp, group, pivot,...
+- Hữu ích trong DA và DS 
+II. NumPy
+- Hỗ trợ mảng nhiều chiều (arrays) với hiệu năng cao
+- Dùng để thực hiện các phép toán toán học, thống kê, đại số tuyến tính
+Ví dụ: 
+                import numpy as np
+
+                # Tạo một mảng số
+                a = np.array([1, 2, 3, 4, 5])
+                print(a)
+
+                # Tính tổng và trung bình
+                print("Tổng:", np.sum(a))           # 15
+                print("Trung bình:", np.mean(a))    # 3.0
+
+                # Mảng 2 chiều (ma trận)
+                b = np.array([[1, 2], [3, 4]])
+                print("Ma trận b:\n", b)
+
+                # Nhân ma trận
+                c = np.dot(b, b)
+                print("b x b:\n", c)
+III. Pandas
+- Pandas chuyên xử lý dữ liệu bảng (table) giống Excel => DataFrames
+- Hỗ trợ đọc và xử lý dữ liệu từ nhiều nguồn như: CSV, Excel, SQL,...
+Ví dụ:
+                import pandas as pd
+
+                # Tạo một DataFrame từ dictionary
+                data = {
+                    'Tên': ['Nam', 'Linh', 'Mai'],
+                    'Tuổi': [25, 22, 30],
+                    'Điểm': [8.5, 9.0, 7.5]
+                }
+
+                df = pd.DataFrame(data)
+                print(df)
+
+                # Lọc những người có điểm > 8
+                print("Người có điểm > 8:\n", df[df['Điểm'] > 8])
+
+                # Tính trung bình điểm
+                print("Trung bình điểm:", df['Điểm'].mean())
+TỔNG KẾT:
+- NumPy: Dùng cho dữ liệu số, hiệu suất cao, toán học và thống kê
+- Pandas: Dùng cho phân tích dữ liệu thực tế, dạng bảng, tiện lợi và trực quan
