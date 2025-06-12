@@ -1,0 +1,35 @@
+Data Cleaning
+- Data cleaning, which is often referred as data cleansing or data scrubbing
+- Data cleaning involves identifying, correcting or removing any errors or inconsistencies in datasets in order to improve their quality.
+-  The process is crucial because it directly determines the accuracy of the insights you generate - garbage in, garbage out.
+
+1. Handling Missing Data
+- null, NaN,... khi dữ liệu bị thiếu
+- Cách xử lý:
+    + Xóa dòng có dữ liệu thiếu
+    + Điền giá trị thay thế
+    + Giữ nguyên
+
+2. Removing Duplicates
+Xóa những dòng dữ liệu bị lặp lại hoàn toàn hoặc phần lớn
+
+3. Finding Outliers
+-  Outliers are unusual or surprising data points that deviate significantly from the rest of the data. 
+- Tìm giá trị ngoại lai
+- Outlier là giá trị khác thường, bất thường so với phần lớn dữ liệu - có thể do lỗi hoặc trường hợp đặc biệt.
+- Phát hiện outlier thường dùng:
+    + Quy tắc z-score
+    + IQR (Interquatile Range)
+
+4. Data Transformation 
+- Data Transformation, also known as Data Wrangling
+- Chuyển đổi dữ liệu
+- Biến đổi dữ liệu về dạng dễ xử lý và phân tích hơn
+- Một số kiểu biến đổi:
+    + Chuẩn hóa (Normalization): đưa dữ liệu về cùng thang đo (0-1)
+    + Phân loại (Categorical Encoding): chuyển dữ liệu dạng chữ thành số
+    + Rút gọn: lấy năm từ ngày, chuyển % thành số
+
+5. Using libraries for Cleanup
+- Pandas: adopts a flexible and powerful data structure (DataFrames and Series)
+- Dplyr: The dplyr package, an integral part of the tidyverse suite in R, has become a staple in the toolkit of data analysts dealing with data cleaning.
