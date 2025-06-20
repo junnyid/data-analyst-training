@@ -1,19 +1,18 @@
 age = 75
 
-vower = ['u', 'e', 'o', 'a', 'i']
+vower = ["u", "e", "o", "a", "i"]
 
 if age < 2:
-    stage = 'baby'
+    stage = "baby"
 elif age < 4:
-    stage = 'toddler'
+    stage = "toddler"
 elif age < 13:
-    stage = 'kid'
+    stage = "kid"
 elif age < 20:
-    stage = 'teenager'
+    stage = "teenager"
 elif age < 65:
-    stage = 'adult'
+    stage = "adult"
 else:
-    stage = 'elder'
+    stage = "elder"
 
-print(f"The person is {'an' if stage[0] in vower else 'a'} {stage}.")   #using string 
-     
+print(f"The person is {'an' if stage[0] in vower else 'a'} {stage}.")  # using string

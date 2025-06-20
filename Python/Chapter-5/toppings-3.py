@@ -1,8 +1,8 @@
-#using if statements with lists
-requested_toppings = ['mushroom', 'green peppers', 'extra cheese']
+# using if statements with lists
+requested_toppings = ["mushroom", "green peppers", "extra cheese"]
 
 for requested_topping in requested_toppings:
-    if requested_topping == 'green peppers':
+    if requested_topping == "green peppers":
         print("Sorry, we are out of green peppers right now.")
     else:
         print(f"Adding {requested_topping}.")

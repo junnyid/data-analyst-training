@@ -1,6 +1,6 @@
 import random
 
-lottery_numbers = list(range(1, 11)) + list('ABCDE')
+lottery_numbers = list(range(1, 11)) + list("ABCDE")
 my_ticket = random.sample(lottery_numbers, 4)
 print("Your ticket:", my_ticket)
 

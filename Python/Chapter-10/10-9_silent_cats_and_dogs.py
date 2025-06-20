@@ -1,4 +1,4 @@
-filenames = ['Chapter-10/cats.txt', 'Chapter-10/dogs.txt']
+filenames = ["Chapter-10/cats.txt", "Chapter-10/dogs.txt"]
 
 for filename in filenames:
     try:

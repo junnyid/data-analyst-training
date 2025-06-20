@@ -3,7 +3,7 @@ import csv
 
 import plotly.express as px
 
-path = Path('Python/Chapter-16/weather_data/world_fires_1_day.csv')
+path = Path("Python/Chapter-16/weather_data/world_fires_1_day.csv")
 lines = path.read_text().splitlines()
 
 reader = csv.reader(lines)
@@ -26,11 +26,15 @@ for row in reader:
 
 # Plot brightnesses on a world map.
 title = "Global wildfire activity"
-fig = px.scatter_geo(lat=lats, lon=lons, size=brights, title=title,
-        color=brights,
-        color_continuous_scale='Viridis',
-        labels={'color':'Brightness'},
-        projection='natural earth',
-    )
+fig = px.scatter_geo(
+    lat=lats,
+    lon=lons,
+    size=brights,
+    title=title,
+    color=brights,
+    color_continuous_scale="Viridis",
+    labels={"color": "Brightness"},
+    projection="natural earth",
+)
 
 fig.show()

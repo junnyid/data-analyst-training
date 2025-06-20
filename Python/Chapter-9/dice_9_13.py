@@ -2,13 +2,16 @@ from random import randint
 import re
 from unittest import result
 
-class Die():
+
+class Die:
     """Represent a dice, which can be rolled."""
-    def __init__(self, sides= 6):
-        self.sides= sides
-    
+
+    def __init__(self, sides=6):
+        self.sides = sides
+
     def roll_die(self):
         return randint(1, self.sides)
+
 
 sides6 = Die()
 

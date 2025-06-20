@@ -4,30 +4,30 @@ from urllib import response
 
 import requests
 
-#Make an API call and check the responses
+# Make an API call and check the responses
 url = "https://hacker-news.firebaseio.com/v0/topstories.json"
 r = requests.get(url)
 print(f"Status code: {r.status_code}")
 
-#Process information about each submission
+# Process information about each submission
 submission_ids = r.json()
 submission_dicts = []
 for submission_id in submission_ids[:5]:
-    #Make a new API call for each submissions
+    # Make a new API call for each submissions
     url = f"https://hacker-news.firebaseio.com/v0/item/{submission_id}.json"
     r = requests.get(url)
     print(f"id: {submission_id}\tstatus: {r.status_code}")
     response_dict = r.json()
-    
-    #Build a dictionary for each article
+
+    # Build a dictionary for each article
     submission_dict = {
-        'title': response_dict['title'],
-        'hn_link': f"https://news.ycombinator.com/item?id={submission_id}",
-        'comments': response_dict['descendants'],
+        "title": response_dict["title"],
+        "hn_link": f"https://news.ycombinator.com/item?id={submission_id}",
+        "comments": response_dict["descendants"],
     }
     submission_dicts.append(submission_dict)
 
-submission_dicts = sorted(submission_dicts, key=itemgetter('comments'), reverse=True)
+submission_dicts = sorted(submission_dicts, key=itemgetter("comments"), reverse=True)
 
 for submission_dict in submission_dicts:
     print(f"\nTitle: {submission_dict['title']}")

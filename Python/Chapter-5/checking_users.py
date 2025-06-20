@@ -1,6 +1,6 @@
-current_users = ['panda', 'doraemon', 'nobita', 'shisuka', 'doremi']
+current_users = ["panda", "doraemon", "nobita", "shisuka", "doremi"]
 
-new_users = ['luffy', 'doremi', 'nami', 'franky', 'doraemon']
+new_users = ["luffy", "doremi", "nami", "franky", "doraemon"]
 
 for new_user in new_users:
     if new_user in current_users:

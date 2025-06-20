@@ -1,5 +1,5 @@
-#name = input("Please enter your name: ")
-#print(f"\n Hello, {name}!")
+# name = input("Please enter your name: ")
+# print(f"\n Hello, {name}!")
 
 
 prompt = "If you share your name, we can personalize the messages you see."

@@ -6,24 +6,24 @@ from turtle import title
 import matplotlib.pyplot as plt
 from numpy import place
 
-path = Path('Python/Chapter-16/weather_data/vietnam_weather_summary.csv')
+path = Path("Python/Chapter-16/weather_data/vietnam_weather_summary.csv")
 lines = path.read_text().splitlines()
 
 reader = csv.reader(lines)
 header_row = next(reader)
 
-date_index = header_row.index('date')
-high_index = header_row.index('tmax')
-low_index = header_row.index('tmin')
-name_index = header_row.index('name')
+date_index = header_row.index("date")
+high_index = header_row.index("tmax")
+low_index = header_row.index("tmin")
+name_index = header_row.index("name")
 
-#Extract dates, highs ans lows temperatures.
+# Extract dates, highs ans lows temperatures.
 dates, highs, lows = [], [], []
 places = []
 for row in reader:
     if not places:
         places = row[name_index]
-    current_date = datetime.strptime(row[2], '%Y-%m-%d')
+    current_date = datetime.strptime(row[2], "%Y-%m-%d")
     try:
         high = float(row[high_index])
         low = float(row[low_index])
@@ -33,16 +33,16 @@ for row in reader:
         dates.append(current_date)
         highs.append(high)
         lows.append(low)
-        
-#Plot the high and low temperatures.
-plt.style.use('seaborn-v0_8')
+
+# Plot the high and low temperatures.
+plt.style.use("seaborn-v0_8")
 fig, ax = plt.subplots()
-ax.plot(dates, highs, color='red', alpha=0.5)
-ax.plot(dates, lows, color='blue', alpha=0.5)
-#Format plot
+ax.plot(dates, highs, color="red", alpha=0.5)
+ax.plot(dates, lows, color="blue", alpha=0.5)
+# Format plot
 title = "Daily High and Low Temperatures, 2025\nViet Nam"
 ax.set_title(title, fontsize=20)
-ax.set_xlabel('', fontsize=14)
+ax.set_xlabel("", fontsize=14)
 fig.autofmt_xdate()
 ax.set_ylabel("Temperature (C)", fontsize=14)
 ax.tick_params(labelsize=14)

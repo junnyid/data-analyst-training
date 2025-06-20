@@ -4,14 +4,14 @@ from traceback import print_tb
 
 from numpy import number
 
-filename = 'number.json'
+filename = "number.json"
 
 try:
-    with open('nunber.json') as f:
+    with open("nunber.json") as f:
         number = json.load(f)
 except FileNotFoundError:
-    number = input('Give me your favorite number: ')
-    with open('number.json', 'w') as f:
+    number = input("Give me your favorite number: ")
+    with open("number.json", "w") as f:
         json.dump(number, f)
     print("Thanks, I'll remember that.")
 else:

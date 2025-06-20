@@ -1,9 +1,9 @@
-#Aditionary of Similar Objects
+# Aditionary of Similar Objects
 favorite_languages = {
-    'jen': 'python',
-    'sarah': 'c',
-    'edward': 'rust',
-    'phil': 'python',
-    }
-language = favorite_languages['sarah'].title()
+    "jen": "python",
+    "sarah": "c",
+    "edward": "rust",
+    "phil": "python",
+}
+language = favorite_languages["sarah"].title()
 print(f"Sarah's favorite language is {language}.")

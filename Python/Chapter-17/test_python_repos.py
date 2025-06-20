@@ -8,6 +8,7 @@ def test_response_status_code():
     r = get_repos_info()
     assert r.status_code == 200
 
+
 def test_response_dict():
     """Verify an appropriate number of repositories are represented,
     and the results are complete.
@@ -15,11 +16,12 @@ def test_response_dict():
     r = get_repos_info()
     response_dict = get_response_dict(r)
 
-    total_count = response_dict['total_count']
-    complete_results = not response_dict['incomplete_results']
+    total_count = response_dict["total_count"]
+    complete_results = not response_dict["incomplete_results"]
 
     assert total_count > 240
     assert complete_results
+
 
 def test_repo_dicts():
     """Verify the results in repo_dicts are correct."""
@@ -31,4 +33,4 @@ def test_repo_dicts():
 
     # Check that all repos returned have over 10k stars.
     for repo_dict in repo_dicts:
-        assert repo_dict['stargazers_count'] > 10_000
+        assert repo_dict["stargazers_count"] > 10_000
