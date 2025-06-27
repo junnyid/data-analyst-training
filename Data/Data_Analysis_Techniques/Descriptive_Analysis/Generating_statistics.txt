@@ -1,0 +1,54 @@
+Descriptive analysis encompasses the process of summarizing, organizing, and simplifying complex data into understadable and interpretable forms.
+- Quá trình tóm tắt
+- Tổ chức
+- Đơn giản hóa dữ liệu phức tạp
+
+
+#Generating Statistics
+
+1. Dispersion - Phân tán
+- offers a crucial way to understand the variability or spread in a set of data.
+- Distinct measures of dispersion such as range, variance, standard deviation, and interquartile range gives data analysts insights into how spread out data points are, how reliable any patterns detected maybe.
+- identifying outliers, drawing meaningful conclusions, and making informed predictions.
+    1.1 Range 
+    - refers to the spread of a dataset
+    - understanding the range and dispersion aids in making more precise analyses and predictions
+    - Understanding the dispersion within a range can highlight anomalies, identify standard norms, and form the foundation for statistical conclusions like the standard deviation, variance, and interquartile range.
+    - It allows for the comprehension of the reliability and stability of particular datasets, which can help guide strategic decisions in many industries. Therefore, range is a key concept that every data analyst must master.
+    1.2 Variance as a measure of dispersion
+    - Variance, an essential measure of dispersion, quantifies the spread of data, providing insight into the level of variability within the dataset. 
+    1.3 Standard Deviation - Độ lệch chuẩn
+    - understanding the standard deviation is crucial as it gives insight into how much variation or dispersion exists from the average (mean), or expected value
+    - A low standard deviation indicates that the data points are generally close to the mean, while a high standard deviation implies that the data points are spread out over a wider range.
+
+2. Central Tendency
+- understanding central tendency is of paramount importance as it offers a quick summary of the data
+- It provides information about the center point around which the numerical data is distributed. 
+- The three major types: Mean, Median, Mode
+- Central tendency refers to the statistical measure that identifies a single value as representative of an entire distribution.
+    2.1 Mean
+    - Mean is particularly helpful in predicting trends and patterns within voluminous data sets or adjusting influencing factors that may distort the 'true' representation of the data
+    2.2 Median
+    - Median signifies the middle value in a data set when arranged in ascending or descending order.
+    - It is especially helpful when dealing with outliers in a dataset as the median is less sensitive to extreme values
+    2.3 Mode
+    - the "Mode" is often underappreciated, yet it plays an essential role in interpreting datasets.
+    - The mode, in essence, represents the most frequently occurring value in a dataset.
+    2.4 Average
+    - The average is a commonly used statistical tool by which data analysts discern trends and patterns
+    - the "average" involves summing all values in a data set and dividing by the number of values.
+
+3. Distribution Shape
+- the shape of the distribution to understand the spread and trend of the data set
+- It aids in identifying the skewness (asymmetry) and kurtosis (the 'tailedness') of the data and helps to reveal meaningful patterns that standard statistical measures like mean or median might not capture
+- The distribution shape can provide insights into data’s normality and variability, informing decisions about which statistical methods are appropriate for further analysis.
+    3.1 Skewness
+    - Skewness is a crucial statistical concept driven by data analysis and is a significant parameter in understanding the distribution shape of a dataset
+    - skewness provides a measure to define the extent and direction of asymmetry in data (độ lệch cung cấp một biện pháp để xác định mức độ và hướng của sự bất đối xứng trong dữ liệu.)
+    - A positive skewness indicates a distribution with an asymmetric tail extending towards more positive values
+    - A negative skew indicates a distribution with an asymmetric tail extending towards more negative values
+    3.2 Kurtosis 
+    - kurtosis identifies the heaviness of the distribution tails and the sharpness of the peak (Kurtosis xác định độ nặng của đuôi phân phối và độ sắc nét của đỉnh)
+    - risk management, outlier detection, and provides deeper insight into variations
+    
+
