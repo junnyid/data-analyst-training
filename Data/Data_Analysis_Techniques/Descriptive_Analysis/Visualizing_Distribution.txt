@@ -1,0 +1,6 @@
+Visualising Distributions
+
+- Plays a key role in understanding the overall distribution and identifying patterns within data.
+- It aids in summarizing, structuring, and plotting structured data graphically to provide essential insights.
+- using different chart types: bar graphs, historigrams, and scatter plots for interval data, and pie or bar graphs for categorical data.
+- the aim is to provide a straightforward and effective manner to comprehend the data's characteristic and underlying structure
