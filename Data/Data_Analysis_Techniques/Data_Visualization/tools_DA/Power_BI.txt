@@ -1,0 +1,4 @@
+PowerBI
+- an interactive data visualization, developed by Microsoft
+- convert raw data into meaningful insights through it's easy-to-use dashboards and reports function.
+- the ability to manipulate and produce visualizations of large data sets that can be shared across an organization, making complex statistical information more digestible.

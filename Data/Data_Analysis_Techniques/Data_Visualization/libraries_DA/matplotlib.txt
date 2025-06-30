@@ -1,0 +1,3 @@
+Matplotlib
+- a plotting library for the Python programming language
+- It presents a versatile framework for generating line plots, scatter plots, histogram, bar charts and much more in a very straightforward manner.
