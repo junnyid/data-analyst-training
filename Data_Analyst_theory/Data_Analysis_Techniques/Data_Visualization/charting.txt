@@ -1,0 +1,37 @@
+*** Bar Charts ***
+- bar charts are essential for analyzing and interpreting complex data
+- dealing with categorical data groups or discrete variables.
+- they provide a simple yet effective means of identifying trends, understanding data distribution, and making data-driven decisions
+
+*** Histogram ***
+- A histogram is a graphical representation that organizes a group of data points into a specified range.
+- It provides an visual interpretation of numerical data by indicating the number of data points that fall within a specified range of values, known as bins
+
+*** Line Charts ***
+- Line charts act as powerful tools for summarizing and interpreting complex datasets
+- these charts allow for clear and efficient communication of patterns, trends, and outliers in the data.
+
+*** Stacked Charts ***
+- This type of chart presents quantitative data in a visually appealing manner and allows users to easily compare different categories while still being able to compare the total sizes.
+- These charts are highly effective when trying to measure part-to-whole relationships, displaying accumulated totals over time or when presenting data with multiple variables.
+- use stacked charts to detect patterns, trends and anomalies which can aid in strategic decision making.
+
+*** Scatter Plot ***
+- A scatter plot, a crucial aspect of data visualization, is a mathematical diagram using Cartesian coordinates to represent values from two different variables.
+- identifying correlations and trends within a dataset, drawing meaningful insights, and showcasing these findings in a clear, visual manner
+- scatter plots are paramount in predictive analytics as they reveal patterns which can be used to predict future occurrences.
+
+*** Heatmap ***
+- heatmaps show the correlation or scale of variation between two or more variables in a dataset, making them extremely useful for pattern recognition and outlier detection.
+- Individual values within a matrix are represented in a heatmap as colors, with differing intensities indicating the degree or strength of an occurrence
+- use a heatmap to decode complex multivariate data and turn it into an easily understandable visual that aids in decision making.
+
+*** Funnel Charts ***
+- A funnel chart displays values as progressively diminishing amounts, allowing data analysts to understand the stages that contribute to the output of a process or system
+- The 'funnel' shape is symbolic of a typical customer conversion process, going from initial engagement to close of sale.
+
+*** Pie Charts ***
+- pie charts are circular statistical graphics divided into slices to illustrate numerical proportions.
+- The pie chart's beauty lies in its simplicity and visual appeal, making it an effective way to convey relative proportions or percentages at a glance.
+- show a simple distribution of categorical data.
+- use pie charts wisely—ideally, when the dataset has fewer than seven categories, and the proportions between categories are distinct.

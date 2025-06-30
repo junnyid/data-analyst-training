@@ -1,0 +1,11 @@
+*** Tableau ***
+Tableau in Data Visualization
+- Its primary role is to transform raw, unprocessed data into an understandable format without any technical skills or coding.
+- create data visualizations, reports, and dashboards
+- perform tasks like trend analysis, pattern identification, and forecasts, all within a user-friendly interface.
+
+*** PowerBI ***
+PowerBI
+- an interactive data visualization, developed by Microsoft
+- convert raw data into meaningful insights through it's easy-to-use dashboards and reports function.
+- the ability to manipulate and produce visualizations of large data sets that can be shared across an organization, making complex statistical information more digestible.

@@ -1,4 +1,0 @@
-Tableau in Data Visualization
-- Its primary role is to transform raw, unprocessed data into an understandable format without any technical skills or coding.
-- create data visualizations, reports, and dashboards
-- perform tasks like trend analysis, pattern identification, and forecasts, all within a user-friendly interface.

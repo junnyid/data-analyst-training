@@ -1,0 +1,16 @@
+*** Matplotlib ***
+Matplotlib
+- a plotting library for the Python programming language
+- It presents a versatile framework for generating line plots, scatter plots, histogram, bar charts and much more in a very straightforward manner.
+
+*** ggplot2 ***
+ggplot2
+- Built within the R programming language, it provides a flexible, cohesive environment for creating graphs.
+- its ability to produce sophisticated and tailored visualizations.
+
+*** Seaborn ***
+Seaborn
+- Seaborn is a robust, comprehensive Python library focused on the creation of informative and attractive statistical graphics. 
+- elaborating complex visual stories with the data
+- It aids in understanding the data by providing an interface for drawing attractive and informative statistical graphics.
+- Seaborn is built on top of Python's core visualization library Matplotlib, and is integrated with data structures from Pandas.
