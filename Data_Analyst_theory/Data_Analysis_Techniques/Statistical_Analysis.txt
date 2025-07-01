@@ -1,0 +1,18 @@
+Statistical Analysis
+- The role involves gathering, reviewing, and interpreting data for various applications, enabling businesses to understand their performance, trends, and growth potential.
+- A range of statistical techniques from modeling, ML, data mining, to convey vital information that supports strategic company actions.
+
+*** Hypothesis Testing ***
+- Hypothesis testing plays an essential role to make inferences or predictions based on data.
+- Hypothesis testing is an approach used to test a claim or theory about a parameter in a population, using data measured in a sample
+- it provides a probability-based mechanism to quantify and deal with the uncertainty inherent in conclusions drawn from not completely reliable data.
+
+*** Correlation Analysis ***
+- correlation analysis is a quantitative method => determine if there is a significant relationships between two variables (how strong or weak, positive or negative,...)
+- identify patterns and trends within datasets, and is often represented visually through scatter plots.
+
+*** Regression ***
+- regression analysis is a form of predictive modelling technique which investigates the relationships between dependent and independent variables
+- It is used for forecast, time series modelling and finding the causal effect relationships between variables.
+- the main goal is to understand how the typical value of the dependent variables changes when any one of the independent variables is vaired, while the other independent variables are held fixed.
+
