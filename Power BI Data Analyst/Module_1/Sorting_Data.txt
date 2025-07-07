@@ -1,0 +1,8 @@
+1. In the exercise, you sorted the Products worksheet data by Product Name (Column C). What was the first step you performed before selecting Sort Ascending? 
+=> Select any cell in column C
+
+2. You were asked to sort the data first by Supplier and then by Units in Stock. Which choice did you select on the Data tab to perform this? 
+=> Sort
+
+3. True or False: You used Sort to sort the data using two columns with a first-level sort by Supplier and a second-level sort data by Units in stock. This meant that when the sort was complete, the Supplier entries were no longer in alphabetical order.
+=> False

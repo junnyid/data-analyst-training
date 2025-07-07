@@ -1,0 +1,13 @@
+Microsoft Excel 365
+
+1. Key regional formats
+- Date and time formats
+- Number formats
+- Language Settings
+- Currency formats
+- Sorting and filtering
+- Excel options: Advanced settings
+- Excel date system
+- Text encoding
+
+2. Working with rows and columns

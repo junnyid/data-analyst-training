@@ -1,0 +1,9 @@
+1. You have five filters applied to your worksheet data. What is the fastest way to remove all filters and restore the full data view?
+=> Use "Clear" option on the Data
+
+2. Question 2
+You are working with a large block of data. You applied a filter but there are still a lot of rows visible. How can you determine how many results you have found?
+=> Check the bottom-left of the Excel screen
+
+3. In the exercise, you selected the Product Name filter to filter and find all the entries relating to mountain bikes. What were your next steps?
+=> You selected "Text filter" and then "Contains" from the sub-menu

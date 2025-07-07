@@ -1,0 +1,8 @@
+1. You entered a numerical value into Sheet1, and Excel automatically aligned it to the left. What does this indicate, and how can you correct it?
+=> Edit the content
+
+2. In step 3, you formatted cells E23 to H25, which contained figures representing Japanese Yen amounts. What steps did you take to apply the Yen Currency format to this block of cells?
+=> Select the Number Format dropdownin the Home tab. Choose "More Number Format. In the Currency category, select the "Symbol" dropdown and choose "Japanese Yen"
+
+3. As one of the final steps in your exercise, you hid the Contacts worksheet using the Hide & Unhide command. Where is this command located in Excel? 
+=> On the "Format" option in the "Cells" group on the Home tab.

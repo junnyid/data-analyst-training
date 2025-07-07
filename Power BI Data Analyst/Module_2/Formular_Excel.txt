@@ -1,0 +1,2 @@
+Formulas in Excel
+- Formulas are mathematical expressions that calculate the value of cell contents. 

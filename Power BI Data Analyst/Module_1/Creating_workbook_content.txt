@@ -1,0 +1,14 @@
+1. You entered a non-scientific numerical value into an Excel worksheet, but when you pressed Enter, the number appeared as 1.9E+09 in the cell. Why did this happen?
+=> The column is too narrow
+
+2. Which number format option in Excel acts as both a format change and an action button that modifies the entered values?
+=> The Percentage format
+
+3. You are editing a worksheet where Column G is hidden and does not appear between Columns F and H. How can you unhide Column G?
+=> Highlight Columns F to H, then go to the Format dropdown on the Home tab. Choose "Hide & Unhide" and select "Unhide Columns"
+
+4. You typed the heading Customer Name into a cell, but part of it is hidden due to the column width and content in the next cell. You want "Customer" and "Name" to appear on separate lines within the same cell. What should you do? 
+=> Use the Wrap Text command in the Alignment group
+
+5. You need to sort or reorder a large block of information in a worksheet. Which tab do you need to select to access the Sort feature?
+=> The Data tab

@@ -1,0 +1,48 @@
+Sorting Data
+- use the Sort feature to reorganize the data so that you could become more familiar with it. 
+    + Sort text and numeric data.
+    + Perform a multi-level Sort.
+
+1. True or False: When you select the Filter button on the Data tab, Excel automatically filters the data based on choices that you have already made in the drop-down menus next to each heading. 
+=> False
+
+2. Question 2
+You need to find all rows that contain a specific word, but the word could appear anywhere within a text entry in a column.
+Which filtering option should you use?
+=> Use Contains on the Text Filter sub-menu.
+
+3. Question 3
+True or False:
+You need to sort a staff spreadsheet alphabetically by department and then sort each department by join date, ensuring that the most recent hires appear first.
+To complete this, you plan to:
+Use "Sort Newest to Oldest" on the Join Date column.
+Use "Sort A-Z" on the Department Name column. 
+Will this method correctly apply a multi-level sort?
+=> False
+
+4. Question 4
+You want to assign a specific name to a cell. You have used this same name previously for a different cell. Where can you view the sheet and cell reference that indicates where the name has been assigned?
+=> Use the Name Manager in the Formulas ribbon\
+
+5. You use the New Window command to view two copies of your worksheet. Which ribbon do you select to access the New Window command?
+=> The View ribbon
+
+6. Question 6
+Which of the following tasks can you perform using the Search box on the Title bar? Select all that apply.
+=> Search for text or number content in a worksheet.
+Search for text or number content across a whole workbook.
+
+7. In larger worksheets, it can be useful to hide columns that are not required. This allows you to scroll through the content more quickly. How does Excel indicate on screen that there are columns hidden in a worksheet? Select all that apply.
+=> There is a gap in the sequence of initial letters at the top of the screen.
+There are two vertical lines or a darker vertical line between two of the column initials.
+
+8. You are entering repeat content in your worksheet. After entering the content several times Excel offers the content as an automatic suggestion. What is this feature called?
+=> Autocomplete
+
+9. Question 9
+You need to present a worksheet to your colleague. However, columns D and E contain confidential data that they cannot be privy to. What option on the Home ribbon can you use to hide these columns during the presentation?
+=> Format drop-down
+
+10.Question 10
+You manually adjust the width of column A and then type 958697100T into cell A2. However, the entry still displays across cell B2, which is currently empty. What is the visual effect on the entry in cell A2 when you enter data into cell B2?
+=> The content will only be partially displayed and some of the entry will be hidden by the content in B2
