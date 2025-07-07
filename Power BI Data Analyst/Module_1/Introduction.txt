@@ -1,0 +1,22 @@
+- Excel Fundamental
+- Formulas and functions
+- Preparing data for analysis using functions
+- Graded assessment and course wrap-up
+
+Assessing the skills
+- Prepare the data:
+    + Get data from data sources
+    + Clean the data
+    + Transform and load the data
+- Model the data:
+    + Design and implement a data model
+    + Create model calculations by using DAX
+    + Optimize model performance
+- Visualize and analyze the data:
+    + Create reports
+    + Enhance reports for usability and storytelling
+    + Identify patterns and trends
+- Manage and secure Power BI:
+    + Create and manage workspaces and assets
+    + Secure and govern Power BI items
+    

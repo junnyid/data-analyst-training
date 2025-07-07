@@ -1,0 +1,66 @@
+1. Intro
+Generative AI is a dynamic and rapidly evolving field within artificial intelligence.
+
+2. Artificial intelligence
+- Artificial intelligence (AI) is the field of computing focused on creating systems capable of performing tasks that would typically require human intelligence. 
+-  Central to AI is machine learning (ML), where algorithms detect patterns and infer probabilities from data, allowing the machine to improve its performance over time.
+
+3. Machine Learning (ML)
+- Machine learning (ML) is a critical domain within artificial intelligence that emphasizes the development of algorithms and statistical models that enable computers to perform specific tasks without explicit instructions. 
+- these systems learn and make predictions or decisions based on data. Here's a more technical breakdown:
+    + Types of learning:
+        * Supervised learning: Algorithms learn from labeled training data, aiming to predict outcomes for new inputs. (Học từ data được dán nhãn => dự đoán kết quả)
+        * Unsupervised learning: Algorithms identify patterns in data without needing labeled responses, often used for clustering and association.(Xác định các mẫu trong dữ liệu => Dùng để Phân cụm và Liên kết)
+        * Reinforcement learning: Models learn to make sequences of decisions by receiving feedback on the actions' effectiveness. (Học cách đưa ra các chuỗi quyết định)
+    + Algorithms and techniques:
+        * linear regression, decision trees, and neural networks.
+        * Advanced techniques involve deep learning, which uses layered neural networks to analyze various levels of data features.
+    + Data handling and processing:
+        robust data preprocessing, including normalization, handling missing values, and feature selection to improve model accuracy (Tiền xử lý dữ liệu mạnh mẽ)
+    + Performance evaluation:
+        ML models are evaluated based on metrics such as accuracy, precision, recall, and the area under the receiver operating characteristic (ROC) curve, ensuring that they perform well on unseen data.
+    + Application areas:
+        in various fields such as finance for algorithmic trading, healthcare for predictive diagnostics, and autonomous vehicles for navigation systems.
+
+4. Deep learning
+- Deep learning (DL) is an advanced branch of ML that uses artificial neural networks with multiple layers, known as deep neural networks. 
+- These networks are capable of learning from large amounts of unstructured data (Học từ một lượng lớn dữ liệu không cấu trúc)
+- The learning process can be:
+    + Supervised - where the model is trained with labeled data
+    + Semi-supervised - which uses a mix of labeled and unlabeled data
+    + Unsupervised - which relies solely on unlabeled data 
+- This technique is particularly effective in areas such as image recognition, natural language processing (NLP), and speech recognition, 
+- generative adversarial networks (GANs) that can generate new data instances that mimic real data. (Mạng đối nghịch)
+
+5. Neural networks
+- Neural networks (NN) are a cornerstone of AI.  They are particularly effective in pattern recognition and data interpretation tasks.
+- As data passes through each layer, the network adjusts the weights, which is how learning occurs. This structure enables neural networks to learn from vast amounts of data to make decisions, classify data, or predict outcomes with high accuracy.
+
+6. Generative adversarial networks (GAN)
+- GANs are a sophisticated class of AI algorithms used in ML, characterized by their unique structure of two competing NNs: the generator and the discriminator.
+    + The generator is tasked with creating data that is indistinguishable from genuine data (tạo dữ liệu nhưng không thể phân biệt với dữ liệu chính)
+    + the discriminator evaluates whether the generated data is real or fake. (đánh giá dữ liệu được tạo là thật hay giả)
+- GANs are particularly renowned for their applications in image generation, video creation, and voice synthesis, where they can produce highly realistic outputs.
+
+7. Natural language processing (NLP)
+- NLP is an advanced area of AI that focuses on the interaction between computers and humans through natural language. 
+- The goal of NLP is to read, decipher, understand, and make sense of human languages in a manner that is valuable
+- Key techniques in NLP include syntax tree parsing, entity recognition, and sentiment analysis, among others.
+- NLP is used in a variety of applications, such as automated chatbots, translation services, email filtering, and voice-activated global position systems (GPS).
+- Each application requires the computer to understand the input provided by humans, process that data in a meaningful way, and if necessary, respond in a language that humans understand.
+
+8. Transformers 
+- Transformers represent a significant advancement in deep learning, particularly in the field of NLP.
+- transformers use a mechanism known as self-attention to weigh the importance of each word in a sentence, regardless of its position.
+- transformers process all words or tokens in parallel
+- The transformer's ability to handle sequential data extends beyond text, making it versatile in other domains like image processing and even music generation.
+
+9. Generative pre-trained transformers
+- Generative pre-trained transformers (GPT) are state-of-the-art language models developed by OpenAI that use DL techniques, specifically the transformer architecture, for natural language understanding and generation.
+- These models are first pre-trained on a diverse range of internet text to develop a broad understanding of language structure and context. The pre-training involves unsupervised learning, where the model predicts the next word in a sentence without human-labeled corrections. (Các mô hình được đào tạo trước, việc này liên quan đến học không giám sát)
+
+10. Tokenization, Word2vec, and BERT
+- Tokenization in NLP involves splitting text into smaller units known as tokens, which can be words, characters, or subwords. (Chia văn bản thành các đơn vị nhỏ hơn, có thể là từ, ký tự, từ ngữ). it standardizes the initial input into manageable pieces for algorithms to process. (chuẩn hóa đầu vào để các thuật toán xử lý)
+- Word2vec, developed by researchers at Google, is a technique that embeds words into numerical vectors using shallow, two-layer NNs. The models are trained to reconstruct the linguistic contexts of words, thereby capturing the relationships and multiple degrees of similarity among them. (Kỹ thuật nhúng các từ vào các vecto số => xây dựng lại bối cảnh ngôn ngữ, nắm bắt các điểm tương đồng)
+- Bidirectional Encoder Representations from Transformers (BERT) represents a significant advancement in pre-training language representations.  Bidirectional Encoder Representations from Transformers (BERT) represents a significant advancement in pre-training language representations. This allows BERT to capture the full context of a word based on all its surroundings, leading to a deeper understanding of language nuances.
+

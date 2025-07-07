@@ -1,0 +1,27 @@
+General Knowledge Quiz
+
+1. Question 1
+You are the manager of a graphic design team that has been tasked with creating a series of promotional materials for a new product launch. Given the tight deadline, you decide to use generative AI to expedite the design process. 
+=> Use GAN to create a variety of realistic images based on textual descriptions provided by the MKT team. (GANs are ideal for generating realistic images from textual descriptions, which can save time and resources in the design process.)
+
+2. Question 2
+As the head of a logistics company facing frequent supply chain disruptions due to unpredictable demand fluctuations, you decide to incorporate generative AI to improve efficiency.
+Which of the following best uses generative AI when addressing this challenge?
+=> Use generative AI to forecast demand trends and simulate various supply chain scenarios for better planning. (Generative AI can analyze data to predict demand and simulate different scenarios, helping to optimize supply chain operations.)
+
+3. Question 3
+Generative adversarial networks (GANs) involve two neural networks, the generator and the discriminator, which work together in an adversarial process to create highly realistic outputs.
+=> True ( The generator creates data, while the discriminator evaluates it, continuously improving the quality of the generated outputs through their adversarial interaction.)
+
+4. Question 4
+Question 4
+Generative AI models like GPT and BERT use a mechanism called __________ to understand and generate contextually relevant text.
+=> Self-attention (Self-attention allows models to weigh the importance of each word in a sequence relative to all other words, enabling better contextual understanding.)
+
+
+Video Question:
+1. Alex, a data scientist, is exploring the use of generative AI for creating a new app that generates personalized shopping lists based on user preferences and past purchases. Considering the underlying technologies of generative AI, which aspect should Alex focus on to ensure the app effectively understands and predicts user preferences? 
+=> Using unsupervised learning to identify inherent patterns in user data.
+
+2. Jordan, an HR manager at a tech company, recently introduced a generative AI system for resume screening to streamline the hiring process. However, Jordan notices that the AI tends to select candidates from a specific university more frequently than others, which was unexpected. What should Jordan do to address this issue effectively?
+=>  Conduct an audit of the AI's training data and algorithms to identify and mitigate any inherent biases.
