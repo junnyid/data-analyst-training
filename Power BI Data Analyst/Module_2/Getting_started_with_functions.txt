@@ -1,0 +1,27 @@
+1. Question 1
+Which of the following items are part of a function formula? Select all that apply:
+=> The function name
+parentheses
+An Equals sign
+
+2. Question 2
+You need to count the number of cells with content in a selected range. The range includes both text and numbers. Which function should you use?
+=> COUNTA
+
+3. Question 3
+Cells D7, D8, and D9 contain the numbers 10, 20, and 30, respectively. You enter the following formula in cell D10: 
+=MAX(D7:D8) 
+What result will Excel display in D10?
+=> 20
+
+4. Question 4
+Cells B1 to B3 contain numbers, while cell B4 contains text. You apply the following formula in B5:
+=AVERAGE(B1:B4)
+How does Excel calculate the average?
+=> Total the numbers in B1 to B3 and divide by 3
+
+5. Question 5
+Cells E4, E5, and E6 contain the values 300, 300, and 0, respectively. You apply the following formula:
+=AVERAGE(E4:E6)
+What is the correct result?
+=> 200

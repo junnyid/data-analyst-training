@@ -1,0 +1,22 @@
+1. You are creating a formula in cell C2 in your worksheet. The calculation only needs to appear in cell C2. You have typed the following formulas: 
+A3*D15/45*F17
+However, there is an error in the syntax of this formula. What part of the formula is missing?
+=>An Equals Sign 
+
+2. Cell D2 of your worksheet contains the weekly sales total. Cell D7 contains the overall monthly sales. You need cell E2 to show what percentage the week one total is of the overall monthly total. You’ve already applied the percentage format to E2. Which of the following options is the correct syntax for the formula?
+=> =D2/D7
+
+3. Question 3
+True or False: When Excel processes the following formula, it will first multiply cell A1 by cell C3 before it processes the addition.
+=(B15+D45)-(A1*C3)
+=> False
+
+4. You have created the following formula in your worksheet:
+=D4+$C$6-E4+F6
+You use the Autofill feature to copy the formula down the column. Which of the cell references will update with new row numbers?
+=> D4, E4, F6
+
+5. Question 5
+What mathematical sign does Excel process last when calculating the results of the following formula?
+=D4+C3/N5*B3
+=> The plus sign

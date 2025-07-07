@@ -1,0 +1,44 @@
+1. Question 1
+You need to add a new figure in cell H52 of a workbook. However, you accidentally begin typing the number in cell H51, which already contains data. What key can you press to cancel your entry?
+=> The ESC key
+
+2. Question 2
+True or False: The following formula automatically recalculates and the result updates if new values are entered in any of the referenced cells.
+=A2+F3-H3
+=> True
+
+3. Question 3
+True or False: The F5 and B10 references in the following formula are Absolute references:
+=F5*$H$3/B10
+=> False
+
+4. Question 4
+You have created a formula in your worksheet which reads:
+=(300+30)/(10-7)
+What would the answer be?
+=> 110
+
+5. Question 5
+Cell C7 in your worksheet contains the value 300, and cell A4 has the entry 12%. What is the correct formula to work out 12% of the value in C7, using the entry in A4?
+=> =C7*A4
+
+6. Question 6
+You are creating a worksheet to track team performance. You know that the team increased their sales in May. The team’s April sales figures are in cell C5. Their sales figures for May are in cell D5. Which one of the following calculations would show you the percentage increase?
+=> =(D5-C5)/C5
+
+7. Question 7
+What function does Excel use when the Count Number choice is selected from the AutoSum drop-down list?
+=> COUNT
+
+8. Question 8
+You are working with the Number 1 and Number 2 boxes in the Function Arguments dialog in the Insert Function wizard to add a SUM function formula. The Number 1 entry is bolded. What does this indicate?
+=> You must enter a value or cell reference in this box
+
+9. Question 9
+You are using the Insert Function wizard to add a formula to your worksheet. When the Insert Function dialog opens, what Function category list is displayed?
+=> Most Recently used
+
+10. Question 10
+You enter the following function formula in your spreadsheet only to be met with an error message indicating that it contains a typo. What element of the formula is incorrect?
+=sum(a7;d7)
+=> The punctuation symbol is incorrect

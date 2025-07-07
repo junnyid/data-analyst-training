@@ -1,0 +1,13 @@
+1. Question 1
+When you created the calculation in cell G4, you used the double-click Autofill shortcut to copy the formula into the cells below. What visual reference did Excel use to determine when to stop copying? 
+=> The block of information in column F
+
+2. Question 2
+You created a formula in cell H4 to calculate the total shipping cost.
+Cell P1 contained the shipping charge ($5 per item).
+Column F contained multiple item quantities. Which formula ensures that Autofill copies it correctly across multiple rows.
+=> =F4*$P$1
+
+3. Question 3
+In cell J4, you created a formula using parentheses to calculate a new retail price by adding two costs together and applying a percentage increase. What was the correct result?
+=> $333.24  
