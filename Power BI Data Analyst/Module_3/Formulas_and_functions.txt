@@ -1,0 +1,51 @@
+1. Question 1
+In your worksheet, cell A2 contains the word Super. Cell B2 contains the word Cycles. You add the following formula to your worksheet:
+=CONCAT(A2," ",B2," ", "Inc.")
+What is the result of this formula?
+=> Super Cycles Inc.
+
+2. Question 2
+Cell B2 of your worksheet contains the following entry:
+mOUNTAIN Bike
+What is the result of the following formula which references this cell?
+=LOWER(B2)
+=> mountain bike 
+
+3. Question 3
+Some of the information in your worksheet has been typed in the wrong columns. For example, the entry in C2 incorrectly reads as: 
+32MainAvenueChicagoUSA
+Which one of the following functions can you use to extract the city name Chicago from this entry and display it in a separate column?
+=> MID
+
+4. Question 4
+True or False: You can display the serial number behind a date by changing the cell format to General.
+=> TRUE
+
+5. Question 5
+You have typed the date 05/30/23 directly in cell A2  of your worksheet. The date is in the MM/DD/YY format. What date will this cell display when you open the worksheet again two days from now?
+=> 05/30/23
+(When you enter the date 05/30/23 in MM/DD/YY format, Excel will treat it as a static value. It will not automatically update unless a formula or function is used to modify the date. Therefore, the cell will display 05/30/23 when you reopen the worksheet unless you manually change it or use a formula that increments the date.)
+
+6. Question 6
+Cell D2 in your spreadsheet contains the date 05/30/23. The date is in MM/DD/YY format. What result does the following formula display?
+=DAY(D2)
+=> 30
+
+7. Question 7
+You are working on a spreadsheet where columns A, B, and C are called Day, Month, and Year. Each of these columns contains numbers. What data format is the result generated in when the following formula is added to your spreadsheet?
+=DATE(C2,B2,A2)
+=> Date format
+
+8. Question 8
+True or False: Cell A2 contains a value of 100. B2 contains a value of 200. When executed, the following formula, which references these cells, displays a result of TRUE:
+=AND(A2>=100,B2>=250)
+=> FALSE
+
+9. Question 9
+You must create an IF formula that checks the values in three cells and displays a “value if true” message of “target met” if any of the three values is over 1,000. Which function can you “nest” inside the IF function of your formula to complete this task?
+=> An OR function
+
+10. Question 10
+Cell A2 in your spreadsheet contains a value of 150. Which message does the following formula display when executed?
+=IFS(A2=50,"First Message",A2=100,"Second Message",A2=150,"Third Message",TRUE,"No Message")
+=> Third Message
