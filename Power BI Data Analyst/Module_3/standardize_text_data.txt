@@ -1,0 +1,21 @@
+Standardize text data
+- Inconsistent or unreliable text data can negatively impact data analysis.
+
+The LEFT, RIGHT and MID Functions
+- The LEFT, RIGHT and MID functions are used to return a specific number of characters from either the left, the right, or the middle side of a cell entry.
+- The LEFT and RIGHT function formulas need two arguments: specify the cell which contains the original entry and the number of characters 
+- A MID function formula needs three arguments:the location of the text entry;  the position in the entry where Excel must begin counting characters;  the position in the entry where Excel must begin counting characters
+
+TRIM
+- The TRIM function is used to remove any empty spaces from text strings, except for the spaces between words.
+- The TRIM function formula only needs one argument, which is the location of the piece of text you would like the function to work with. 
+
+UPPER, LOWER and PROPER
+- The UPPER function converts all lowercase characters into uppercase
+- The LOWER function converts all uppercase characters into lowercase
+- The PROPER function will only capitalize the first character of each word in a piece of text
+- All three functions require only one argument, which is the location of the piece of text you would like the function to work on
+
+CONCAT
+- CONCAT: combine entries from different cells in a spreadsheet into a single-cell entry. 
+- can use CONCAT to combine the content of cells that contain numbers
