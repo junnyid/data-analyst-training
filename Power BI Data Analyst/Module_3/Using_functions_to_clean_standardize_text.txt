@@ -1,0 +1,31 @@
+1. Question 1
+ True or False: An Excel spreadsheet contains country names split over multiple columns. Cell A2 contains the word United, and Cell B2 contains the word States. The following formula generates the result United States: 
+=CONCAT(A2," ",B2)
+=> TRUE
+
+2. Question 2
+A text entry in a spreadsheet contains the following text:
+aDVENTURE wORKS rESELLERS
+Which function should you use to convert this text to lowercase, with the first letter of each word capitalized?
+=> PROPER
+
+3. Question 3
+In the Adventure Works Reseller spreadsheet, the reseller names are listed in column D. Cell D2 contains the text:  
+EastBike Shop
+What is the result of this formula?
+=MID(D2,5,4)
+=> Bike
+
+4. Question 4
+Cell A2 contains the following entry:
+aceE6548.
+What result would the following formula generate when applied to the above entry?
+=UPPER(A2)
+=> aceE6548
+
+5. Question 5
+Cell E4 contains the following city name:  
+North Miami Beach. 
+What result would the following formula generate in your worksheet?
+=RIGHT(E4,5)
+=> Beach

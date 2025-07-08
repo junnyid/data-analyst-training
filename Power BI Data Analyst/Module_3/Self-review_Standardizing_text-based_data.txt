@@ -1,0 +1,13 @@
+1.Question 1
+You created formulas in column C that use the TRIM function with cell references from column B. The entries in column B contained extra spaces before, after, and between words. What did the formulas remove?
+=> The spaces before and after the entries, as well as extra spaces between words.
+
+2. Question 2
+True or False: You created formulas in cells K2 to K200 to combine the content from column G and column I. After doing so, you immediately deleted columns G and I, since they were no longer needed.
+=> False
+
+3. Question 3
+In the CONCAT formula in K2, you added a third argument to indicate that two words needed a space between them. What character did you input on either side of the space in the formula?
+=> A double quote.
+
+
