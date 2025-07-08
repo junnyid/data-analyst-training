@@ -1,0 +1,12 @@
+Logical functions
+
+AND and OR functions
+- the AND function in a formula to ask Excel to perform multiple logical tests simultaneously. The AND function can perform up to thirty arguments, each being a logical test
+- the OR function asks Excel to perform multiple logical tests simultaneously. An OR function can have up to thirty arguments, each being a logical test.
+- the OR function returns a value of TRUE or FALSE. However, unlike AND, the OR function will generate an overall result of TRUE if just one of the logical tests is met.
+- The AND and OR functions are also often used alongside the IF function. 
+
+IF functions
+- SUMIF: you might require the total for all figures. The range of cells that contains the criteria; What the criteria is; And the range of cells holding the values must be included in the total. 
+- AVERAGEIF: The AVERAGEIF function works similarly to SUMIF. It works out an average of values on rows that match a specific condition.
+- COUNTIF: the COUNTIF function works through a range of cells and identifies all entries that match the specified condition. It then returns a count of how many occurrences it has found. COUNTIF only requires two arguments: The range of cells to examine; And the condition to search for. 
