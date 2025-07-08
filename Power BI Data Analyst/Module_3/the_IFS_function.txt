@@ -1,0 +1,13 @@
+1. Question 1
+You created an IF function formula in cell H7 that checks whether the value in G7 exceeds $10,000. If true, Excel should display a 10% discount. How should you enter the percentage value in the Value_if_true argument of the formula?
+=> 10%
+
+2. Question 2
+You needed to create a formula in cell L7 to check the delivery charge for a region. Since the formula required more than two conditions, you used IFS instead of IF to make it more efficient.
+=> TRUE
+
+3. Question 3
+You created a formula in H2 which used SUMIF to obtain a total for Region A entries only. What did you need to specify as the first argument in your formula?
+=> The criteria range
+
+4. 

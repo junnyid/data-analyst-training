@@ -1,0 +1,11 @@
+1. You used the MONTH function in the formula:
+=MONTH(D5)
+Cell D5 contained the date 07/02/23 in American format (MM/DD/YY). What result did the formula return? 
+=> 7
+
+2. True or False: If you enter the TODAY function in cell B1, the result automatically updates every time formulas recalculate in the worksheet.
+=> FALSE
+
+3. Question 3
+You used the NETWORKDAYS function in a formula to calculate the number of working days between two dates. By default, what type of dates does the function exclude from its result?
+=> Any weekend and holiday date

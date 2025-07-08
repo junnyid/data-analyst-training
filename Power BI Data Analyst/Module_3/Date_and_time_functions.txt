@@ -1,0 +1,19 @@
+1. Question 1
+You have created a formula in your spreadsheet using the TODAY function. What must you include after the word TODAY in your formula?
+=> An opening and closing parenthesis only.
+
+2. Question 2
+You have created a formula in your spreadsheet using the NOW function. By default, what will the formula display in its result?
+=> the date and time
+
+3. Question 3
+You are working on a spreadsheet that contains three columns called Day, Month and Year. In another column, you would like to combine these entries so that it shows a complete date. Which function should you use to achieve this?
+=> DATE 
+
+4. Question 4
+True or False: You can use the NETWORKDAYS.INTL function to calculate the number of working days between two dates while excluding national holidays and weekends because it has built-in knowledge of public holidays.
+=> FALSE
+
+5. Question 5
+You have entered the following three dates in your spreadsheet in the month, day and year format. Which of these dates has the largest serial number?
+=> 09/10/2025
