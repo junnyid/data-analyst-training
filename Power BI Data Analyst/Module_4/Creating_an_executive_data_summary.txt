@@ -1,0 +1,22 @@
+1. You need to freeze the screen so that the summary data in columns A to F and the headings in row 1 remain visible while scrolling. In the Freeze Panes drop-down menu on the View tab, which option should you select?
+=> Freeze Panes
+
+2. Question 2
+You created the following formula in cell B12 to calculate the total sales for January 2022.
+=SUMIF(K2:K103,1,R2:R103)
+Before copying this formula down to cells B13 and B14, which references need to have dollar signs ($) added to ensure the correct ranges remain unchanged?
+=> K2:K103 and R2:R103
+
+3. In cell D6, you created a formula to calculate the percentage difference between the 2022 quarter-one sales and the 2023 quarter-one sales. Which of the following best describes the correct logic for this calculation? 
+=> (2023 total-2022 total)/2022 total
+
+4. Question 4
+In cell C12, you used the SUMIF function to calculate the total sales for January 2023, then copied the formula down to cells C13 and C14.
+After completing the exercise, what result appeared in cell C14?
+=> $164,740
+
+5. Question 5
+You added headings in rows 4 and 10 that needed to be centered across the related tables using the Merge & Center option on the Home tab.
+Before clicking Merge & Center, you first typed the heading and then selected the cell range where it should be centered.
+Where should you type the heading before selecting Merge & Center?
+=> On the left edge of the cell range the heading is to be centered in.
