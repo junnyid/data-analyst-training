@@ -1,0 +1,8 @@
+PL-300: Microsoft Power BI Data Analyst.
+This exam measures your ability to accomplish technical data analysis tasks.
+    Prepare data
+    Model data
+    Visualize data
+    Analyze data
+    Deploy assets
+    Maintain assets
