@@ -1,0 +1,14 @@
+Data analysis phases:
+    1. Identifying the problem and garthering Data
+    2. Cleaning and processing Data
+    3. Analyzing data
+    4. Drawing insights and making recommendation
+    5. Implementing changes and measuring impact
+
+The Data analysis process: 5 critical step => data-driven decision making
+    1. Prepare
+    2. Model
+    3, Analyze
+    4. Visualize
+    5. Manage
+    
