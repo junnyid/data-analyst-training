@@ -1,0 +1,33 @@
+Self-review: Identifying stakeholders
+1. Question 1
+Which of the following stakeholders is most likely to provide insights into customer preferences and buying patterns? 
+=> Ricci, the customer service manager
+
+2. When preparing interview questions for stakeholders, what should you focus on to ensure the data analysis project achieves its goals? 
+=> Asking questions that align with the stakeholder's role and responsibilities in relation to the project
+
+3. Question 3
+Which question would best help Renee, the Marketing Director, provide insights that contribute to the success of the data analysis project?
+=> Can you provide any examples of successful targeted Marketing campaigns?
+
+Knowledge check: The role of the Data Analyst
+1. Question 1
+True or False: Data preparation involves converting data into a format that is more suitable for analysis.
+=> True
+
+2. Question 2
+What is the goal of the data analysis process? 
+=> Exracting valuable insights and supporting decision-making
+
+3.Question 3
+Which of the following best describes how a data analyst identifies patterns in customer behavior to support decision-making?
+=> They analyze historical sales data to identify trends and customer preferences
+
+4. Question 4
+What is the function of data management in the data analysis process? 
+=> Ensuring the integrity, consistency, and security data
+
+5. Question 5
+Which of the following is a part of the data preparation process? Select all that apply. 
+=> Filling in missing values
+=> Removing inaccuracies, inconsistencies, or duplicate records
