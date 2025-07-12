@@ -31,3 +31,52 @@ What is the function of data management in the data analysis process?
 Which of the following is a part of the data preparation process? Select all that apply. 
 => Filling in missing values
 => Removing inaccuracies, inconsistencies, or duplicate records
+
+Self-review: Stakeholder experience
+1. Question 1
+Which best practice is recommended when designing visualizations for different stakeholder groups? 
+=> Identify the goals and priorities of each stakeholder groups
+
+2. Question 2
+Which of the following is a recommended approach to ensure that your visualization effectively communicates the intended insights? 
+=> Test your visualization with a small group of users who represent your target audience
+
+3. Question 3
+Why is it important to use appropriate colors and design elements when creating data visualizations? Select all that apply.
+=> To make the visualizations easier to understand
+=> To emphasize certain aspects of the visualization over others
+=> To ensure that the visualization is consistent with the brand and resonates with the stakeholder audience
+
+
+Self-review: Evaluating an analysis process
+1. True or false. The data analysis process is complete once the data analyst has generated data-driven recommendations. 
+=> False
+
+2. Which of the following are data-driven recommendations that could help the café improve its performance? Select all that apply. 
+=> Optimizing menu offerings
+=> Establishing a social media presence
+=> Adjusting pricing
+3. Question 3
+In the context of the café, what should the data analyst do in preparation for data collection to ensure the effectiveness of the data analysis process? 
+=> 
+
+
+Knowledge check: Stages in data analysis
+1. Question 1
+What is the primary reason for monitoring the results of implemented data-driven recommendations? 
+=> To determine the effectiveness of the data-driven stragies
+
+2. Which of the following is a key advantage of using multiple data sources for the data analysis process? 
+=> Gaining a more comprehensive understanding of the business
+
+3. Question 3
+Which of the following is a key factor in promoting a data-driven culture within an organization? 
+=> Encourage open communication and collocation
+
+4. Question 4
+What is a key advantage of using data from multiple different sources for the data analysis process?
+=> Gaining a more comprehensive understanding of the businees
+
+5. Question 5
+What is the main purpose of data cleaning in the data analysis process? 
+=> To ensure the accuracy and reliability of the data

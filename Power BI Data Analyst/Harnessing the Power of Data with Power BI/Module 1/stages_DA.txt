@@ -1,0 +1,7 @@
+stakeholder experience
+    Step 1: Identifying stakeholders
+    Step 2: Defining stakeholder goals
+    Step 3: Choosing the right visualization type
+    Step 4: Designing with stakeholder experience in mind
+    Step 5: Making visualizations interactive
+    Step 6: Testing and iterating
