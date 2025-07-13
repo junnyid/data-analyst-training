@@ -94,3 +94,31 @@ In the donut chart displaying the sum of order totals for various product catego
 3. Question 3
 In step 2 of the exercise, what was the purpose of creating slicers? 
 => To allow users to interactively narrow down the data displayed within the report
+
+Knowledge check: Introduction to Power BI
+1. Question 1
+What are the main benefits of using Microsoft Power BI for organizations? Select all that apply.
+=> It improve productivity by having a user-friendly interface
+=> It integrates with a variety of data sources
+=> It helps organizations make better data-driven decisions
+=> It offers a wide range of visualization options.
+
+2. Question 2
+Which of the following are valid steps when creating a visualization in Microsoft Power BI Desktop? Select all that apply. 
+=> Create interactive filters 
+=> Import data
+=> Customize chart titles and colors
+
+3. Question 3
+What chart type is most appropriate for comparing the proportions of different categories in a dataset? 
+=> Pie chart
+
+4. Question 4
+What are the benefits of installing Microsoft Power BI Desktop from the Microsoft Store? Select all that apply. 
+=> IT roll-out is enabled
+=> Automatic updates
+=> Smaller downloads for each update
+
+5. Question 5
+What is the primary purpose of calculations in Microsoft Power BI? 
+=> To manipulate data and create new measures or insights
