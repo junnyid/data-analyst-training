@@ -1,0 +1,9 @@
+Introduction to Power BI 
+
+Advantages of Power BI: 
+    user-friendly -> Data integration -> Data transformation -> Rich visualizations -> Advanced analysis
+
+Analyzing Data with Power BI
+    - Calculations: DAS (data analysis expressions)
+    - visualizations
+

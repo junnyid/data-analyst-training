@@ -80,3 +80,17 @@ What is a key advantage of using data from multiple different sources for the da
 5. Question 5
 What is the main purpose of data cleaning in the data analysis process? 
 => To ensure the accuracy and reliability of the data
+
+
+Self-review: Generate a visualization
+1. Question 1
+Based on your analysis of the Stacked Column Chart visual, which product category has the highest sum of order totals for size M? 
+=> Road Bikes
+
+2. Question 2
+In the donut chart displaying the sum of order totals for various product categories, which category has the second highest sum of order totals? 
+=> Road Bikes
+
+3. Question 3
+In step 2 of the exercise, what was the purpose of creating slicers? 
+=> To allow users to interactively narrow down the data displayed within the report
