@@ -122,3 +122,48 @@ What are the benefits of installing Microsoft Power BI Desktop from the Microsof
 5. Question 5
 What is the primary purpose of calculations in Microsoft Power BI? 
 => To manipulate data and create new measures or insights
+
+***Module quiz: Data analysis in business***
+1. Question 1
+In the data analysis process, which stages involve working with the data model representing the data's structure, relationships, and constraints? Select all that apply.
+=> analyze
+=> model
+
+2. Question 2
+In the data analysis process, what are the goals of data visualization? Select all that apply.
+=> To explore data and identify patterns
+=> To communicate findings effectively
+
+3. Question 3
+What is the main responsibility of a Database Administrator (DBA)?
+=> Ensuring the maintenance, performance, and security of an organization's Databases
+
+4. Question 4
+True or False: Following the Web Content Accessibility Guidelines (WCAG) is a key consideration when making your data report accessible to users with disabilities.
+=> True
+
+5. Question 5
+Why is it important to establish a data storage and refresh schedule for your reporting?
+=> To ensure the data is always up-to-date and consistent across reports
+
+6. Question 6
+In the realm of business decision-making, what is the central objective of data insights?
+=> To inform business decisions, drive growth, and improve efficiency
+
+7. Question 7
+In the final stage of data analysis, what is the primary purpose of data insights? Select all that apply.
+=> To support informed decision-making
+=> To identify trends, patterns, and opportunities
+
+8. Question 8
+True or False: The Query Editor in Microsoft Power BI is primarily used for advanced analytics and complex calculations according to user requirements.
+=> False
+
+9. Question 9
+Which non-technical skills are crucial for data analysts when presenting findings to stakeholders with different levels of technical knowledge? Select all that apply.
+=> Diplomacy
+=> Effective communication
+
+10. Question 10
+What does the scope of data refer to in the context of data analysis?
+=> The context within which the data is collected, organized, and analyzed
