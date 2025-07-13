@@ -1,0 +1,37 @@
+Self-Review: Dataset
+    1. Question 1
+    What is the primary task assigned to you by Renee in the Assessing a data set case study?
+    => To track the price increase on a supplier basis from the past to the present for each product the company purchases from suppliers and detect any unusual price situations, if any.
+
+    2. In the Assessing a data set case study, which of the following columns need to be considered to track the price increase on a supplier basis from the past to the present for each product and detect anomalies? Select all that apply.
+    => Product name
+    => Date Entered
+    => Supplier
+
+    3. Question 3
+    Based on your analysis of the data in the Assessing a data set case study, is this dataset suitable for the business need as determined by the task assigned to you by Renee?
+    => Yes
+
+
+
+Knowledge check: Data collection
+    1. Question 1
+    Which product has strong reporting features and is typically used to begin a workflow in Power BI?
+    => Microsoft Power BI Desktop
+
+    2. Question 2
+    If you are given Microsoft Excel data and informed of a business need, what method would you use to determine if the data provided is compatible with the business need?
+    => Check if the Microsoft Excel data fulfills the business requirements by examining its content and data types.
+
+    3. Question 3
+    You want to publish your report and share your data with others by creating dashboards. Which of the following products would you use to accomplish this?
+    => Microsoft Power BI Service
+
+    4. Question 4
+    True or False: The typical workflow in Microsoft Power BI starts with the creation of a report in Power BI Desktop. 
+    => True
+
+    5. Question 5
+    What term is used to classify data such as word-processing files, images, video, and audio files?
+    => Unstructured data 
+

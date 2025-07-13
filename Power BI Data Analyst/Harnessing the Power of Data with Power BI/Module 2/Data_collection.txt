@@ -1,0 +1,6 @@
+Identifying and evaluating required data
+    Enterprise Resource Planning (ERP): collect, manage, interpret structered data
+
+Workflow in Power BI
+    the SaaS: Software as a Service 
+    

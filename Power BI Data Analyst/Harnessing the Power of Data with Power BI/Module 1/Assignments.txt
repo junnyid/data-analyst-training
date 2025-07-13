@@ -1,0 +1,173 @@
+Self-review: Identifying stakeholders
+    1. Question 1
+    Which of the following stakeholders is most likely to provide insights into customer preferences and buying patterns? 
+    => Ricci, the customer service manager
+
+    2. When preparing interview questions for stakeholders, what should you focus on to ensure the data analysis project achieves its goals? 
+    => Asking questions that align with the stakeholder's role and responsibilities in relation to the project
+
+    3. Question 3
+    Which question would best help Renee, the Marketing Director, provide insights that contribute to the success of the data analysis project?
+    => Can you provide any examples of successful targeted Marketing campaigns?
+
+
+Knowledge check: The role of the Data Analyst
+    1. Question 1
+    True or False: Data preparation involves converting data into a format that is more suitable for analysis.
+    => True
+
+    2. Question 2
+    What is the goal of the data analysis process? 
+    => Exracting valuable insights and supporting decision-making
+
+    3.Question 3
+    Which of the following best describes how a data analyst identifies patterns in customer behavior to support decision-making?
+    => They analyze historical sales data to identify trends and customer preferences
+
+    4. Question 4
+    What is the function of data management in the data analysis process? 
+    => Ensuring the integrity, consistency, and security data
+
+    5. Question 5
+    Which of the following is a part of the data preparation process? Select all that apply. 
+    => Filling in missing values
+    => Removing inaccuracies, inconsistencies, or duplicate records
+
+
+Self-review: Stakeholder experience
+    1. Question 1
+    Which best practice is recommended when designing visualizations for different stakeholder groups? 
+    => Identify the goals and priorities of each stakeholder groups
+
+    2. Question 2
+    Which of the following is a recommended approach to ensure that your visualization effectively communicates the intended insights? 
+    => Test your visualization with a small group of users who represent your target audience
+
+    3. Question 3
+    Why is it important to use appropriate colors and design elements when creating data visualizations? Select all that apply.
+    => To make the visualizations easier to understand
+    => To emphasize certain aspects of the visualization over others
+    => To ensure that the visualization is consistent with the brand and resonates with the stakeholder audience
+
+
+Self-review: Evaluating an analysis process
+    1. True or false. The data analysis process is complete once the data analyst has generated data-driven recommendations. 
+    => False
+
+    2. Which of the following are data-driven recommendations that could help the café improve its performance? Select all that apply. 
+    => Optimizing menu offerings
+    => Establishing a social media presence
+    => Adjusting pricing
+    3. Question 3
+    In the context of the café, what should the data analyst do in preparation for data collection to ensure the effectiveness of the data analysis process? 
+    => 
+
+
+Knowledge check: Stages in data analysis
+    1. Question 1
+    What is the primary reason for monitoring the results of implemented data-driven recommendations? 
+    => To determine the effectiveness of the data-driven stragies
+
+    2. Which of the following is a key advantage of using multiple data sources for the data analysis process? 
+    => Gaining a more comprehensive understanding of the business
+
+    3. Question 3
+    Which of the following is a key factor in promoting a data-driven culture within an organization? 
+    => Encourage open communication and collocation
+
+    4. Question 4
+    What is a key advantage of using data from multiple different sources for the data analysis process?
+    => Gaining a more comprehensive understanding of the businees
+
+    5. Question 5
+    What is the main purpose of data cleaning in the data analysis process? 
+    => To ensure the accuracy and reliability of the data
+
+
+Self-review: Generate a visualization
+    1. Question 1
+    Based on your analysis of the Stacked Column Chart visual, which product category has the highest sum of order totals for size M? 
+    => Road Bikes
+
+    2. Question 2
+    In the donut chart displaying the sum of order totals for various product categories, which category has the second highest sum of order totals? 
+    => Road Bikes
+
+    3. Question 3
+    In step 2 of the exercise, what was the purpose of creating slicers? 
+    => To allow users to interactively narrow down the data displayed within the report
+
+
+Knowledge check: Introduction to Power BI
+    1. Question 1
+    What are the main benefits of using Microsoft Power BI for organizations? Select all that apply.
+    => It improve productivity by having a user-friendly interface
+    => It integrates with a variety of data sources
+    => It helps organizations make better data-driven decisions
+    => It offers a wide range of visualization options.
+
+    2. Question 2
+    Which of the following are valid steps when creating a visualization in Microsoft Power BI Desktop? Select all that apply. 
+    => Create interactive filters 
+    => Import data
+    => Customize chart titles and colors
+
+    3. Question 3
+    What chart type is most appropriate for comparing the proportions of different categories in a dataset? 
+    => Pie chart
+
+    4. Question 4
+    What are the benefits of installing Microsoft Power BI Desktop from the Microsoft Store? Select all that apply. 
+    => IT roll-out is enabled
+    => Automatic updates
+    => Smaller downloads for each update
+
+    5. Question 5
+    What is the primary purpose of calculations in Microsoft Power BI? 
+    => To manipulate data and create new measures or insights
+
+
+***Module quiz: Data analysis in business***
+    1. Question 1
+    In the data analysis process, which stages involve working with the data model representing the data's structure, relationships, and constraints? Select all that apply.
+    => analyze
+    => model
+
+    2. Question 2
+    In the data analysis process, what are the goals of data visualization? Select all that apply.
+    => To explore data and identify patterns
+    => To communicate findings effectively
+
+    3. Question 3
+    What is the main responsibility of a Database Administrator (DBA)?
+    => Ensuring the maintenance, performance, and security of an organization's Databases
+
+    4. Question 4
+    True or False: Following the Web Content Accessibility Guidelines (WCAG) is a key consideration when making your data report accessible to users with disabilities.
+    => True
+
+    5. Question 5
+    Why is it important to establish a data storage and refresh schedule for your reporting?
+    => To ensure the data is always up-to-date and consistent across reports
+
+    6. Question 6
+    In the realm of business decision-making, what is the central objective of data insights?
+    => To inform business decisions, drive growth, and improve efficiency
+
+    7. Question 7
+    In the final stage of data analysis, what is the primary purpose of data insights? Select all that apply.
+    => To support informed decision-making
+    => To identify trends, patterns, and opportunities
+
+    8. Question 8
+    True or False: The Query Editor in Microsoft Power BI is primarily used for advanced analytics and complex calculations according to user requirements.
+    => False
+
+    9. Question 9
+    Which non-technical skills are crucial for data analysts when presenting findings to stakeholders with different levels of technical knowledge? Select all that apply.
+    => Diplomacy
+    => Effective communication
+
+    10. Question 10
+    What does the scope of data refer to in the context of data analysis?
+    => The context within which the data is collected, organized, and analyzed
