@@ -1,0 +1,39 @@
+Data types in Power BI
+    - Number types: Decimal number, Fixed decimal number, whole number
+    - Date and Time types: Date/time, Date, Time, Date/Time/Timezone, Duration
+    - Other data types: Text, True/False, Binary
+
+Evaluating and changing column data types
+    - Conventional databases, such as ERP or Enterprise resource planning databases, are classified as structured data since they store data in regular and rule-based systems.
+
+
+Why data needs to transformed?
+    - Data quality and cleaning: Raw data often contains errors, missing values, duplicates, or inconsistencies.
+    - Integration of Multiple Data Sources: Data often comes from many places (databases, APIs, files) in different formats. => Align schema, Map fields to common model, Join or merge dataset
+    - Standardization and Normalization: Transform data into consistent units or scales => Convert currencies, Normalize numerical range, Harmonize categorical values
+    - Feature Engineering: Create new variables or restructure data to improve analysis or modeling. => Derive feature, Aggregate data, Encode categorical variables
+    - Data Formatting and Structuring: Reshape data to match requirements of the target system or analysis. => Pivot/unpivot tables, Flatten nested structures (like JSON), Change file formats (CSV, Parquet)
+    - Improving Performance: Optimize data for faster querying or processing. => Partitioning, Indexing, Denormalization
+    - Compliance and Privacy: Ensure data meets regulations and privacy requirements. => Mask or encrypt sensitive fields, Anonymize personal data
+    - Business Logic Implementation: Business Logic Implementation => Classify customers into segments, Apply pricing rules
+
+
+The Applied Steps list:
+    - The Applied Steps section in the Power Query Editor is specifically designed to display the sequence of data transformations that have been applied to the selected query. 
+It helps users understand the process and order of data manipulation. It can also be used to modify, delete, or reorder the steps as needed.
+    - The Applied Steps list refers to a sequence of actions or transformations applied to a dataset, typically in the context of data preparation, ETL (Extract, Transform, Load) processes, or data wrangling. 
+    - Key Characteristics of the Applied Steps List:
+        + Sequential Record of Actions
+        + Step-by-Step Data Manipulation
+        + Can Be Reversed or Modified
+        + Automation and Reproducibility
+
+
+Unpivot and pivot columns
+    Unpivoting and pivoting are operations that transform the structure of data, making it more suitable for analysis or reporting. 
+    - Unpivoting: the process of transforming columns into rows.  Used when you want to turn a wide table into a long one
+    - Pivoting: the reverse operation of unpivoting. Used when you want to summarize and reformat data from long to wide.
+
+
+
+

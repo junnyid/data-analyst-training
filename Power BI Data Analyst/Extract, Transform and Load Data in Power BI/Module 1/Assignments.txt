@@ -72,3 +72,43 @@ Knowledge check: Advanced data sources
 
 
 Module quiz: Data sources in Power BI
+1. Question 1
+Structured Data can be easily analyzed and stored in __________ databases.
+=> SQL
+
+2. Question 2
+Which of the following options in Power BI provides access to Power BI connectors?
+=> Get Data
+
+3. Question 3
+True or False: When you create reports in Power BI, the named tables and columns in the Fields pane make it much easier to visualize your data.
+=> True
+
+4. Question 4
+Which file types do Microsoft Excel workbooks in Power BI support? 
+=> .xlsx and .xlsm
+
+5. Question 5
+When you are tasked with selecting and loading tables from the Sales Data Excel workbook in Adventure Works, which window should you use in Power BI Desktop?
+=> The Navigator window
+
+6. Question 6
+True or False: You can set up a data source in Power BI using an Excel file with a pivot table.
+=> False
+
+7. Question 7
+True or False: Configuring incremental refresh requires defining an incremental refresh policy only.
+=> False
+
+8. Question 8
+What are the two parameters you need to set up for incremental refresh? Select the two correct options.
+=> You need to set up a parameter for the start time of the refresh window.
+=> You need to set up a parameter for the end time of the refresh window.
+
+9. Question 9
+Which of the following is a limitation of data sources used in Power BI service and Power BI Desktop?
+=> Several data connectors used in Power BI Desktop need Internet Explorer 10 or a newer version for authentication
+
+10. Question 10
+What do Power BI data sources refer to?
+=> The different types of data that can be connected with Power BI.

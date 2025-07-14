@@ -1,0 +1,97 @@
+Self-review: Preparing a dataset
+    1. Question 1
+    Several columns in your worksheet contain missing or null values. Which of the following options must you type in the Value to Find field to locate these values?
+    => null
+
+    2. Question 2
+    Which of the following steps were used to clean and standardize the Date column in the dataset? Select all that apply.  
+    => You changed the data type of the column to Date by clicking on the Data Type icon next to the column name.
+    => You replaced any empty values with a default date using the Replace Values tool
+
+    3. Question 3
+    True or false: After completing the data cleaning steps, you must click Apply or Close & Apply to save the changes to your dataset in Power BI.  
+    => True
+
+
+Knowledge Check: Introduction to transforming data in Power BI
+    1. Question 1
+    Which of the following operations are steps in the data transformation process? Select all that apply.
+    => Cleaning data
+    => Shaping data
+    => Removing data
+
+    2. Question 2
+    Which of the following data types are part of the number type group? Select all that apply.
+    => Fixed decimal number
+    => Whole number
+
+    3. Question 3
+    Which one of the following features are used to track, re-order or delete the steps completed in Power Query?
+    => Applied Steps
+
+    4. Question 4
+    Which of the following options can be used for Power Query Optimization? Select all that apply.
+    => Choose only the columns that you will use in the data model
+    => Choose the right data types for columns
+    => Filter rows in the queries
+
+    5. Question 5
+    You have added a new source that displays NaN (Not a Number) values in Power Query. Which of the following issues could occur if these are not resolved? Select all that apply.
+    => Skewed statistical results
+    => Misleading insights
+    => Incorrect calculations
+
+
+Self-review: Appending two tables
+    1. Question 1
+    Which table do you use as the first table in the AppendQueries window?
+    => AdventureWorksSales
+
+    2. Question 2
+    How many columns are there in the new query ConsolidatedSales, after you combined the AdventureWorksSales and OtherSales queries?
+    => 8
+
+    3. Question 3
+    True or False:  To append all respective columns between two queries successfully, you first need to make sure that there is an equal number of columns, the same column names and the same or convertible data types respectively.   
+    => True
+
+    4. Question 4
+    How many rows are there in the new query Consolidated Sales, after you combined AdventureWorksSales and OtherSales queries?
+    => 124
+
+
+Knowledge Check: Advanced data transformations in Power BI
+1. Question 1
+Which feature allows you to add rows of different data sources together in Power Query?
+=> Appending
+
+2. Question 2
+Which of the following can be considered as a reason for combining data? Select all that apply.
+=> Simplifing data management
+=> Consolidating information
+=> Creating relationships
+
+3. Question 3
+True or False: You can combine the tables in two different ways: merging and appending.
+=> True
+
+4. Question 4
+You import two Microsoft Excel tables named ContactInfo and Address into Power Query. 
+    Address contains the following columns:
+        CustomerID
+        CustomerName
+        Phone
+        Address
+    ContactInfo contains following columns:
+        ContactID
+        ContactName
+        ZipCode
+        Phone
+        Address
+What should you do to append these two tables with ContactInfo as the primary table? Select all that apply.
+=> Change the column naming in ContactInfo from ContactID to CustomerID and ContactName to CustomerName
+=> Check the column types and make sure they have the same types respectively
+
+5. Question 5
+You import 2 Microsoft Excel tables named ContactInfo and Address into Power Query. ContactInfo has 5 columns and 18 rows, whereas Address has 4 columns and 12 rows. Only 2 of the column names are common. You append the tables without changing the table columns. How many columns and rows are you going to have at the end of the append?
+=> 7 columns, 30 rows
