@@ -1,0 +1,18 @@
+What is a join?
+    The purposes of join operation:
+        Integrating data
+        Ensuring consistency
+        Exploring relationships
+    Join types:
+        + Left outer join
+        + Right outer join
+        + Full outer join
+        + Inner join
+
+Combining tables with merge
+
+
+Power Query:
+    - Connect data Sources
+    - Clean raw data
+    - Transform data

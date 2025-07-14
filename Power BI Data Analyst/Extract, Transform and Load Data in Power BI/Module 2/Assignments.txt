@@ -61,37 +61,133 @@ Self-review: Appending two tables
 
 
 Knowledge Check: Advanced data transformations in Power BI
+    1. Question 1
+    Which feature allows you to add rows of different data sources together in Power Query?
+    => Appending
+
+    2. Question 2
+    Which of the following can be considered as a reason for combining data? Select all that apply.
+    => Simplifing data management
+    => Consolidating information
+    => Creating relationships
+
+    3. Question 3
+    True or False: You can combine the tables in two different ways: merging and appending.
+    => True
+
+    4. Question 4
+    You import two Microsoft Excel tables named ContactInfo and Address into Power Query. 
+        Address contains the following columns:
+            CustomerID
+            CustomerName
+            Phone
+            Address
+        ContactInfo contains following columns:
+            ContactID
+            ContactName
+            ZipCode
+            Phone
+            Address
+    What should you do to append these two tables with ContactInfo as the primary table? Select all that apply.
+    => Change the column naming in ContactInfo from ContactID to CustomerID and ContactName to CustomerName
+    => Check the column types and make sure they have the same types respectively
+
+    5. Question 5
+    You import 2 Microsoft Excel tables named ContactInfo and Address into Power Query. ContactInfo has 5 columns and 18 rows, whereas Address has 4 columns and 12 rows. Only 2 of the column names are common. You append the tables without changing the table columns. How many columns and rows are you going to have at the end of the append?
+    => 7 columns, 30 rows
+
+
+Self-review: Merging two data sources:
+    1. Question 1
+    How many columns are there in the final Sales dataset after merging the Sales and Product queries, adding the Product column, and removing ProductKey, ResellerKey, EmployeeKey, and SalesTerritoryKey columns?
+    => 7
+
+    2. Question 2
+    True or false:  After importing and merging the Sales and Product data sources using Left Outer Join, the ProductKey column in the Sales table has no NULL values. If an Inner Join had been used, the number of rows would remain the same because there are no NULL values in the ProductKey column. 
+    => True
+
+    3. Question 3
+    How many rows are there in the Sales query after merging the Sales and Product queries using a Left Outer Join?  
+    => 57851
+
+
+Knowledge check: Transformations by combining data
+    1. Question 1
+    Which feature allows you to combine related data between differently structured data sources in Power Query?
+    => Merging
+
+    2. Question 2
+    Which of the following can be considered as a purpose of merging data with joins? Select all that apply:
+    => Integrating Data
+    => Matching Related Data
+    => Exploring relationships
+
+    3. Question 3
+    True or False. The full outer join is useful when you want to retrieve all the records from both tables, regardless of whether they have matching values in the join condition.
+    => True
+
+    4. Question 4
+    You import 4 Microsoft Excel tables named Sales, Product, Reseller and Employee into Power Query. 
+    Sales contains the following columns:
+        SalesOrderNumber
+        OrderDate
+        ProductKey
+        ResellerKey
+        EmployeeKey
+        SalesTerritoryKey
+        Quantity
+        Unit Price
+        Sales
+        Cost
+    Your manager asked you to list Sales data with the descriptive information from the Product, Reseller and Employee tables for the columns which have the suffix “Key”. What should you do to accomplish this task? Select all that apply:
+    => Merge the Sales table with the Product, Reseller and Employee tables respectively
+    => Check the column types of (ProductKey), (ResellerKey) and (EmployeeKey) in the Sales, Product, Reseller and Employee tables.
+    => Join Sales and Product tables based on the ProductKey column.
+
+    5. Question 5
+    You import two Microsoft Excel tables named Product and Categories into Power Query. There are 319 rows in the Product table. Nine of the total rows in the Product table do not have Categories data, so the CategoryKey of these rows has NULL values. 
+    Your manager asked you to list Product data by showing their category names including the rows which have NULL values in CategoryKey column. What should you do to accomplish this task?
+    => Merge Product and Categories tables based on CategoryKey column by choosing Left Outer Join in the join kind dropdown.
+
+
+Module quiz: Transforming data in Power BI
 1. Question 1
-Which feature allows you to add rows of different data sources together in Power Query?
-=> Appending
+What is a join in the context of Power BI and data analysis?
+=> A method to combine rows from two or more tables based on a related column. 
 
 2. Question 2
-Which of the following can be considered as a reason for combining data? Select all that apply.
-=> Simplifing data management
-=> Consolidating information
-=> Creating relationships
-
-3. Question 3
-True or False: You can combine the tables in two different ways: merging and appending.
+True or False: You can use Append Queries to combine customer data from Adventure Works database and potential customers data from a separate Excel file.
 => True
 
+3. Question 3
+A join key is typically a ____ ___ that exists in both tables being joined. 
+=> "common column"
+
+
 4. Question 4
-You import two Microsoft Excel tables named ContactInfo and Address into Power Query. 
-    Address contains the following columns:
-        CustomerID
-        CustomerName
-        Phone
-        Address
-    ContactInfo contains following columns:
-        ContactID
-        ContactName
-        ZipCode
-        Phone
-        Address
-What should you do to append these two tables with ContactInfo as the primary table? Select all that apply.
-=> Change the column naming in ContactInfo from ContactID to CustomerID and ContactName to CustomerName
-=> Check the column types and make sure they have the same types respectively
+True or False: In Power BI, the left join type includes all rows from both tables, including unmatched rows.
+=> False
 
 5. Question 5
-You import 2 Microsoft Excel tables named ContactInfo and Address into Power Query. ContactInfo has 5 columns and 18 rows, whereas Address has 4 columns and 12 rows. Only 2 of the column names are common. You append the tables without changing the table columns. How many columns and rows are you going to have at the end of the append?
-=> 7 columns, 30 rows
+The merge operation is used to ________ tables based on ________
+=> combine, related columns
+
+6. Question 6
+Before appending, a join can be performed to check for any ________ in the common columns or keys.
+=> inconsistencies
+
+7. Question 7
+Which of the following join operations expands the existing dataset by adding new rows of data?
+=> Appending with join
+
+8. Question 8
+What is the purpose of transforming data in Power BI?
+=> To clean, filter, and manipulate data for analysis
+
+9. Question 9
+True or False: In Power BI, data transformation involves modifying the structure and format of data to meet analysis requirements.
+=> True
+
+10. Question 10
+How can you combine the outcomes of two queries in Power BI, ensuring that the results of one query are stacked directly beneath the other?
+=> Append the query results
