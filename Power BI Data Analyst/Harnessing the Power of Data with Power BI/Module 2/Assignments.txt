@@ -35,3 +35,119 @@ Knowledge check: Data collection
     What term is used to classify data such as word-processing files, images, video, and audio files?
     => Unstructured data 
 
+
+Self-Review: Data storage and management
+    1. Question 1
+    What is the main advantage of hybrid storage for Adventure Works?
+    => It combines the benefits of on-premises and cloud-based storage solutions.
+
+    2. Question 2
+    Which statement best describes structured data?
+    => Data that is easily searchable and analyzable, consisting of data types that can be neatly arranged in rows and columns. 
+
+    3. Question 3
+    What data source mentioned in the case study is an example of unstructured data?
+    => Social media and online reviews data
+
+
+Knowledge check: Introduction to the ETL process
+    1. Question 1
+    What is a benefit of on-premises storage?
+    => Full control over data and infrastructure
+
+    2. Question 2
+    What is the primary purpose of the Transform step in the ETL process?
+    => To clean, structure, and enrich the data to make it more suitable for analysis
+
+    3. Question 3
+    Which method of data ingestion allows real-time access to data but may require knowledge of database languages and complex configurations?
+    => Databases connections
+
+    4. Question 4
+    What does source data refer to? Select all that apply.
+    => Raw, unprocessed information collected, stored, and managed by an organization
+    => The initial input used as the basis for further processing, transformation, and analysis
+
+    5. Question 5
+    Which aspect of data management is primarily responsible for establishing clear policies and procedures for data handling throughout an organization?
+    => Data governance
+
+
+Self-Review: Evaluating data for transformation
+    1. Question 1
+    Based on the Adventure Works Inventory dataset, what is the RestockingFrequency for the product Kidz-K400?
+    => 45 days
+    2. Question 2
+    In the Customer Feedback dataset, which ProductID received a feedback score of 3,5 on May 2023 23rd?
+    => 49
+    3. Question 3
+    According to the Adventure Works Sales dataset, what is the total quantity of products sold on 2023-05-05?
+    => 3
+
+
+Knowledge check: Introduction to transforming data
+    1. Question 1
+    Which process involves altering the data's structure, format, or values to make it more suitable for analysis?
+    => Data transformation
+
+    2. Question 2
+    What is a primary advantage of cleaning data at the source?
+    => Ensuring future analyses have a clean and consistent foundation
+
+    3. Question 3
+    Which Excel function can be used to convert text strings into date formats?
+    => PROPER
+
+    4. Question 4
+    What is the primary function of Power Query in Microsoft's Microsoft Power BI suite?
+    => Data connectivity and preparation
+
+    5. Question 5
+    Which data transformation functions are commonly performed in Power Query? Select all that apply.
+    => Removing duplicates
+    => Changing data types
+    => Filling in missing values
+
+
+***Module quiz: The right tools for the job***
+    1. Question 1
+    Which stage of the ETL process is responsible for loading the transformed data into a data warehouse or another storage system for analysis?
+    => Load 
+
+    2. Question 2
+    In the context of the ETL process, what does the term data ingestion primarily refer to?
+    => Obtaining and importing data from various sources
+
+    3. Question 3
+    When estimating storage capacity for data storage, which factor is the least relevant?
+    => The time of day data is most frequently accessed
+
+    4. Question 4
+    What task is primarily involved in the process of data cleaning in the context of data analysis?
+    => Identifying and correcting errors inconsistencies in datasets
+
+    5. Question 5
+    Which of the following Microsoft Excel features can help you quickly spot errors, outliers, or patterns in your data by applying different formats to cells based on specific conditions? 
+    => Conditional formatting
+
+    6. Question 6
+    What is the main purpose of Microsoft Power Query in the Microsoft Power BI suite?
+    => To connect to multiple data sources, clean and transform data, and load it into Microsoft Power BI data models
+
+    7. Question 7
+    Which of the following are common issues in raw data that can hinder accurate analysis? Select all that apply:
+    => Missing values
+    => Too few data points
+    => Incompatible data sources
+
+    8. Question 8
+    What is the main goal of identifying and evaluating required data for a business decision?
+    => To understand the factors that influences the decision and collect relevant data
+
+    9. Question 9
+    What type of data source is an Enterprise Resource Planning (ERP) system classified as?
+    => Structured data
+    
+    10. Question 10
+    True or False: The primary purpose of Microsoft Power BI Desktop is to share dashboards with other users.
+    => False

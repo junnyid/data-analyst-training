@@ -1,0 +1,23 @@
+Cleaning at source in Excel
+    - Text functions:
+        + LEFT, RIGHT, and MID
+        + TRIM
+        + UPPER, LOWER, and PROPER
+    - Date and time functions
+        + DATE, TIME, and DATEVALUE
+        + YEAR, MONTH, and DAY
+    - Logical functions 
+        + IF 
+        + COUNTIF and SUMIF:
+    - Lookup functions
+        + VLOOKUP and HLOOKUP
+        + INDEX and MATCH
+
+Data validation and conditional formatting
+    - Data validation
+    - Conditional formatting
+
+Data transformed in Power BI
+    Power Query promotes a structured and repeatable approach to data preparation by recording data transformation steps in the Applied Steps pane. 
+    use Power Query to clean, organize, and structure their data. 
+    

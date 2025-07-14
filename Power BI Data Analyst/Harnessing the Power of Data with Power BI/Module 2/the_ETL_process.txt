@@ -1,0 +1,29 @@
+The ETL (Extract, Transform, Load) process:
+    ETL components + ETL benefits + ETL with Power BI
+    - Extract: Get data
+    - Transform: prepare data (cleaning, structering, enriching)
+    - Load: Store data (Cloud-based data warehouse)
+    -> the data analyzed is accurate, clean, consistent => support decision making 
+    integration -> quality -> consistency -> enhanced performance -> governance
+
+
+Ingesting and gathering data:
+    the extract step of the ETL process
+    - Data: structered data, Unstructured data, steaming data
+    - Data gathering: collect data from different sources
+    - Data ingesting: obtain and import data for use or storage
+
+
+Storing and managing data
+    - management: consistent, accurate, complete data
+    - storage: temporary storage for transform data
+    - short-term data storage and management: support immediate data needs and ongoing operations
+    - long-term data storage and management: meet stragic goals and compliance requirements
+    - Key considerations: storage capacity, data access, scalability, security, backup and recovery
+    - data management: data governace -> data quality -> data integration -> data security & privacy -> data retention and archiving
+
+
+Summary:
+    - Data types: structered data, Unstructured data
+    - Storage solutions: On-premises storage, Cloud-based storage, Hybrid storage
+    - Data sources: Sales data, Manufacturing data, Financial data, Market research data, Social media and online reviews data,...
