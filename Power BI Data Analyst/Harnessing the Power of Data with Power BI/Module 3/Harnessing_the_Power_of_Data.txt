@@ -1,0 +1,161 @@
+Self-review: Product launch analysis
+    1. Question 1
+    Which data type in Microsoft Excel is most appropriate for the Product Price field in the Adventure Works sales dataset?
+    => Currency
+
+    2. Question 2
+    What is the primary risk of not properly cleaning and preparing the data for analysis at Adventure Works?
+    => Adventure Works could make poor decisions related to the product launch
+
+    3. Question 3
+    What is the most appropriate method for handling missing entries in the Product Description column in the Adventure Works sales dataset using Microsoft ExceI?
+    => Remove the rows with missing entries for the Product Description
+
+    4. Question 4
+    In the Adventure Works sales dataset, which data field would you primarily analyze to understand sales trends over time?
+    => Order Date
+
+    5. Question 5
+    Which type of additional data could supplement the sales analysis by providing insights into what customers like or dislike about Adventure Works' products?
+    => Feedback data
+
+
+***Course Quiz: Harnessing the Power of Data in Power BI***
+    1. Question 1
+    As a data analyst, what are some of the responsibilities you might have? Select all that apply.
+    => To collect, organize, and analyze data to generate insights.
+    => To create a data model representing the structure and relationships of the data.
+
+    2. Question 2
+    In data reporting, why might you consider storage and refresh schedules? Select all that apply.
+    => To ensure users always work with up-to-date information.
+    => To reduce the amount of data stored. 
+
+    3. Question 3
+    You are a data analyst hired by Adventure Works to gain insight into a decline in sales and customer satisfaction. Which phase of the data analysis process will involve exploring the data to identify patterns and trends that explain the decline?
+    => Analyzing data
+
+    4. Question 4
+    What non-technical skills are essential for a data analyst to succeed in their role? Select all that apply.
+    => Understanding of context
+    => Awareness of impact
+    => Strategic thinking
+
+    5. Question 5
+    => To automate data preparation tasks, such as data extraction, cleaning, merging, and transformation.
+    => To connect to data sources, clean and transform data, and load it into a data model.
+
+    6. Question 6
+    What is the primary responsibility of a Data Engineer in the data analysis process?
+    => Building and maintaining the data infrastructure, which includes designing, constructing, and integrating data pipelines.
+
+    7. Question 7
+    In the context of data analysis, which statements accurately describe the concept of diplomacy as a non-technical skill? Select all that apply.
+    => Mediating disagreements among stakeholders related to data interpretation or decision-making.
+    => Navigating sensitive situations related to data analysis and maintaining positive relationships with stakeholders.
+
+    8. Question 8
+    What actions can help you better understand end-user needs as a data analyst? Select all that apply.
+    => Asking questions, empathizing with the users’ perspectives, and collaborating with stakeholders.
+    => Frequently engaging with users to get feedback on the data analysis results.
+
+    9. Question 9
+    As a data analyst at Adventure Works, you're part of a project to improve operational efficiency. The team comprises individuals from diverse backgrounds—logistics, finance, IT, and customer service. How would your role as a 'translator' be beneficial in this scenario?
+    => By explaining data insights in a simple, understandable way to aid communication.
+
+    10. Question 10
+    Data preparation is crucial for the data analysis process. Which of the following are the objectives of data preparation? Select all that apply.
+    => Gathering, cleaning, and pre-processing raw data to make it suitable for analysis.
+    => Identifying inconsistencies and errors in the 
+
+    11. Question 11
+    => Determining the time frame for your analysis.
+    => Deciding on the geographical regions you are interested in. 
+    => Selecting the product categories you want to include.
+
+    12. Question 12
+    What is the purpose of data preparation in the analysis process?
+    => To ensure the data is accurate, consistent, and ready for analysis.
+
+    13. Question 13
+    You're a data analyst at Adventure Works and have to work with various manufacturing data sources. Your manager asks you to use the ETL (Extract, Transform, Load) process to prepare the data. What would be the primary goal of using this process?
+    => To transform the raw manufacturing data into a structured format suitable for analysis and load it into a suitable storage space.
+
+    14. Question 14
+    You need to explain the importance of data visualization in the data analysis process to a stakeholder. Which statements accurately describe why data visualization is essential? Select all that apply.
+    => Data visualization helps make complex data more accessible and easier to understand
+    => Data visualization help uncover hidden patterns and trends in data
+
+    15. Question 
+    In the context of data visualization, why is understanding stakeholder experience critical? Select all that apply
+    => It helps to create effective visualizations that promote better decision-making
+    => It enables enhanced collaboration and improved business results
+
+    16. Question 16
+    As a data analyst, you work with the Microsoft Power Query Editor in Microsoft Power BI Desktop. What are some of the core functionalities provided by the Power Query Editor? Select all that apply.
+    => It enables you to clean, transform, and reshape data.  
+    => It allows you to merge and append queries.
+
+    17. Question 17
+    You are creating calculations in Microsoft Power BI. Which languages are supported in Power BI to perform this task? Select all that apply.
+    => DAX - Data Analysis Expressions
+    => Python
+    => R
+
+    18. Question 18
+    Which of the examples of data can you classify as semi-structured data?
+    wrong answer?
+
+    19. Question 19
+    Adventure Works has a team of field sales representatives who are always on the move. As a data analyst, your manager asks you to give stakeholders real-time access to reports and dashboards on their mobile devices. Which component of Power BI is specifically designed for this purpose?
+    => Power BI Apps
+
+    20. Question 20
+    As a data analyst at Adventure Works, you've built a robust sales report using Power BI that the traveling sales team can use to track performance metrics, spot trends, and make data-driven decisions on the go. What step in the Power BI workflow enables the team to access the report anywhere, anytime, as represented in the smartphone images?
+    => Using Power BI mobile apps to view and interact with reports and dashboards
+
+    21. Question 21
+    Why is the technical expertise of stakeholders essential when creating data visualizations? Select all that apply.
+    => It influences the complexity and depth of the visualizations.
+    => It guides the choice of appropriate visualization tools and techniques.
+
+    22. Question 22
+    As a data analyst, you explain the benefits of automating data ingestion processes to your team. What are the benefits of automating these processes? Select all that apply.
+    => It allows for consistent and repeatable data ingestion
+    => It can enhance operational efficiency and reduce manual labor. 
+
+    23. Question 23
+    What is a limitation of the manual data entry method of data ingestion?
+    => It is time-consuming and prone to errors.
+
+    24. Question 24
+    A colleague asks you about the Transform step in the Extract, Transform, Load (ETL) process. What are the critical elements to ensure during this step? Select all that apply.
+    => Cleaning the extracted data
+    => Ensuring the transformed data is consistent, accurate, and complete
+
+    25. Question 25
+    Your colleague asks you to help clarify the concept of scalability in the context of data storage planning. What does scalability typically refer to? Select all that apply.
+    => The ability to maintain performance levels with increasing data loads.
+    => The ability to handle increased or decreased data volume as the organization grows.
+
+    26. Question 26
+    During a team meeting at Adventure Works, you discuss an upcoming project involving a significant amount of data. Your co-worker brings up the subject of data cleaning. What can you say in favor of cleaning the data at the source? Select all that apply.
+    => You can save time and effort in future analyses by cleaning and preparing data at the source.
+    => It ensures data accuracy and improves the reliability of subsequent analysis. 
+
+    27. Question 27
+    What is the primary purpose of using data validation in Excel while cleaning data?
+    => To set criteria for the allowable data in a cell or range of cells
+
+    28. Question 28
+    Imagine you are a Data Analyst at Adventure Works using Microsoft Power Query to transform raw sales data into a more usable format. The transformation involves multiple steps, like removing duplicates, filtering rows, and replacing values. What are some of the functionalities of the Applied Steps pane? Select all that apply.
+    => To record the transformation steps in data preparation. 
+    => To show the history of actions performed on the dataset.
+
+    29. Question 29
+    What is the primary purpose of data transformation in Microsoft Power BI?
+    => To convert raw data into a more meaningful and usable format
+
+    30. Question 30
+    In data management, what does cleaning data at the source refer to?
+    => Refining and correcting your data in the original source before importing it into a data analysis or visualization tool.
