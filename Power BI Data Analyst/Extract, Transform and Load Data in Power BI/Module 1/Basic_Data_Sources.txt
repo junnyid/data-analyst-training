@@ -1,0 +1,46 @@
+Power BI data sources:
+    - SQL Server databases
+    - Cloud-based data sources
+    - Microsoft Excel spreadsheets
+    - On-premises data sources
+    - Web-based data sources
+    - NoSQL databases
+
+Local datasets vs shared datasets
+    - Both local and shared datasets refer to the location and accessibility of data.
+    - Local datasets provide data that is only available to a specific individual or organization and are typically stored locally.
+    - Shared datasets permit multiple individuals or organizations access to data and are usually stored on multiple locations or cloud-based platforms. 
+
+Local datasets 
+    - Advantages of local datasets 
+        + Data control
+        + Accessibility speed
+    - Disadvantages of local datasets
+        + Limited accessibility
+        + Collaboration issues
+Shared datasets
+    - Advantages of shared datasets 
+        + Access
+        + Promotion
+        + Governance
+        + Scalability
+    - Disadvantages of shared datasets
+        + Data access issues
+        + Data sharing
+
+Storage modes in Power BI
+    Power BI supports three main storage modes for data in a tables:
+        + Import: Data is imported and cached in Power BI
+        + DirectQuery: No data is imported. Power BI keeps only metadata and sends live queries to the source at runtime
+        + Dual (also called Composite Model mode): A hybrid of Import and DirectQuery. Tables marked as "Dual" act as Import or DirectQuery based on query context.
+    Composite Models:
+        You can mix Import, DirectQuery, and Dual tables in one dataset
+
+    | Feature         | Import                  | DirectQuery        | Dual                 |
+    | --------------- | ----------------------- | ------------------ | -------------------- |
+    | Data Storage    | In-memory cache         | External DB only   | Both (context-based) |
+    | Performance     | Very fast               | Depends on source  | Hybrid               |
+    | Freshness       | Stale between refreshes | Always live        | Flexible             |
+    | Dataset Size    | Limited to memory       | Unlimited (source) | N/A                  |
+    | DAX Flexibility | High                    | Limited            | Mixed                |
+

@@ -1,0 +1,43 @@
+Structured vs Unstructured Data
+    - Structured Data: Data that is organized in a predefined format, typically in rows and columns.
+    - Unstructured Data: Data that lacks a predefined data model or organization. It doesn't fit neatly into tables.
+    - Semi-Structured Data: Between structured and unstructured. It has some organizational properties but is flexible.
+    | Feature  | Structured Data      | Unstructured Data          | Semi-Structured Data                |
+    | -------- | -------------------- | -------------------------- | ----------------------------------- |
+    | Schema   | Fixed, predefined    | None                       | Flexible, self-describing           |
+    | Storage  | Relational DBs (SQL) | Data Lakes, File Systems   | NoSQL DBs, Object Storage           |
+    | Examples | Customer tables      | Videos, PDFs, Social posts | JSON, XML, CSV with varying columns |
+    | Querying | SQL, BI tools        | Search, NLP, AI models     | NoSQL queries, parsing tools        |
+
+
+What are connectors?
+    - A connector is a bridge that lets your tool (like Power BI) communicate with and retrieve data from an external source.
+    - It defines:
+        + How to connect (protocol, authentication)
+        + How to read or write data in the source's format
+    - What do Connectors do?
+        + Authenticate (username/password, OAuth, API keys)
+        + Understand the source’s structure (tables, files, endpoints)
+        + Translate queries or API calls into what the source understands
+        + Retrieve the data into your tool in usable form
+    - Types of Connectors in Power BI
+        + Database Connectors: SQL Server, Oracle, MySQL, PostgreSQL, Snowflake
+        + File Connectors: Excel, CSV, JSON, XML, PDF 
+        + Online Services: SharePoint, Saleforce, Dynamic365, Google Analytics
+        + Cloud Storage: Azure Blod Storage, Amazon S3, Google Drive
+        + Web and API Connectors: Web (basic HTTP endpoints), OData feed, REST APIs (via Web connector)
+        + Big Data / Advanced: Azure Data Lake, Hadoop/HDFS, Spark
+
+
+Triggers and actions
+    - Trigger: The event that start a process
+    - Action: What happens in response to the trigger
+    | Concept         | Trigger                       | Action                      |
+    | --------------- | ----------------------------- | --------------------------- |
+    | Meaning         | Event that starts the process | What happens when triggered |
+    | Example (Email) | Receiving an email            | Saving attachment to cloud  |
+    | Example (SQL)   | INSERT on table               | Write to audit log          |
+    | Example (Event) | User registers on website     | Send welcome email          |
+    => Trigger = When.
+    Action = What happens.
+    

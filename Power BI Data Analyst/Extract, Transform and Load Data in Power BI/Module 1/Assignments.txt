@@ -1,0 +1,74 @@
+Self-review: Setting up an Excel data source 
+    1. Question 1
+    Which window should you use to select and load tables from an Excel workbook in Power BI Desktop?
+    => The Navigator windown
+
+    2. Question 2
+    Which data sources can Power BI connect to?
+    => Local, cloud, and SaaS sources
+
+    3. Question 3
+    How should you optimize data ranges in an Excel workbook for better visualization in Power BI?
+    => Format them as tables
+
+
+Knowledge check: Basic data sources
+    1. Question 1
+    What is the difference between a dataset and a data source in Power BI?
+    => A dataset is a container that holds some of the data from a data source, whereas a data source is where the data actually comes from
+
+    2. Question 2
+    True or False: You can create data sets that are reusable across multiple reports using basic data sources, which saves you the time and effort of having to import the same data repeatedly for each report.
+    => True
+
+    3. Question 3
+    What are the types of workbooks that Power BI supports? Select all that apply:
+    => Workbooks with ranges or tables of data. 
+    => Workbooks with connections to external data sources
+    => Workbooks with data models. 
+
+    4. Question 4
+    What is the maximum size of an Excel workbook that can be uploaded to Power BI? 
+    => 1GB
+
+    5. Question 5
+    True or False: When using DirectQuery in Power BI, there is a limit on the number of rows that can be returned to your underlying data source.
+    => True
+
+
+Self-review: Implementing triggers
+    1. Question 1
+    How should your data look before loading it into Power BI?
+    => Each columns contains the same data type and the table should have a header rows
+
+    2. Question 2
+    How can you validate that notifications of failure refreshes will be sent to the dataset owner?
+
+    3. Question 3
+    To ensure the scheduled refresh will start at 10 PM every night, you should check the __________________ window.
+    => Scheduled refresh windown
+
+
+Knowledge check: Advanced data sources
+    1. Question 1
+    What makes Azure Blob Storage an ideal option for storing unstructured data, such as photos and videos, for Adventure Works' online retail website?
+    => Azure Blob Storage is a scalable and cost-effective Cloud Storage Service, suitable for storing large amounts of unstructured data.
+
+    2. Question 2
+    What is the purpose of the Data Source Settings option in Power BI?
+    => To change the connection details and credentials for the data source
+
+    3. Question 3
+    Considering the data classification at Adventure Works for their online retail website, which type of data is most appropriately stored and queried using a SQL database? 
+    => Financial business data that is structured for year-to-year comparison and is mainly read-only.
+
+    4. Question 4
+    True or False: In Power BI, triggers and actions are used primarily for visualizing data, enabling data analysts to create more complex and interactive reports.
+    =>False
+
+    5. Question 5
+    What is the primary purpose of setting up a scheduled data refresh in Power BI for a data analyst team?
+    => To ensure that sales report datasets are regularly updated without manual intervention, improving data accuracy and workflow efficiency.
+
+
+Module quiz: Data sources in Power BI
