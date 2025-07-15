@@ -1,0 +1,27 @@
+Data Profiling
+    - Data profiling is the processing of examining, analyzing, and summarizing a dataset to gain insights into its structure, content, and quality. 
+    - It involves assessing various aspects of the data, such as its completeness, consistency, accuracy, uniqueness, and distribution.
+    - Data profiling helps to identify issues, such as missing values, outliers, and inconsistencies, early in the data preparation phase, allowing for better decision-making and data quality improvements.
+    - Key Components of Data Profiling:
+        + Data quality assessment: Completeness, Consistency, Accuracy, Uniqueness, Timeliness
+        + Data Structure ProfilingL: Column types and formats, Data Length and Range, Pattern Matching, Distinct Values
+        + Statistical Profiling:
+            * Descriptive Statistics: Calculating measures like mean, median, mode, standard deviation, min/max, and percentiles to understand the data's distribution.
+            * Frequency Distribution: Analyzing the distribution of values within a column, which helps identify skewed distributions, outliers, or trends.
+            * Correlation Analysis: Identifying relationships between numerical columns (e.g., Pearson correlation) or categorical variables (e.g., Chi-square tests)
+        + Data Redundancy and Duplicates: Identifying Duplicates, Cross-column dependencies
+    - Common Steps in Data Profiling: 
+        + Extract Data
+        + Analyze Structure
+        + Compute Descriptive Statistics
+        + Check for Missing Values
+        + Check for Duplicates
+        + Outlier Detection
+        + Review Relationships and Correlations
+        + Report Findings
+    - Tools:  Column Quality, Column Distribution, and Column Profile  (Power BI)
+
+Key Components of Data Profiling in Power BI:
+    - Column Quality: This feature helps you quickly assess the quality of each column in your dataset. It displays a summary of how much data in a column is valid, missing, or erroneous.
+    - Column Distribution: This feature provides a graphical representation of the distinct values and their frequency distribution within each column. It helps you understand the uniqueness of values, the data distribution (e.g., uniform or skewed), and potential outliers or anomalies.
+    - Column Profile: The Column Profile displays detailed statistics about each column (Data type, Min, Max, Average values, number of distinct values, null values, data distribution for categorical columns)

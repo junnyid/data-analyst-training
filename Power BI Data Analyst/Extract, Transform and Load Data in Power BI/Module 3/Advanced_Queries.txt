@@ -1,0 +1,50 @@
+Dataflowns
+    - Dataflows are an essential concept in data engineering and business intelligence, particularly in tools like Power BI.
+    - They represent the process of extracting, transforming, and loading (ETL) data into a structured format that is ready for analysis, reporting, or storage. 
+    - Dataflows allow for the creation, transformation, and reuse of data processing pipeline without directly impacting the primary data model or Reports
+    - Key Features of Dataflows in Power BI:
+        + Centralized Data transformation
+        + Power Query in Power BI service
+        + Cloud-based
+        + Scheduled refresh
+        + Dataflow storage
+        + Dataflows vs. datasets
+
+Reference Queries:
+    - Reference Queries in Power BI are a powerful feature that allows you to create new queries based on existing ones, making it easier to reuse and transform data in multiple ways without duplicating effort.
+    - Instead of copying the entire query or dataset, a reference query links back to the original query
+    - efficient for maintaining and managing complex data models and transformations
+    - Key Concepts of Reference Queries:
+        + Base Query
+        + Reference Query
+        + No Data Duplication
+        + Transformation on Top of Existing Queries
+
+Comparison Table: Reference Queries vs. Dataflows
+| Feature                         | **Reference Queries**                              | **Dataflows**                                                 |
+| ------------------------------- | -------------------------------------------------- | ------------------------------------------------------------- |
+| **Location**                    | Power BI Desktop (local)                           | Power BI Service (cloud)                                      |
+| **Scope**                       | Specific to a single Power BI report (.pbix)       | Cloud-based, reusable across multiple reports                 |
+| **Reusability**                 | Reusable within a single report                    | Reusable across multiple reports and datasets                 |
+| **Data Storage**                | Stored within Power BI Desktop                     | Stored in Power BI Service (CDM format, cloud)                |
+| **Data Refresh**                | Manual refresh within Power BI Desktop             | Scheduled refresh in Power BI Service                         |
+| **Transformation Capabilities** | Power Query Editor (Desktop)                       | Power Query Editor (Cloud), supports large-scale ETL          |
+| **Performance**                 | Dependent on local resources (limited scalability) | Cloud-based, scalable for large datasets                      |
+| **Collaboration**               | Limited to the .pbix file                          | High collaboration across workspaces and teams                |
+| **Data Integration**            | Limited integration, based on local sources        | Integration with external data sources (Azure Data Lake, SQL) |
+
+
+Query Parameters:
+    - Query Parameters in Power BI are dynamic variables that allow you to pass values into your queries to filter or modify data at runtime. 
+    - They provide flexibility by enabling you to make your Power BI reports more interactive and reusable without hardcoding specific values
+    - Query parameters are useful for creating reports that need to adapt to different user inputs or contexts, such as filtering data by date ranges, region, or other criteria.
+    - Key Features of Query Parameters:
+        + Dynamic Data Filtering
+        + Reusable and Modular Reports
+        + Interactivity
+        + Parameterized Queries
+    - Types of Query Parameters in Power BI:
+        + Static Parameters
+        + Dynamic Parameters
+        + Power Query Parameters
+        + Parameters for Data Sources

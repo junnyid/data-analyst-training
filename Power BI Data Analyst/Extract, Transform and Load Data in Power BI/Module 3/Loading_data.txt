@@ -1,0 +1,24 @@
+Key Considerations When Loading Data:
+    - Data size
+    - Data format
+    - Error Handling
+    - Security
+=> Loading data refers to the process of importing data from various sources (files, databases, APIs, cloud storage) into your working environment. 
+
+The Staging Area in Power BI:
+    - The Staging Area refers to an intermediate data layer where raw data is collected, transformed, and prepared before it's loaded into the final data model for analysis and reporting.
+    - Important of the Staging Area:
+        + Data transformed and Cleaning
+        + Separation of Data Preparation and Analysis
+        + Performance Optimization
+        + Data Source Integration
+        + Data Aggregation
+        + Error Handling and Data Quality Control
+    - Common Steps in the Staging Area:
+        + Extract Data: Pull data from different data sources (databases, APIs, files, etc.).
+        + Transform Data: Cleaning, Data type conversion, standardization, Aggregation
+        + Load Data
+    - Staging Area Workflow: 
+        + Power Query (Data Transformations)
+        + Data Model
+        + Visualizations and Reports

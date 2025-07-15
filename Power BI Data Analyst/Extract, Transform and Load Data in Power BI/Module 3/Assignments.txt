@@ -1,0 +1,149 @@
+Knowledge Check: Loading data with Power BI
+    1. Question 1
+    Which step in the ETL process includes sending the transformed data into the target database?
+    => Load
+
+    2. Question 2
+    Which of the following options can describe staging? Select all that apply.
+    => Allows raw data to be stored and prepared for further processing in a data pipeline
+    => Acts a bridge between the data sources and the data warehouse.
+    => Simplifies the process of data cleansing and consolidated for operational data
+
+    3. Question 3
+    True or False: The existence of a data staging area is not obligatory for your ETL jobs.
+    => True
+
+    4. Question 4
+    You import two Microsoft Excel tables named SalesData2020 andSalesData2021 into Power Query.
+    Both tables have the same column names:
+        SalesDate
+        ProductKey
+        ResellerKey
+        EmployeeKey
+        Quantity
+        Discount
+        Unit Price
+        Sales
+    Your manager asked you to transform these Excel tables, then append them but not use them in the data warehouse, just keep them as source tables. What should you do to accomplish this task? Select all that apply.
+    => Right-click the Queries pane at the left menu of Power Query, select New Group and create a group. Then move the tables to the newly created group.
+    => Right-click the tables and disable the load by clearing the checkbox Enable load.
+    => Import SalesData2020 and SalesData2021 tables. 
+
+    5. Question 5
+    When the Power Query window is opened and the transformations are completed, you are ready to load the tables into the reporting area. What should you do to complete this task?
+    => Close & Apply
+
+
+Self-review: Profiling a dataset
+    1. Question 1
+    Which of the following operation gives you the percentage of valid, error, or empty values found in columns?
+    => Column Quality
+
+    2. Question 2
+    What is the empty percentage of ProductKey column rows?
+    => 11
+
+    3. Question 3
+    How many unique and distinct values are there in the Price column?
+    => 18 distinct, 17 unique
+
+
+Knowledge Check: Data profiling in Power BI
+    1. Question 1
+    Which of the following Power Query menu items provides the user with column information like the number of empty and distinct rows and rows with errors? 
+    => Column Profile
+
+    2. Question 2
+    Which of the following is defined as a data point that significantly deviates from other observations?
+    => Outlier
+
+    3. Question 3
+    True or False: Distinct is known as “total number of different values”, regardless of how many of each we have. Unique is known as “total number of values that only appear once”. In this case, for fields with Primary Key or Unique Constraint defined, the values of Unique and Distinct will be equal.
+    => True
+
+    4. Question 4
+    You import an Excel table named EmployeeData2023 into Power Query. You removed all other columns except Country.
+    The Country column has the following 10 row values:
+        USA
+        France
+        France
+        Ireland
+        England
+        England
+        USA
+        USA
+        Spain
+        France
+    What are the unique and distinct values of this column?
+    => 2 unique, 5 Distinct
+
+    5. Question 5
+    You need to identify if data in a column contains Empty values. Which of the following can be used to quickly identify this? Select all that apply
+    => Column Quality
+    => Column Profile
+
+Knowledge check: Advanced queries
+    1. Question 1
+    Which of the following statements is true about Power BI dataflows?
+    => Dataflows enable self-service data preparation and Integration
+
+    2. Question 2
+    Which of the following join types is selected when merging or joining multiple queries as the most efficient merge strategy?
+    => Inner Join   
+
+    3. Question 3
+    True or False: You prioritize and schedule resource-intensive operations towards the end of the data transformation process. This approach ensures that complex calculations, merging large datasets, and applying multiple transformations on a significant number of rows are executed efficiently, leading to faster data loading and more responsive reports.
+    => True
+
+    4. Question 4
+    You are working on a data analysis project for Adventure Works. The company provides you with a large dataset containing information about sales, production, and inventory. Your task is to perform complex data transformations and calculations to derive meaningful insights from the data.
+    In this scenario, how can the Advanced Editor in Power BI be beneficial for your data analysis process?
+    => It provides advanced scripting capacibilities for customizing data Transformations
+
+    5. Question 5
+    Which of the following terms can be considered as the benefits of Reference Queries? Select all that apply:
+    => Scalability
+    => Reusability
+    => Efficiency
+
+
+Module Quiz: Advanced ETL in PowerBI
+1. Question 1
+The ________ provides syntax highlighting, auto-completion, and error-checking features, making it easier to write and debug your ________.
+=> Advanced Editor, M code 
+
+2. Question 2
+You want to create a business report using Power BI that includes newly added data rows to a table. It is important for the data to be up to date, but you also need your report to run smoothly and efficiently. Which option would be the most appropriate to choose?
+=> Dual Mode 
+
+3. Question 3
+True or False: Data profiling empowers users to discover hidden insights, uncover data inconsistencies, and make data-driven decisions with confidence.
+=> True
+
+4. Question 4
+True or False: You can avoid repeating data transformation steps and ensure data consistency by using reference queries in Power BI.
+=> True
+
+5. Question 5
+How many rows does Power Query scan to detect the type of data in the columns?
+=> 1000
+
+6. Question 6
+True or False: Power BI dataflows can be used to fetch data from real-time data sources.
+=> False
+
+7. Question 7
+Which of the following group names in M Language code shows the value of the calculation?
+=> Let 
+
+8. Question 8
+True or False: By performing expensive operations such as sorting, grouping, or aggregating at the beginning of the data transformation pipeline, Power BI can optimize query execution and minimize the amount of data that needs to be processed during analysis, resulting in faster query response times.
+=> False
+
+9. Question 9
+True or False: When selecting a connector in Power BI, the choice should solely be based on the availability of the connector, regardless of the data source and specific requirements of the project.
+=> False
+
+10. Question 10
+Use ____________ techniques such as conditional logic, and custom error messages to ensure smooth data processing.
+=> Error Handling
