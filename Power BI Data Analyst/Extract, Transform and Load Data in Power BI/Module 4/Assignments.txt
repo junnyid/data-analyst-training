@@ -1,0 +1,144 @@
+Self-review: Transforming multiple data sources
+    1. Question 1
+    What is the number of columns remaining after you remove the unnecessary ones from the OrderDetails query?
+    => 4
+
+    2. Question 2
+    True or False: In the Order Details query, when you remove the anomaly values there are 27distinct, and 6unique values for the UnitPrice column. 
+    => False
+
+    3. Question 3
+    In the OrderDetails query, how many rows are there after you remove anomalies?
+    => 997 rows
+
+    4. Question 4
+    What is the reason for using an Inner Join for the merge operation of OrderDetails and Order?
+    => To keep only matching rows between the two table
+
+    5. Question 5
+    By removing data anomalies in the sales data, what impact does this have on the business? 
+    => It improves data accuracy
+    => It improves decision making
+
+
+Course quiz: Extract, transform and load Data in Power BI
+1. Question 1
+True or False: The total number of columns that can be used in all the tables within a dataset is restricted to 16,000 columns. This limitation applies to the Power BI service and the datasets used in Power BI Desktop.  
+=> True
+
+2. Question 2
+Which of the following best describes a connector in the context of data integration?
+=> A tool which is used to establish a physical connection between two or more data sources.
+
+3. Question 3
+Which of the following item can be considered as an advantage of a local data set?
+=> Data COntrol
+
+4. Question 4
+Due to the many features in Import mode that are not supported in the DirectQuery mode, it’s not possible to switch from Import Mode to Direct Query Mode.
+=> True
+
+5. Question 5
+________ does not have a predefined structure or format. It is best used for qualitative analysis and usually resides in non-relational databases or unprocessed file formats.
+=> Unstructed Data
+
+6. Question 6
+Which of the following is required to initiate a workflow and prompt it to run?
+=> Trigger
+
+7. Question 7
+________ is a Unicode character data string. This can be strings, numbers, or dates represented in a text format.
+=> Text
+
+8. Question 8
+Which of the following menu items can be used to delete a specific step in Power Query transformations?
+=> Delete
+
+9. Question 9
+Which of the following data errors may cause an inflation in your dataset?
+=> Duplicate values
+
+10. Question 10
+By leveraging Power BI's ________ functionality, you transform the rows containing individual product categories into separate columns
+=> Pivot
+
+11. Question 11
+You can select ________ to create a new query or table from the appended output
+=> Append Queries as new
+
+12. Question 12
+Which of the following menu items let you combine columns from one or more tables to another query or table?
+=> Merge Queries
+
+13. Question 13
+You import two Microsoft Excel tables named Product and ProductCategory into Power Query. Two tables have a common column named ProductCategoryID, and ProductCategory table contains ProductCategoryName to show the name of the categories. You want to show join the tables; but you noticed that some of the products have NULL values for the ProductCategoryID column and you want to show those products also. What should you do in this case?
+=> Use Left Outer Join in the Join Kind dropdown
+
+14. Question 14
+You import two Microsoft Excel tables named Customer and City into Power Query. Two tables have a common column named CityID, and City table contains CityName to show the name of the cities. Your manager asked you to create a query that focuses on customers by cities, so in this case you are going to show only the customers who have City data. What should you do in this case?
+=> Use Inner Join in the Join Kind dropdown.
+
+15. Question 15
+Which of the following menu items lets you retrieve all records from both tables, regardless of whether they have matching values in the join condition?
+=> Full Outer join
+
+16. Question 16
+True or False: The common field between the tables to be merged and used as the key field in the reference table must be unique.
+=> True
+
+17. Question 17
+Which of the following statements about “using short letter codes like state codes for join keys” can be considered as true? Select all that apply:
+=> Easy to remember and enter
+=> Almost the same performance when compared to whole number
+
+18. Question 18
+The data loading stage serves as the final step of the ETL (Extract, Transform, Load) process. It integrates the extracted and transformed data from different sources into the Report view, enabling data visualization and analysis. 
+=> True
+
+19. Question 19
+Which of the following issue can be considered an advantage of using staging in Power BI?
+=> Managing data effectively
+
+20. Question 20
+By examining various aspects such as completeness, accuracy, uniqueness, and consistency, ________  enables the identification of potential issues and anomalies within the dataset. 
+=> profiling data
+
+21. Question 21
+Which of the following count gives you the total number of values that only appear once?
+=> unique
+
+22. Question 22
+Which of the following gives you the total number of values in a column?
+=> count
+
+23. Question 23
+True or False: Reference query will create a new query which is a copy of the original query and contains all the applied steps of the query.
+=> False
+
+24. Question 24
+________ is designed specifically for data integration and transformation tasks, providing a self-service environment for business users to create and manage ETL (Extract, Transform, Load) processes.
+=> Dataflows
+
+25. Question 25
+Which of the following techniques allows you to connect to data sources, perform data transformations, and also let you publish to the Power BI Service?
+=> Dataflows
+
+26. Question 26
+Which of the following techniques can be used when you want your report users to concentrate on a particular product category?
+=> Filters
+
+27. Question 27
+Which of the following features allows you to focus on a specific category of data in your dataset?
+=> Filters
+
+28. Question 28
+Which of the following privacy levels allows data to be shared within a group, granting access to authorized users and maintaining data security within the boundaries?
+=> Organizational
+
+29. Question 29
+Which of the best practices can increase performance in Power BI?
+=> Filter and reduce data early in the tranformation process
+
+30. Question 30
+Which of the connection types will you use when trying to connect to an on-premise SQL Server?
+=> SQL server database
