@@ -1,0 +1,137 @@
+Self-review: Configuring a Flat schema
+    1. Question 1
+    How many tables were displayed in the Model View once the dataset was loaded?
+    => A single data with multiple columns that included different data 
+
+    2. Question 2
+    How many rows were present in the dataset after all duplicate rows were removed from the OrderID column in the Adventure Works dataset?
+    => 50 
+
+    3. Question 3
+    What was the data type of the Product Price column after you loaded the data to Power BI before applying a transformation to the dataset?
+    => Whole Number
+
+
+Knowledge check: Introduction to data models
+    1. Question 1
+    In Power BI, relationships are established between the tables based on _____________ that match between the tables.
+    => Column fields
+
+    2. Question 2
+    What is the primary characteristic differentiating a Snowflake schema from a Star schema?
+    => Normalized dimension tables
+
+    3. Question 3
+    What are the limitations of using a Flat schema in Power BI? Select all that apply.
+    => A Flat schema offers limited capacity for storing large volumns of data.
+    => A Flat schema offers a lack of flexibility for organizing data from multiple sources
+
+    4. Question 4
+    True or False: In Power BI, a schema is automatically created when you import data from various sources and establish relationships between tables.
+    => True
+
+    5. Question 5
+    Which property cannot be adjusted for a table or column in Power BI?
+    => Table relationship
+
+Knowledge check: Introduction to cardinality and cross-filter direction
+    1. Question 1
+    In the context of Power BI, which of the following descriptions best outlines the main purpose of a Fact table?
+    => A Fact table is primarily used for storing measured, quantitative data about a business process.
+
+    2. Question 2
+    Which of the following statements are true regarding cardinality and cross-filter direction in Power BI? Select all that apply:
+    => Setting a cross-filter direction to Both allows filters to be applied from either direction in a relationship.
+    => Cardinality and cross-filter direction are two key elements of model relationships in Power BI.
+
+    3. Question 3
+    True or False: In Power BI, you can create a many-to-many relationship between tables.
+    => True
+
+    4. Question 4
+    In data analysis, __________ refers to the level of detail or summarization of your data.
+    => Data granularity 
+
+    5. Question 5
+    What is the role of dimension tables in Power BI?
+    => They store the descriptive attributes of a business process.
+
+
+Self-review: Configuring a Star schema
+    1. Question 1
+    True or False: The Sales table was identified as a dimension table in the exercise.
+    => False
+
+    2. Question 2
+    Which relationship type was configured between the Fact table and dimension tables in the exercise? 
+    => Many-to-one (One-to-many)
+
+    3. Question 3
+    True or False: The default cross-filter direction is set to Single, meaning that filters applied to the Products table will also apply to the Sales table, but not vice versa.
+    => True
+
+
+Knowledge check: Working with advanced data models
+    1. Question 1
+    Which of the following statements is correct regarding a Star schema Fact table?
+    => A Fact table stores an accumulation of business events
+
+    2. Question 2
+    How are dimension tables structured in a Snowflake schema?
+    => They are normalized with a separate table for each attribute
+
+    3. Question 3
+    What is the primary benefit of normalizing dimension tables in Power BI?
+    => It reduces storage requirements
+
+    4. Question 4
+    Which of the following statements is true about relationships in Power BI?
+    => Relationships can be created between tables that contain different types of data
+
+    5. Question 5
+    True or False: A Star schema is more suitable for complex hierarchies and relationships.
+    => False
+
+Module quiz: Concepts for data modeling
+1. Question 1
+An analytics team is setting up a data model in Power BI for a health insurance company. Understanding the role of a Fact table in the data model is crucial. What is the primary function of the Fact table in this health insurance company’s data model?
+=> Storing medical claims
+
+2. Question 2
+You are a data analyst working on a retail project. Your task involves deciding on the granularity level of the sales data to be used for analysis. Considering the importance of granularity, which of the following examples would be considered high-granularity data in this context?
+=> Sales data aggregated by product category.
+
+3. Question 3
+Adventure Work’s data warehouse includes a Products table that stores data on products, a ProductCategories table that stores product categories. Each product can belong to multiple categories, and each category can have multiple products. Which cardinality type should you set to represent the relationships between these two tables in the model? 
+=> Many to many
+
+4. Question 4
+True or False: Fact tables in Power BI are denormalized to optimize query performance.
+=> True
+
+5. Question 5
+Which of the following statements are true about table relationships in Power BI? Select all that apply.
+=> Relationships help to create meaningful visualization and reports
+=> Table relationships define how tables connect and interact.  
+
+6. Question 6
+You are working as a data modeler for a customer support system. You have a table called Tickets to track customer inquiries and an Agents table to store agent information. Each ticket is assigned to a single agent, while each agent can handle multiple tickets. You want to analyze the number of tickets per agent. What cross-filter direction should you select between the agent and ticket table? 
+=> Single
+
+7. Question 7
+What is the impact of selecting the Both cross-filter direction in Power BI? 
+=> Filters applied to either table in the relationship affect the other table.
+
+8. Question 8
+Under which of the following conditions should you consider using a Snowflake schema? Select all that apply:
+=> When dealing with highly normalized data structures. 
+=> When there is a need for more granular data representation.
+
+9. Question 9
+True or False: The default state of dimension tables in Power BI is denormalized.
+=> False
+
+10. Question 10
+Which of the following tools can be used to configure table and column properties in Power BI? Select all that apply:
+=> The Power Query editor
+=> The Power BI Properties pane in the model view

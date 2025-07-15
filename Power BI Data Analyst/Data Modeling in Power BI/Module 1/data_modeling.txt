@@ -1,0 +1,67 @@
+Data modeling: the process of creating visual representations of your data to help identify the relationships that exis between different elements
+Steps:
+    Sourcing data
+    Preparing and transforming data
+    Identifying and creating appropriate model relationships
+    Configuring table and column properties
+    Using DAX to configure and optimize models
+
+
+Data models
+    - Model view in Power BI is essential to creating and managing data models
+    - Model view visually represents all data tables, relationships, and columns.
+    - elements: Diagram view (canvas), Data pane, Properties pane, Home ribbon
+    - Diagram view: Data tables represent the raw data you import or connect to Power BI.Each table contains fields (columns) and rows of data. 
+    - Fields: Fields are columns within your data tables, representing individual data points or attributes
+    - Relationships: Power BI automatically detects relationships based on common fields. Relationships are represented by connector lines between tables. 
+
+Schema:
+    - a schema is a logical blueprint that defines the structure, organization, and relationships of tables. 
+
+Fact and dimention tables
+    - A Fact table contains quantitative data for analysis and is often the central table in a star or snowflake schema. It records measurements, metrics, or facts that users want to analyze
+    - Dimension Tables: contains descriptive information or attributes that provide context to the facts stored in the Fact table. They describe the "who," "what," "where," "when," and "how" of a fact.
+    - Relationship Between Fact and Dimension Tables: Foreign Key-Primary Key Relationship, Separation of Data
+
+Normalization and denormalization:
+    - The data model and its advantages:
+        + Faster data exploration
+        + Easier aggregate creation
+        + Precise reporting 
+        + Quicker report creation
+        + Simpler report maintenance
+    - Normalization:
+        + Removal of redundant data
+        + Improved data integrity
+        + Easier maintenance of data model
+    - Denormalization:
+        + With no relationship between tables, queries to join the data are reduced
+        + Filter propagation between the tables may sometimes be less efficient than filters applied to a single table.
+        + Establishing a hierarchy from fields within a table is simpler.
+
+Cardinality:
+    - refers to the relationship between the rows in two tables
+    - types of cardinality relationships:
+        + One-to-One (1:1): Each record in the first table is related to exactly one record in the second table, and vice versa.
+        + One-to-Many (1:N): A record in the first table is related to one or more records in the second table, but each record in the second table is related to only one record in the first table.
+        + Many-to-One (N:1): The reverse of one-to-many. Multiple records in the first table can relate to a single record in the second table.
+        + Many-to-Many (M:N): Records in the first table can be related to multiple records in the second table, and records in the second table can also be related to multiple records in the first table.
+    - Cardinality in Data Modeling: 
+        + High Cardinality: Refers to columns with a large number of distinct values (e.g., customer IDs, transaction IDs). High cardinality columns often appear in dimension tables.
+        + Low Cardinality: Refers to columns with a small number of distinct values (e.g., gender, product categories). Low cardinality columns are often used for grouping or filtering in reports.
+
+Cross-filter direction: 
+    - Cross-filter direction refers to the direction in which filters (or selections) in a relationship between two tables propagate in a data model
+    - Types of Cross-Filter Direction:
+        + Single (One-Way) Cross-Filtering: Filters applied on one table affect only the related table in one direction.
+        + Both (Bidirectional) Cross-Filtering: Filters applied to either table can propagate to the other table in both directions.
+        + None (No Cross-Filtering): No filtering is propagated between the two tables, and the relationship is not active in terms of filtering.
+
+Data granularity:
+    - Data granularity refers to the level of detail or depth of the data in a dataset. It defines the specificity of the data and how finely it is broken down into different units or levels.
+    - granularity plays a crucial role in determining how data is stored, analyzed, and reported. 
+    - Key Concepts of Data Granularity:
+        + Level of Detail
+        + Granularity in Fact Tables
+        + Granularity in Dimension Tables
+    
