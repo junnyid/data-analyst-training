@@ -1,0 +1,21 @@
+Data Analysis Expressions DAX
+    - DAX is a formula language used in PowerBI, SQL Server Analysis Services (SSAS), Power pivot in excel to define custom calculations and aggregations for DA.
+    - Creating columns, measures, and custom aggregations in data models
+    - Key features of DAX:
+        + Calculations
+        + Filters and Contexts
+        + Time Intelligence
+        + Aggregations 
+
+Formulas and functions in DAX:
+    - Key Categories of DAX functions:
+        + Aggregations functions: SUM, AVERAGE, MIN, MAX, COUNT, COUNTA, COUNTROWS, DISTINCTCOUNT
+        + Logical functions: IF, AND, OR, SWITCH
+        + Text functions: CONCATENATE, LEFT, RIGHT, LEN, UPPER, LOWER, TRIM
+        + Date and time functions (Time Intelligence): TODAY, YEAR, MONTH, DAY, DATEADD, DAYS, DATEDIFF, TOTALYTD, TOTALMTD, TOTALQTD
+        + Mathematical functions: SUMX, AVERAGEX, ROUND, CEILING, FLOOR
+        + Filter functions: CALCULATE, FILTER, ALL, ALLEXCEPT, ALLSELECTED, VALUES
+        + Statistical functions: MEDIAN, [STDEV, STDEVP, VAR, VARP] => Calculate standard deviation and variance for a set of VALUES
+        + Parent-Child functions: PATH, PATHLENGHT
+
+Row context and filter context

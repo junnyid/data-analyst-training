@@ -93,45 +93,45 @@ Knowledge check: Working with advanced data models
     => False
 
 Module quiz: Concepts for data modeling
-1. Question 1
-An analytics team is setting up a data model in Power BI for a health insurance company. Understanding the role of a Fact table in the data model is crucial. What is the primary function of the Fact table in this health insurance company’s data model?
-=> Storing medical claims
+    1. Question 1
+    An analytics team is setting up a data model in Power BI for a health insurance company. Understanding the role of a Fact table in the data model is crucial. What is the primary function of the Fact table in this health insurance company’s data model?
+    => Storing medical claims
 
-2. Question 2
-You are a data analyst working on a retail project. Your task involves deciding on the granularity level of the sales data to be used for analysis. Considering the importance of granularity, which of the following examples would be considered high-granularity data in this context?
-=> Sales data aggregated by product category.
+    2. Question 2
+    You are a data analyst working on a retail project. Your task involves deciding on the granularity level of the sales data to be used for analysis. Considering the importance of granularity, which of the following examples would be considered high-granularity data in this context?
+    => Sales data aggregated by product category.
 
-3. Question 3
-Adventure Work’s data warehouse includes a Products table that stores data on products, a ProductCategories table that stores product categories. Each product can belong to multiple categories, and each category can have multiple products. Which cardinality type should you set to represent the relationships between these two tables in the model? 
-=> Many to many
+    3. Question 3
+    Adventure Work’s data warehouse includes a Products table that stores data on products, a ProductCategories table that stores product categories. Each product can belong to multiple categories, and each category can have multiple products. Which cardinality type should you set to represent the relationships between these two tables in the model? 
+    => Many to many
 
-4. Question 4
-True or False: Fact tables in Power BI are denormalized to optimize query performance.
-=> True
+    4. Question 4
+    True or False: Fact tables in Power BI are denormalized to optimize query performance.
+    => True
 
-5. Question 5
-Which of the following statements are true about table relationships in Power BI? Select all that apply.
-=> Relationships help to create meaningful visualization and reports
-=> Table relationships define how tables connect and interact.  
+    5. Question 5
+    Which of the following statements are true about table relationships in Power BI? Select all that apply.
+    => Relationships help to create meaningful visualization and reports
+    => Table relationships define how tables connect and interact.  
 
-6. Question 6
-You are working as a data modeler for a customer support system. You have a table called Tickets to track customer inquiries and an Agents table to store agent information. Each ticket is assigned to a single agent, while each agent can handle multiple tickets. You want to analyze the number of tickets per agent. What cross-filter direction should you select between the agent and ticket table? 
-=> Single
+    6. Question 6
+    You are working as a data modeler for a customer support system. You have a table called Tickets to track customer inquiries and an Agents table to store agent information. Each ticket is assigned to a single agent, while each agent can handle multiple tickets. You want to analyze the number of tickets per agent. What cross-filter direction should you select between the agent and ticket table? 
+    => Single
 
-7. Question 7
-What is the impact of selecting the Both cross-filter direction in Power BI? 
-=> Filters applied to either table in the relationship affect the other table.
+    7. Question 7
+    What is the impact of selecting the Both cross-filter direction in Power BI? 
+    => Filters applied to either table in the relationship affect the other table.
 
-8. Question 8
-Under which of the following conditions should you consider using a Snowflake schema? Select all that apply:
-=> When dealing with highly normalized data structures. 
-=> When there is a need for more granular data representation.
+    8. Question 8
+    Under which of the following conditions should you consider using a Snowflake schema? Select all that apply:
+    => When dealing with highly normalized data structures. 
+    => When there is a need for more granular data representation.
 
-9. Question 9
-True or False: The default state of dimension tables in Power BI is denormalized.
-=> False
+    9. Question 9
+    True or False: The default state of dimension tables in Power BI is denormalized.
+    => False
 
-10. Question 10
-Which of the following tools can be used to configure table and column properties in Power BI? Select all that apply:
-=> The Power Query editor
-=> The Power BI Properties pane in the model view
+    10. Question 10
+    Which of the following tools can be used to configure table and column properties in Power BI? Select all that apply:
+    => The Power Query editor
+    => The Power BI Properties pane in the model view
