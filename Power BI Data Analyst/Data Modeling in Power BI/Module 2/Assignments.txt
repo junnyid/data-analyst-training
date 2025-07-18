@@ -1,0 +1,60 @@
+Self-review: Adding a calculated table and column
+    1. Question 1
+    What does the DAX QUARTER function do when executed in the Date table? 
+    => It returns a year's quarter as a number extracted from the DATE column
+
+    2. Question 2
+    You have created a new table called Yearly Sales by Color. What is the total number of columns in the table?
+    => 11
+
+    3. Question 3
+    What role did the RELATED function perform when you created the Yearly Sales calculated table? Select all that apply.
+    => It referenced a column from the product table within the data model to retrieve the color information
+    => It referenced a column form the date table within the data model to retrieve the year information
+
+Knowledge check: Using Data Analysis Expressions (DAX) in Power BI
+    1. Question 1
+    You are a data analyst working with a large sales dataset for an e-commerce company. You are employing Power BI as an analytical tool. In which of the following scenarios would it be beneficial to use DAX functions? Select all that apply.
+    => Creating a column that flags high-value customers.
+    => Calculating the average sales per region. 
+    => Filtering the data to display only this year’s sales. 
+
+    2. Question 2
+    True or False: You can create a calculated table in DAX to generate a table based on the defined expression.
+    => True
+
+    3. Question 3
+    What is the purpose of the RELATED function in DAX?
+    => To retrieve data from a related tables
+
+    4. Question 4
+    Why should you clone a table in Power BI for use as a calculated table?
+    => To keep a backup of your original dataset
+
+    5. Question 5
+    Regarding DAX, what does the term "evaluation context" refer to?
+    => To set of filters and context that influence DAX calculate
+
+Knowledge check: Introduction to measures
+    1. Question 1
+    Which of the following statements about the measures is correct?
+    => Measures can reference other measures directly
+
+    2. Question 2
+    Which DAX function can summarize the number of entries in a table?
+    => COUNTROWS
+
+    3. Question 3
+    True or False: In DAX, a semi-additive measure can accumulate values over some dimension but typically not over time.
+    => True
+
+    4. Question 4
+    Which of the following DAX functions modifies the evaluation context of a specific calculation? Select all that apply.
+    => CALCULATE
+    => CALCULATETABLE
+
+    5. Question 5
+    You want to calculate the total revenue for each product category in an Adventure Works sales dataset, but only for products over $1000. You can use the ___________ function to "narrow down" the products with a specified amount. You can then use the ____________ function to compute the final measure.
+    => FILTER, CALCULATE
+
+

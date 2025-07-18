@@ -19,3 +19,11 @@ Formulas and functions in DAX:
         + Parent-Child functions: PATH, PATHLENGHT
 
 Row context and filter context
+    - In DAX, row context & filter context are two impotant concepts that govern how expressions and calculations are evaluated.
+    - Row context: refers to the context in which a row is evaluated.It is automatically created when you perform operations on a row-by-row basis, such as in calculated columns or iterating functions 
+    - Filter context:  refers to the set of filters that are applied to a table or column during the evaluation of an expression. Filter context is created explicitly by filtering data in visuals, slicers, or through functions 
+
+Cloned and calculated tables
+    - Cloned tables: Cloning a table means duplicating the original table. In other words, creating an exact copy.  The cloned table inherits all the original table's columns, data, and relationships.
+    - Calculated tables: Calculated tables are not simple duplicates. Instead, they are created based on calculations, transformations, or aggregations performed on existing data.
+    

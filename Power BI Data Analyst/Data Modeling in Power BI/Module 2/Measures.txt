@@ -1,0 +1,29 @@
+Measures: 
+    Measures in DAX are calculations used in Power BI, Power Pivot, and SSAS Tabular models that return a single value based on a DAX formula. 
+    Measures are dynamic and are calculated on the fly when you interact with your data model. 
+
+Types of measures:
+    - Additive: Allow for data aggregations across any dimension (Addition, Subtraction)
+    - Semi - Additive: Aggregated over certain dimensions
+    - Non - Additive: measures that cannot be meaningfully aggregated across dimensions
+
+Basic Statistical functions
+    DAX provides several basic statistical functions that can be used to perform common statistical operations on data. 
+    These functions are useful for calculating things like averages, standard deviations, percentiles, and more. 
+        + Average: calculates the arithmetic mean of the values in a column.
+        + MEDIAN: returns the median (the middle value) from a set of values.
+        + MIN, MAX
+        + COUNT: returns the number of rows that contain numbers in a given column.
+        + COUNTA: counts the number of rows in a column that are not empty, regardless of whether the values are numeric or text.
+        + COUNTBLANK: counts the number of blank values in a given column.
+        + STDEV: calculates the sample standard deviation of a set of numbers. The sample standard deviation is used when the data represents a sample rather than the entire population.
+        + STDEVP: calculates the population standard deviation of a set of numbers. It’s used when the data represents an entire population.
+        + VAR: calculates the variance of a set of numbers based on a sample (not the entire population).
+        + VARP: calculates the population variance of a set of numbers. It’s used when the data represents an entire population.
+        + PERCENTILEX.INC: calculates the k-th percentile of a set of values, where the percentile is inclusive. It’s often used to calculate specific percentiles (e.g., the 90th percentile).
+        + PERCENTILEX.EXC: calculates the k-th percentile of a set of values, where the percentile is exclusive.
+        + RANKX: ranks values in a column or table, either in ascending or descending order.
+    => These basic statistical functions in DAX help with summarizing, analyzing, and deriving insights from data.
+
+DAX measures and context in business
+    
