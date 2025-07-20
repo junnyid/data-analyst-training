@@ -1,0 +1,9 @@
+Role-playing dimensions
+    - In data modeling, role-playing dimensions refer to dimensions that are used in multiple contexts or scenarios within a data model, typically with the same set of attributes, but applied to different facts or measures.
+    - Role-playing dimensions are common in star schemas or snowflake schemas, where a single dimension table is referenced multiple times in the fact table, but with different meanings or roles for each reference.
+
+The USERELATIONSHIP function
+    - The USERELATIONSHIP function in DAX is used to activate an inactive relationship between two tables in a Power BI or SSAS model.
+    - When to use:
+        + Multiple Relationships Between Tables
+        + Custom Calculations

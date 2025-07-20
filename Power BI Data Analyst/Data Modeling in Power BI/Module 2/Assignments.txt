@@ -57,4 +57,157 @@ Knowledge check: Introduction to measures
     You want to calculate the total revenue for each product category in an Adventure Works sales dataset, but only for products over $1000. You can use the ___________ function to "narrow down" the products with a specified amount. You can then use the ____________ function to compute the final measure.
     => FILTER, CALCULATE
 
+Self-review: Adding a measure
+    1. Question 1
+    In the exercise, you created a quick measure running total. Which of the following fields did you add as your base value?
+    => The Total Sales column from the Sales table. 
+
+    2. Question 2
+    What methods could you have used to access the Quick Measure feature in Power BI? Select all that apply.
+    => Select the Quick Measure option from the Power BI Home tab.
+    => Access the feature from the drop-down menu using the ellipses under the Data pane
+
+    3. Question 3
+    True or False: You can use the SUM function instead of SUMX to calculate the Total Sales measure in DAX.
+    => False
+
+Knowledge check: Working with measures
+    1. Question 1
+    How can measures help with data analysis in Power BI?
+    => By performing calculattions and aggregations for data visualization and analysis
+
+    2. Question 2
+    In which scenario might the CROSSFILTER function be useful?
+    => When creating visualizations with custom filtering behavior
+
+    3. Question 3
+    True or False: Measures in Power BI are calculated columns that store results based on a specific DAX expression.
+    => False
+
+    4. Question 4
+    Which of the following are the DAX modifier functions? Select all that apply.
+    => CROSSFILTER
+    => KEEPFILTERS
+
+    5. Question 5
+    You are analyzing a data model comprised of a Customers and an Orders tables. You want to analyze the number of customer orders from a specific region. Which of the following functions, combined with CROSSFILTER, can you use to generate these insights?
+    => CALCULATE
+
+Self-review: Adding a role-playing dimension
+    1. Question 1
+    You added the date table as a role-playing dimension to analyze the August sales. What alternative method could you have used to perform the same analysis in Power BI?
+    => Clone the B table in DAX and name it Shipping date table.
+
+    2. Question 2
+    What was the purpose of the USERELATIONSHIP function in creating the August sales by shipping date measure for Adventure Works? 
+    => To establish custom relationships between the Sales anh the Date table
+
+    3. Question 3
+    True or False: In your Adventure Works data model, the default relationship between the Sales and Date tables is based on the order date. You can convert the default relationship between the sales and date table to inactive relationship in Power BI for a specific calculation.
+    => True
+
+Knowledge check: DAX and table relationships
+    1. Question 1
+    How can you use an inactive relationship in a single measure?
+    => Use the USERELATIONSHIP function in DAX.
+
+    2. Question 2
+    How does the USERELATIONSHIP function impact the relationship between tables in a data model?
+    => It overrides the existing relationship state between tables.
+
+    3. Question 3
+    True or False: Role-playing dimensions in Power BI are multiple instances of the same dimension used within a single fact table.
+    => True
+
+    4. Question 4
+    True or False: The CROSSFILTER function in DAX allows users to establish custom relationships between tables.
+    => False
+
+    5. Question 5
+    An e-commerce company has a data model with an inactive relationship between the Product table and the Sales table. The active relationship is based on the Products sold column of the Product table, while the inactive relationship is based on the Products purchased column. You want to analyze sales data based on both Products sold and Products purchased. What are the possible solutions to analyze the data? Select all that apply.
+    => You create a separate calculated table based on the Product table and rename it as Products Purchased. 
+    => You can use the USERELATIONSHIP function
+
+Self-review: Using time intelligence to compare to previous year
+    1. Question 1
+    In Power BI, time intelligence DAX functions require which of the following to work properly? Select all that apply.
+    => A date dimension table with a column of dates. 
+    => Properly defined relationships between the tables. 
+
+    2. Question 2
+    What is the value of change in the sales measure (YoY%) for August 2018?
+    => -23,42%
+
+    3. Question 3
+    True or False: To calculate the Sales previous year measure in DAX, you used the Revenue measure for your calculation. It is possible to create the Sales previous year measure without using the Revenue measure.
+    => True
+
+Knowledge check: Time intelligence calculations in DAX
+    1. Question 1
+    Why is it important to have a properly defined date column in the data model to execute time intelligence functions?
+    => To ensure data accuracy and consistency in time-based calculations.
+
+    2. Question 2
+    Which of the following features of Power BI can you use to add a date or common-dimension table to the data model? Select all that apply.
+    => Power Query and M language 
+    => Data Analysis Expressions
+
+    3. Question 3
+    True or False: DAX time intelligence functions can be used with Power BI’s autogenerated date/time dimension.
+    => True
+
+    4. Question 4
+    You are tasked with evaluating a company’s year-to-date sales. You need to analyze YTD (year-to-date) values by integrating additional filter context to the calculations like the Product category, Region, and Reseller datasets. Which of the following DAX functions can you use to complete this task? 
+    => DATESYTD
+
+    5. Question 5
+    A business recently launched a marketing campaign for its product line and wants to determine its impact on sales within a specific period. What time intelligence function can you employ to evaluate the campaign’s impact on sales? Select all that apply.
+    => DATEADD
+    => DATESINPERIOD
+    => DATESBETWEEN
+
+Module quiz: Using DAX in Power BI
+    1. Question 1
+    A marketing company wants to compare its daily website traffic. Which functions can it use to compare today’s web traffic with the day before?
+    => CALCULATE with PREVIOUSDAY
+
+    2. Question 2
+    A car company is evaluating sales of its latest model. It changes the default evaluation context of its calculation to compute the total sales for a specific color. Which of the following functions can the company deploy to compute this value?
+    => CALCULATE
+
+    3. Question 3
+    A Sales table lists each transaction as a separate row. Which of the following DAX functions can summarize the total number of transactions in the table?
+    => COUNTROWS
+
+    4. Question 4
+    True or False: The CROSSFILTER function can only establish a one-to-one relationship between tables.
+    => False
+
+    5. Question 5
+    How can you use an inactive relationship to compute a single measure?
+    => By using the USERELATIONSHIP function
+
+    6. Question 6
+    True or False: In Power BI, measures are calculated at the query level, while calculated columns are pre-calculated and stored in the data model. 
+    => True
+
+    7. Question 7
+    Adventure Works has multiple stores located in different regions. Its dataset contains sales data for the past year stored in columns that include storeID, date, productID, quantity, and revenue. Which DAX function can you use to calculate the running total of revenue for each store over time? Select all that apply.
+    => TOTALYTD 
+    => SUMX
+
+    8. Question 8
+    Which of the following statements describes the similarity of measures and calculated columns in an import model?
+    => Both can be used to summarize data
+
+    9. Question 9
+    Which of the following actions can you take to create time intelligence measures? Select all that apply.
+    => Create a Date table using M and Power Query.
+    => Create a Date table using DAX.
+    => Use Power BI’s automatically generated date/time dimension for time intelligence functions.
+
+    10. Question 10
+    When using the CALCULATE function, which of the following contexts can influence the overall evaluation context of the measure? Select all that apply.
+    => Row context
+    => Filter context
 

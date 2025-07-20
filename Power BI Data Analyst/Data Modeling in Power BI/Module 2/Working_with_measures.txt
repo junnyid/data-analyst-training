@@ -1,13 +1,8 @@
-Self-review: Adding a measure
-    1. Question 1
-    In the exercise, you created a quick measure running total. Which of the following fields did you add as your base value?
-    => The Total Sales column from the Sales table. 
-
-    2. Question 2
-    What methods could you have used to access the Quick Measure feature in Power BI? Select all that apply.
-    => Select the Quick Measure option from the Power BI Home tab.
-    => Access the feature from the drop-down menu using the ellipses under the Data pane
-
-    3. Question 3
-    True or False: You can use the SUM function instead of SUMX to calculate the Total Sales measure in DAX.
-    => False
+The CROSSFILTER function
+    - to modify the direction of filtering between two tables in a relationship
+    - it allows you to override the default relationship direction (one-way or both-way) between two tables, which can be useful when you want to control how filters propagate across relationships in certain situations.
+    - Control how filters are applied in both directions (using BOTH), in one direction (ONE), or with no filter propagation (NONE).
+    - When to use:
+        + Handling Complex Relationships
+        + Avoiding Circular Relationships
+        + Performance Optimization

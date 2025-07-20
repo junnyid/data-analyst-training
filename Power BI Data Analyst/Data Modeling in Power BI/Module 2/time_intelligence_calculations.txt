@@ -1,0 +1,13 @@
+Time Intelligence Calculations in DAX
+    - Time Intelligence in DAX refers to a set of powerful functions that enable you to perform calculations based on time periods
+    - such as year-to-date (YTD), month-to-date (MTD), previous year, same period last year, moving averages, and more. 
+    - Key Time Intelligence Functions in DAX:
+        + TOTALYTD: calculate the Year-to-Date (YTD) total for a given measure, aggregating data from the start of the year to the current date.
+        + TOTALQTD: calculates the Quarter-to-Date (QTD) total for a measure, aggregating data from the start of the quarter to the current date.
+        + TOTALMTD: calculates the Month-to-Date (MTD) total for a measure, aggregating data from the start of the month to the current date.
+        + SAMEPERIODLASTYEAR: calculates a value for the same period in the previous year.It is often used in conjunction with CALCULATE to compare the current period with the same period last year.
+        + PARALLELPERIOD: shifts a date range by a given number of periods.
+        + DATEADD: shifts a date column by a specified number of intervals (e.g., days, months, or years).
+        + DAX Time Intelligence Using CALCULATE
+
+
