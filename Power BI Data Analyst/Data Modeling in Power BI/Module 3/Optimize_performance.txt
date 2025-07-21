@@ -1,0 +1,33 @@
+Optimize performance in a PowerBI model
+    - Optimizing performance in a Power BI model is crucial for ensuring that your reports and dashboards are responsive, even with large datasets. 
+    - several strategies and best practices to optimize the performance of a Power BI model:
+        + Data Model Optimization
+        + Efficient DAX Measures and Calculations
+        + Optimize Query Performance
+        + Optimize Visualizations
+        + Data Refresh Optimization
+    => Optimizing performance in Power BI involves a combination of data model design, efficient DAX calculations, and query optimization techniques.
+
+Optimizing a DirectQuery model:
+    - Optimizing a DirectQuery model in Power BI involves strategies to ensure that queries to the underlying data source are efficient and that your reports remain responsive.
+    - several key strategies to optimize a DirectQuery model in Power BI:
+        + Optimize the Data Source
+        + Data Modeling Best Practices
+        + Query Optimization in Power BI
+        + Limit Data Refresh and Query Timeout
+        + Use Power BI Performance Analyzer
+        + Limit DirectQuery-Specific Features
+        + Optimize SQL Queries (on the Data Source)
+
+What are aggregations and why use them?
+    - aggregations refer to the process of summarizing data at a higher level, typically to reduce the number of rows and improve performance. 
+    - Aggregation is commonly used to pre-calculate totals, averages, counts, and other summary statistics at a more granular level (e.g., monthly totals, yearly totals, etc.)
+    - Aggregations are particularly useful in models where the fact tables contain millions or billions of rows, as summarizing the data at a higher level can significantly improve query performance.
+    - How Aggregations Work in Power BI:
+        + Types of Aggregations in Power BI: Simple Aggregations; Custom Aggregations
+        + Improved Query Performance
+        + Reducing Memory Usage
+        + Faster Data Refreshes
+        + Enhanced User Experience
+        + Reducing Query Load on Data Source
+        

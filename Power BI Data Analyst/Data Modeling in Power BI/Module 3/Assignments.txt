@@ -1,0 +1,135 @@
+Self-Review: Improving data model performance
+    1. Question 1
+    In the scenario presented in this exercise, what is the purpose of adjusting the Cross-filter direction to Single in Power BI?
+    => To reduce the complexity of the model and limit the direction in which filters are applied
+
+    2. Question 2
+    Based on your observation of the first ten records, which order has the highest Order Total value?
+    => Order with Order ID 2003. 
+
+    3. Question 3
+    In the scenario presented in the exercise, why is it beneficial to modify the Customers and Orders relationship from a many-to-many relationship to a one-to-many relationship in Power BI?
+    => To enhance the performance of the data model.
+
+Knowledge check: Optimize a model for performance in Power BI
+    1. Question 1
+    How does performance optimization primarily improve decision-making?
+    => By enabling faster analysis of trends through swiftly loading reports
+
+    2. Question 2
+    How does indexing optimize the data analysis process in Microsoft Power BI?
+    => By providing faster access to specific data points 
+
+    3. Question 3
+    What does the term "metadata" refer to in the context of Power BI? 
+    => It refers to the data that describes and gives information about other data.
+
+    4. Question 4
+    What effect does a bi-directional filter have in a many-to-many relationship in Power BI?
+    => It allows the filter context to flow in either direction
+
+    5. Question 5
+    What is the purpose of the Column Quality feature in Power Query Editor in Power BI?
+    => It allows you to assess the quality of data in your columns by quantifying the percentage of valid, erroneous, or empty entries. 
+
+Knowledge check: Optimize DirectQuery models
+    1. Question 1
+    Which of the following statements accurately describes table storage in DirectQuery?
+    => Optimizing table storage allows you to import selected tables to the memory of Power BI for faster query performance.
+
+    2. Question 2
+    Your DirectQuery report is slow in loading and processing data. What technique can you use to enhance report performance?
+    => Table storage optimization.
+
+    3. Question 3
+    True or False: DirectQuery mode automatically optimizes the data model and minimizes the queries sent to the underlying data source.
+    => False
+
+    4. Question 4
+    You are working in a multi-national retail company who need to build a real-time sales dashboard. The sales transactions are recorded in a centralized SQL database which could contain hundreds of millions of rows. DirectQuery is the best option for the current analysis rather than importing the data. Because you are using DirectQuery, which of the following options should you select in order to optimize the query performance and user experience? Select all that apply.
+    => You can avoid using too many visuals while creating a report.
+    => You can eliminate unnecessary columns from the data tables.
+    => You can create aggregations and aggregated tables. 
+
+    5. Question 5
+    ______________ and __________________ are the two limitations of using DirectQuery in Power BI desktop.
+    => Visualization, DAX
+
+Self-review: Adding an aggregation
+    1. Question 1
+    What is the primary benefit of creating aggregations when working with large datasets in Microsoft Power BI?
+    => faster query execution
+
+    2. Question 2
+    What is the total number of rows in the original Sales table and the SalesAgg aggregated table respectively?
+    => 57851 and 990
+
+    3. Question 3
+    Why is it important to duplicate the source table before creating aggregated tables in DirectQuery connectivity?
+    => Duplicating the source table preserves the original table for other analytical needs
+
+Knowledge check: Create and manage aggregations
+    1. Question 1
+    Which feature stores pre-aggregated data for improved query performance when Microsoft Power BI is connected to DirectQuery?
+    => Aggregated table
+
+    2. Question 2
+    When connecting to DirectQuery in Microsoft Power BI, which of the following can be used to create aggregated tables? Select all that apply.
+    => SQL queries
+    => Power query Editor
+
+    3. Question 3
+    You have created an aggregation from a fact table connected to Microsoft Power BI via DirectQuery. With the aggregated table created, you then configured the storage mode of the table and established relationships with the other tables of data model. Which of the following steps must be completed before utilizing the aggregation in your reports? 
+    => Manageing aggregation in Power BI
+
+    4. Question 4
+    Which of the following is the recommended approach while selecting the columns for aggregated tables? 
+    => Include columns that fullfill the level of granularity needed for analysis
+
+    5. Question 5
+    You have a Microsoft Power BI report with a DirectQuery connection to a large Sales dataset. Business users frequently query total sales and quantities by various categories and months. Which option offers the best approach for optimizing performance while addressing user needs?
+    => Create an aggregated table for total sales and quantities grouped by category and date.
+
+Module quiz: Optimize a model for performance in Power BI
+    1. Question 1
+    How does performance optimization in Power BI influence decision-making?
+    => It facilitates more timely and informed decisions due to faster data analysis.
+
+    2. Question 2
+    Sales teams at Adventure Works have been entering date information into the system using various formats. This inconsistency has caused issues in past reports, leading to incorrect analyses. The management wants to ensure all dates are standardized for a comprehensive year-end review, and they've turned to you, the data analyst for a solution. Which optimization technique should you use?
+    => Data transformation
+
+    3. Question 3
+    Why is high cardinality a possible concern for data analysts?
+    => It can slow down the performance of Power Bi reports
+
+    4. Question 4
+    Why is cross-filter direction important in Power BI relationships?
+    => It defines how filters are applied across related tables
+
+    5. Question 5
+    Your organization has data stored on-premises SQL Server and in cloud-based Azure SQL databases. You want to implement aggregations in Power BI to improve query performance in DirectQuery mode. What do you need to consider in terms of data sources?
+    => You can use both on-premises and cloud databases as data sources for aggregations.
+
+    6. Question 6
+    You have created an aggregation from a DirectQuery-sourced sales table, but you cannot use the aggregation in Power BI. Which of the following steps are missing before utilizing aggregations in your reports? Select all that apply.
+    => Build the required relationships in the Model view.
+    => Configure the storage mode of the aggregated table
+    => Manage your aggregations in Power BI desktop
+
+    7. Question 7
+    You are addressing a client’s requirement for real-time access to an on-premises SQL Server and optimizing query efficiency. Which of the following actions must you perform to achieve this task? Select all that apply.
+    => Create aggregations based on DirectQuery sourced table.
+    => Connect Power BI via DirectQuery mode.
+
+    8. Question 8
+    Which of the following best describes the limitation of DirectQuery connectivity in Power BI?
+    => Limited data transformation in Power Query editor.
+
+    9. Question 9
+    True or False: In DirectQuery sourced Power BI report, the data is stored in the source server. You can import selected or entire data to Power BI memory.
+    => True
+
+    10. Question 10
+    True or False: Limiting the number of visuals and filters in Power BI report helps you optimize the report performance when connected to DirectQuery sourced datasets.
+    => True
