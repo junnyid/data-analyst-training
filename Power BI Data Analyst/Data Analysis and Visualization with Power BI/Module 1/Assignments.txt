@@ -1,0 +1,151 @@
+Self-review: Create a sales report
+    1. Question 1
+    Based on the line chart representing Adventure Works' sales revenue over time, which month recorded the highest sales revenue?
+    => March
+
+    2. Question 2
+    According to the stacked bar chart representing Adventure Works' sales by day of the week, which day recorded the lowest total sales?
+    => Thursday
+
+    3. Question 3
+    Based on the pie chart representing sales by product category, which bike type accounted for the second lowest amount of sales?
+    => BMX Bikes
+
+
+Knowledge check: Introducing Visualizations
+    1. Question 1
+    You’re creating a report for the sales department at Adventure Works to show trends in bicycle sales over the last five years. Which chart type is best suited to visualize these trends over time? 
+    => Line Charts
+
+    2. Question 2
+    The financial team at Adventure Works needs exact numbers on bicycle production for cost analysis. Which visualization best supports this need?
+    => Tables
+
+    3. Question 3
+    You’re creating operational reports for Adventure Works. Which types of reports are typically used to support core business functions? Select all that apply.
+    => financial reports
+    => Sales reports
+    => marketing reports
+
+    4. Question 4
+    As a Power BI analyst, what is the main role of the Visualizations pane in the report creation process? 
+    => To create, modify, and manage visual elements
+
+    5. Question 5
+    You're building a sales report in Power BI and need to control which data appears in your visualizations. Within the Visualizations pane, which two components of the Fields section help you manage and organize your data?
+    => Fields list and Fields wells
+
+
+Knowledge check: Basic Visualizations
+    1. Question 1
+    The sales manager at Adventure Works collected monthly sales data over the last two years. The data includes information about the sales volume for different products across different regions. You want to illustrate trends over time and compare the sales. What chart type is most suitable for this purpose?
+    => Line
+
+    2. Question 2
+    The project manager at Adventure Works has been allocated a fixed budget for a new project. The funding is distributed across several categories: salaries, equipment, software, training, and miscellaneous expenses. You want to create a visual representation for the project manager that displays the proportion of the total budget that each category represents. What chart type is most suitable for this purpose?
+    => Pie
+
+    3. Question 3
+    The analytics manager at Adventure Works asks you to create a visualization that illustrates the distribution of website traffic sources, such as search engines, direct traffic, referral, and social media, as a proportion of total traffic. Which chart types are suitable for this purpose? Select all that apply. 
+    => Donut
+    => Treemap
+    => Pie
+
+    4. Question 4
+    Consider the following dataset for Adventure Works:
+    A store manager at Adventure Works wants to boost store revenue. What is the best key performance indicator (KPI) to represent in a targeted chart that will support the manager in making decisions related to this objective?
+    => Total Sales
+
+    5. Question 5
+    Adventure Works ran an online ad campaign for a new product over the past month. Each week, the marketing team counted how many people viewed the ad (impressions), how many people clicked on the ad (clicks), and how many people bought the product after clicking on the ad (conversions). You want to create a report that displays how these numbers changed weekly. What chart type is the best choice for this?
+    => Line
+
+
+Self-review: Indicating business performance
+    1. Question 1
+    What type of visualization was used to display the total monthly marketing spend?
+    => Multi-row Card
+
+    2. Question 2
+    What type of visualization did you use to analyze the change in sales over time and its correlation with marketing spending?
+    => Waterfall Chart
+
+    3. Question 3
+    What was the total marketing spend in three months?
+    => $126K
+
+    4. Question 4
+    Which chart did you use to analyze the change in sales performance of different regions and changes in their rankings over time?
+    => Ribbon chart
+
+    5. Question 5
+    Based on your analysis, which region performed the best in sales compared to their advertising expenditure?
+    => The East region
+
+
+Knowledge check: Specialist Visualizations
+    1. Question 1
+    As a data analyst for a large retail chain, you have created a scatter chart in Microsoft Power BI to compare store size (X-axis) against annual sales (Y-axis) for various stores. You have also used a categorical variable Region for the color legend. While presenting the chart in a meeting, your manager asks you why some stores of the same size have different colors. How would you respond?
+    => The colors represent different regions
+
+    2. Question 2
+    Imagine you're working on a sales report using Microsoft Power BI. You want to visualize the flow of leads through different stages of your sales pipeline. You start with the initial number of leads, followed by the number who were contacted, those who were qualified, the number of proposals sent, and finally, the successful sales made. Which visualization tool in Power BI would be most appropriate for this scenario?
+    => Funnel chart
+
+    3. Question 3
+    You are a data analyst at Adventure Works. Your task is to provide a visualization that allows the management to understand the ranking shift in bicycle sales over different quarters of a fiscal year across various models. Which of the following charts in Microsoft Power BI would you choose?
+    => Ribbon
+
+    4. Question 4
+    You are a sales manager at a growing tech company. You have been asked to track a new KPI that shows how effective the sales team is at converting leads into customers. You have calculated the percentage of potential customers who have made a purchase. Which KPI are you tracking?
+    => Sales conversion rate
+
+    5. Question 5
+    Which of the following statements is true about ribbon and waterfall charts in Microsoft Power BI?
+    => Ribbon charts are used to visualize the changes in ranking over time among various categories, while Waterfall charts are used to illustrate the cumulative impact of sequential positive or negative values. 
+
+
+Module quiz: Creating Reports
+    1. Question 1
+    The sales department at Adventure Works wants to understand their quarterly performance. They need a comprehensive report that clearly depicts the various metrics involved. While adjusting your visuals to best illustrate the sales data, which sections of the Visualizations pane in Microsoft Power BI would you likely be interacting with? Select all that apply.
+    => Format
+    => data
+
+    2. Question 2
+    You’re a data analyst, creating a Microsoft Power BI visualization for the sales team. They need to compare the sales performance across a large number of product categories, which have detailed and lengthy labels.  Which visualization is best for comparing many product categories with long labels? 
+    => Bar chart 
+
+    3. Question 3
+    Imagine you're a data analyst at Adventure Works. You are preparing a presentation for an upcoming board meeting. You have a variety of data points from different aspects of the business that you want to share. Which of the following should be your primary focus when deciding on visualization types for your presentation?
+    => To communicate the correct insights effectively
+
+    4. Question 4
+    As a data analyst at Adventure Works, you are assigned to create a presentation to convince management about the benefits of using data visualization in the company's business intelligence process. What points would you highlight in your presentation? Select all that apply.
+    => Data visualization can transform complex data into a more understandable, accessible, and usable format. 
+    => Data visualization aids in identifying patterns and trends in the data. 
+
+    5. Question 5
+    You are a data analyst and you want to visualize sales data for different product categories and sub-categories in a single view. Which type of chart would be best suited for this scenario in Microsoft Power BI?
+    => Treemap
+
+    6. Question 6
+    As a data analyst for a stock trading firm, you are tasked with creating a visual representation of the daily closing prices of a particular stock over the last year. Which chart type would be the most suitable choice in this scenario?
+    => Line chart
+
+    7. Question 7
+    You've been tracking the monthly sales and advertising spending of a company's product line over the past two years. You want to show the correlation between advertising spending and sales and the trend of sales from different product categories. Which chart type would be the most suitable choice in this scenario? 
+    => Line and stacked column chart
+
+    8. Question 8
+    Which of the following statements are true about funnel charts? Select all that apply.
+    => Funnel charts are helpful in identifying bottlenecks in a process.
+    => Funnel charts are ideal for illustrating data that follows a sequential order through multiple stages.
+    => Funnel charts are ideal for calculating and tracking conversion and retention rates.
+
+    9. Question 9
+    True or False: An outlier in a dataset is always indicative of a data entry error.
+    => False
+
+    10. Question 10
+    Which statement is true about key performance indicators (KPIs)?
+    => KPIs should be linked to the strategic goals of the organization

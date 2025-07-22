@@ -1,0 +1,25 @@
+Visualizations in Power BI:
+    - Visualizations in Power BI refer to the graphical representations of data used to help users understand insights, trends, and patterns at a glance. 
+    - Key Features of Visualizations in Power BI:
+        + Interactive
+        + Customizable
+        + Linked
+        + Drill-through & Drill-down
+
+Common types of Visualizations in Power BI:
+| Visualization        | Description                                                    |
+| -------------------- | -------------------------------------------------------------- |
+| **Bar/Column Chart** | Compare values across categories.                              |
+| **Line Chart**       | Show trends over time.                                         |
+| **Pie/Donut Chart**  | Show proportions of a whole.                                   |
+| **Table & Matrix**   | Display detailed data in rows and columns.                     |
+| **Card & KPI**       | Show single-number summaries (e.g., total sales).              |
+| **Slicer**           | Filter other visuals based on selected values.                 |
+| **Map**              | Plot geographical data (by country, city, latitude/longitude). |
+| **Gauge**            | Show progress toward a goal.                                   |
+| **Funnel Chart**     | Show stages in a process (e.g., sales funnel).                 |
+| **Treemap**          | Visualize hierarchies using nested rectangles.                 |
+| **Waterfall Chart**  | Show running total changes (e.g., profit analysis).            |
+| **Scatter Chart**    | Show relationships between two numerical variables.            |
+
+        
