@@ -1,0 +1,20 @@
+Self-review: Building and optimizing a data model
+1. Question 1
+When optimizing the data types in the Customers table, how did you ensure that the Customer ID is correctly recognized?
+=> By setting Customer ID as a numeric identifier as a Whole Number.
+
+2. Question 2
+Based on observation of the first 10 records in the Orders table, which payment method was used the most by Adventure Works’ customers?
+=> Credit Card
+
+3. Question 3
+In the context of Adventure Works, what type of relationship did you create between the Customers and Orders tables based on their shared Customer ID columns?
+=> One-to-many
+
+4. Question 4
+What action did you take to optimize the Order total column in the Orders table?
+=> It was adjusted to Decimal number
+
+5. Question 5
+What action did you take to disable the Auto Date/Time feature in Power BI?
+=> Uncheck the Auto Date/Time checkbox in Data Load options.
