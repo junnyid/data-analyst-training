@@ -1,0 +1,129 @@
+Knowledge check: Designing an Accessible Report
+    1. Question 1
+    Which issues can you address by implementing accessibility features and practices in Microsoft Power BI reports? Select all that apply. 
+    => Ensuring visually impaired users can understand report visuals.
+    => Making the report easily understandable to people who use assistive technologies for navigation.
+    => Helping people with cognitive disabilities understand the report easily.
+
+    2. Question 2
+    A data analyst in your organization cannot use a mouse due to a recent injury. Which feature should you implement in your Microsoft Power BI reports to assist her in navigating and interacting with them?
+    => Tab order
+
+    3. Question 3
+    Some of the executives in a recent meeting have complained about feeling overwhelmed by the multitude of visuals on your Microsoft Power BI reports. Which feature should you utilize in Power BI to improve their user experience?
+    => Focus mode
+
+    4. Question 4
+    One of your team members has low vision and relies on a screen reader to understand the contents of a Microsoft Power BI report. He said it was difficult to distinguish between different elements in the report, and the screen reader did not provide enough context for visuals. Which features should you utilize to improve his experience with your Power BI reports? Select all that apply.
+    => All Text
+    => High-contrast colors
+
+    5. Question 5
+    Your organization has committed to ensuring all Microsoft Power BI reports are accessible. You have implemented several measures, including adding alt text to all visuals and enabling keyboard navigation. However, feedback from a color-blind user indicates that they're having difficulty interpreting some visuals due to their color usage. Which of the following steps would be most appropriate to improve accessibility for color-blind users further?
+    => Use high-contrast colors, shaded colors, or pattern fills
+
+
+Knowledge check: Report Navigation and Filtering
+    1. Question 1
+    You have two visuals on a business intelligence dashboard: one shows sales by region, and the other shows sales by product. When you select "North" in the regional visual, the product visual updates to show only products sold in that region. What is this interaction called?
+    => Cross-filtering
+
+    2. Question 2
+    You're viewing a dashboard with two visuals: one shows monthly sales by region, and the other is a stacked column chart showing monthly order quantity by status. When you select June in the "West" region on the first visual, certain sections of the June column in the second chart become highlighted, while the rest fade. What is this interaction called? 
+    => Cross-highlighting
+
+    3. Question 3
+    You're building a dashboard that summarizes total sales across all retail stores. When a user selects "California," you want to direct them to a new report page with detailed sales data for each store in that state. Which feature enables this interaction? 
+    => Drillthrough
+
+    4. Question 4
+    You are reviewing monthly sales data for the year but want to focus only on July, August, and September. Which feature allows you to limit the display to just these months?
+    => Filtering
+
+    5. Question 5
+    You have data about employee turnover across departments and regions. To analyze it effectively, you want to order the fields from the most general to the most specific. Which option shows the correct hierarchy? 
+    => Department, Region, Team, Turnover Rate
+
+
+Self-review: Creating an interactive report
+    1. Question 1
+    After creating the Sales Detail page in Step 1, what was the total sales revenue displayed in the visualization?
+    => $345,200
+
+    2. Question 2
+    True or False: By adding the drillthrough configuration, Microsoft Power BI automatically creates a back arrow button for ease of navigation.
+    => True
+
+    3. Question 3
+    After adding a bookmark for Mountain Bikes sold in March in the final step, what is the total sales revenue displayed when the bookmark is clicked?
+    => $63,500
+
+Knowledge check: Interactive Report
+    1. Question 1
+    At Adventure Works, products are split into 5 main categories. The CEO wants a way to quickly filter by category in the sales report. It is important that any new categories added in the future can also be filtered. Which of the following is most suitable for this task?
+    => Slicer
+
+    2. Question 2
+    Which of the following are benefits of adding buttons to a report? Select all that apply.
+    => They improve the user experience
+    => They increase the interactivity of the report.
+
+    3. Question 3
+    What is a hyperlink?
+    => A link to a URL on the World Wide Web
+
+    4. Question 4
+    When selecting a bookmark, which of the following are restored by default? Select all that apply.
+    => Current report page
+    => Slicers state
+    => Visualizations state
+
+    5. Question 5
+    True or False: When a value in a slicer is selected, the DAX context changes for connected visualizations.
+    => True
+
+
+Module quiz: Navigation and Accessibility
+    1. Question 1
+    True or False: The Show as a table tool in Microsoft Power BI provides a text-based representation of the data in a visual, making it more accessible for screen readers.
+    => True
+
+    2. Question 2
+    As a data analyst at Adventure Works, you're working on a sales report that includes a scatter plot. You want to ensure that users can easily identify and click on specific data points on the plot. What feature can you use for this purpose? 
+    => Enabling data point markers on the scatter plot
+
+    3. Question 3
+    True or False: You're designing a Microsoft Power BI report that visualizes employee performance. You want to highlight the best-performing employees in a table visualization based on an attribute. Is conditional formatting able to dynamically highlight the top-performing employees on the table.
+    => True
+
+    4. Question 4
+    True or False: Themes in Microsoft Power BI are pre-defined or custom sets of design elements such as colors, fonts, and visual styles that can be applied to a report to adjust all visualizations to the theme, without the ability to customize specific colorings. 
+    => False
+
+    5. Question 5
+    You're building a Microsoft Power BI report for a sales analysis, and you want to allow users to view detailed information about sales by year, quarter, and month. Which feature should you use to enable this interactive exploration of data?
+    => Drill-down
+
+    6. Question 6
+    You're working on a Microsoft Power BI report that includes multiple pages and visuals. You want to apply a filter through the filter pane. Which of the following filter options are offered by the filter pane? Select all that apply.
+    => Filters on this visual
+    => Filters on this page
+    => Filters on all pages
+
+    7. Question 7
+    You're working on a Microsoft Power BI report and need to arrange the data for better visualization. Which sorting techniques are available in Power BI for this purpose? Select all that apply.
+    => Sort axis
+    => Sort legend
+
+    8. Question 8
+    You have created a sales report with multiple slicers in Microsoft Power BI. Viewers have complained that it is tedious to reset all the slicers when viewing the report. What is the best action to take to resolve this?
+    => Add a button to clear all Slicers
+
+    9. Question 9
+    You have created a Microsoft Power BI report with several pages. You have added a bookmark to easily navigate to a specific filtered state. A viewer has requested that the report page shouldn’t change when the bookmark is clicked. Which action should you take?
+    => Disable the current page option for the bookmark
+
+    10. Question 10
+    What is a URL?
+    => An address to a resource on the WWW
+

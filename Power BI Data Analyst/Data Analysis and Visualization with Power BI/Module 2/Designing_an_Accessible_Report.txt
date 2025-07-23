@@ -1,0 +1,36 @@
+Accessibility in reports ensures that all users—including those with disabilities—can read, navigate, and interact with your report content effectively.
+In Power BI and other reporting tools, making reports accessible is both a best practice and, in many regions, a legal requirement.
+Key Accessibility Practices in Power BI Reports:
+    - Use Descriptive Titles and Labels
+    - Enable Alt Text (Alternative Text)
+    - Use Accessible Color Palettes
+    - Keyboard Navigation Support
+    - Screen Reader Compatibility
+    - Turn On “Accessible View” (in Power BI Service)
+    - Avoid Cluttered Layouts
+
+
+Report hierarchies
+    - Report hierarchies refer to the organizational structure of data presented in reports, enabling users to drill down into data at different levels of granularity. 
+    - Hierarchies are typically used to represent dimensions such as time, geography, product categories, or organizational structures.
+    - Understanding Report Hierarchies:
+        + Time Hierarchies
+        + Geographic Hierarchies
+        + Product Hierarchies
+        + Organizational Hierarchies
+
+Report drillthrough
+    - Drillthrough in Power BI is a powerful feature that allows users to right-click on a specific data point in one report and navigate to a detailed view of that data, providing more granular information.
+    - It allows users to "drill" from a high-level summary down to detailed insights based on selected data, such as a specific region, product, or time period.
+
+Sorting and filtering data in reports
+    - Sorting and filtering data are essential techniques in Power BI that help organize, analyze, and visualize data effectively
+    - They allow you to focus on specific data points, organize information logically, and present key insights clearly.
+    
+
+Interactive Report
+    - Adding slicers: Slicers are used to filter data in Power BI reports interactively
+    - Adding Buttons: Buttons allow users to interact with the report in specific ways, such as navigating between pages or triggering actions like filters.
+    - Adding Bookmarks: Bookmarks capture the state of a report page, including filters, slicers, and visual states.
+    - Group and Layer Visuals: Grouping and layering visuals help to organize and create clean, dynamic reports.
+    
