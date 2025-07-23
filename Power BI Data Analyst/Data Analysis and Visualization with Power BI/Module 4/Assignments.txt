@@ -1,0 +1,42 @@
+Knowledge check: Perform Analytics in Power BI
+    1. Question 1
+    There are Revenue and Cost columns in an Adventure Works Sales dataset. The profit is defined as Revenue – Cost. Which DAX function should you use to calculate the average profit of the dataset?
+    => AVERAGEX(Sales, Sales[Revenue] - Sales[Cost])
+
+    2. Question 2
+    What are the different ways a Top N analysis can be applied to a Power BI Report? Select all that apply.
+    => By utilizing TOP N function in DAX.
+    => By applying a Top N filter on the Filter pane.
+    => By typing it into a Q&A visualization.
+
+    3. Question 3
+    When grouping data in Power BI, what happens to the original dataset?
+    => The original dataset remains unchanged
+
+    4. Question 4
+    What is the primary goal of applying clustering techniques in Power BI?
+    => To group similar data points together.
+
+    5. Question 5
+    What are the main differences between a histogram bar chart and a standard bar chart in Power BI? Select all that apply.
+    => Histogram bar charts display data distribution within bins, while standard bar charts show individual categories.
+    => Standard bar charts contain separate fields in their x and y axis, while histograms contain the same field for both axes.
+    => Histogram bar chart represents continuous numerical data, while a standard bar chart represents categorical data.
+
+
+Self-review: Explaining the increase
+    1. Question 1
+    In this exercise you created a scatter plot to identify the product name distribution on Order Total vs Product Price. Which product name was the definite outlier in the dataset?
+    => Aerospeed 1000
+
+    2. Question 2
+    For the line chart, what was the percentile increase in Sum of Order Total on the day with the highest sales amount? 
+    => 217.65% increase
+
+    3. Question 3
+    When the second highest day in terms of Order Total was identified as March 3rd , which of the two payment methods impacted positively to create the increase?
+    => Credit card payments
+
+    4. Question 4
+    What is the default visual that the Analyze feature creates when the Explain the increase or Explain the decrease options are selected?
+    => Waterfall chart

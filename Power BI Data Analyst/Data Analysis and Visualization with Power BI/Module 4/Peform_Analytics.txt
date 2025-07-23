@@ -1,0 +1,30 @@
+Average and median functions
+    - Average functions:
+        + AVERAGE(<column>)
+        + AVERAGEA(<column>)
+        + AVERAGEX(<table>, <expression>)
+    - Median function:
+        + MEDIAN(<column>)
+
+Variance and standard deviation functions:
+    - Variance and standard deviation using a sample population:
+        + VAR.S(<column>): Returns the variance of a column containing a sample population. (Trả về phương sai của một cột chứa một quần thể mẫu)
+        + STDEV.S(<column>): Returns the standard deviation of a column containing a sample population (Trả về độ lệch chuẩn của một cột có chứa quần thể mẫu)
+            *Phương sai là một chỉ số thống kê đo lường sự phân tán hoặc sự biến động của các giá trị trong một tập dữ liệu so với giá trị trung bình
+            *Độ lệch chuẩn là một chỉ số thống kê cho biết mức độ phân tán (hoặc sự biến động) của các giá trị trong một tập dữ liệu so với giá trị trung bình
+        => độ lệch chuẩn mẫu là căn bậc hai của phương sai mẫu
+    - Variance and standard deviation using the entire population:
+        + VAR.P(<column>): Returns the variance of a column, assuming that the column refers to the entire population.
+        + STDEV.P(<column>): Returns the standard deviation of a column containing an entire population. 
+
+Count, min and max functions
+    - Count functions: 
+        + COUNT(<column>)
+        + COUNTBLANK(<column>)
+        + DISTINCTCOUNT(<column>)
+    - Max function: MAX(<column>)
+    - Min function: MIN(<column)
+
+Combination and permutation functions (Chức năng kết hợp và hoán vị)
+    - Combination function: COMBIN(n,k)
+    - Permutation function: PERMUT(n,k)
