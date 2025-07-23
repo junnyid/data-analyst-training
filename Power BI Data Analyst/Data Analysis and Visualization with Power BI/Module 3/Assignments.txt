@@ -1,0 +1,150 @@
+Self-review: Building a dashboard
+    1. Question 1
+    In the context of Adventure Works, what does pinning live reports to the executive dashboard accomplish?
+    => It ensure that dynamic and interactive data is readily available to the CEO 
+
+    2. Question 2
+    When building the Power BI executive dashboard for Adventure Works, what step followed uploading the pre-made reports to the Power BI service?
+    => Create a new dashboard 
+
+    3. Question 3
+    Based on the Product Stock by Customer Feedback visual generated using Quick Insights, what is the product stock count for the Positive feedback category? 
+    => 571
+
+
+Knowledge check: Creating Dashboards
+    1. Question 1
+    How does a dashboard differ from a report in Microsoft Power BI?
+    => A dashboard is a one-page view of the most important metrics or key performance indicators (KPIs) selected from various pages of one or more reports.
+
+    2. Question 2
+    What is the initial step for creating a new report after importing your data in Microsoft Power BI?
+    => Select the Workspace and then create a new report
+
+    3. Question 3
+    In Microsoft Power BI, what is the primary role of the Quick Insights feature?
+    => It automatically searches datasets to discover and visualize potential insights
+
+    4. Question 4
+    What does the Q&A feature in Microsoft Power BI allow you to do?
+    => Ask questions about your data in plain English
+
+    5. Question 5
+    What is the advantage of pinning live reports to your Microsoft Power BI dashboard over pinning static visuals?
+    => Live reports maintain the interactivity of the original report
+
+
+Self-review: Sharing a report
+    1. Question 1
+    Based on your observation of the first 10 records in the Adventure Works Product Sales Report, which specific Product ID has the highest product price?
+    => Product ID 1008 - Mountain Bike 'GravityMaster 2000'
+
+    2. Question 2
+    What prerequisite step did you perform before you could publish your Adventure Works report to Power BI Service?
+    => Save the report
+
+    3. Question 3
+    After creating the new pages in the Adventure Works report, where did you go to rename these pages?
+    => In the Page information menu within the Format page in the Visualizations pane
+
+
+Knowledge check: Sharing with Stakeholders
+    1. Question 1
+    What is a crucial prerequisite for publishing a report to Power BI Service from Power BI Desktop?
+    => You need to save the report on Power BI Desktop before publishing.
+
+    2. Question 2
+    In the context of Microsoft Power BI, what is the primary purpose of pagination?
+    => To organization and present data across multiple pages within a Report
+
+    3. Question 3
+    What is the purpose of report page properties in Microsoft Power BI?
+    => To enhance the user experience, versatility, and clarity of communication in reports
+
+    4. Question 4
+    What does the term performance refer to in the context of Microsoft Power BI reports?
+    => The speed and responsiveness of the reports
+
+    5. Question 5
+    What is the primary function of the Canvas Settings in Microsoft Power BI's report page properties? 
+    => To control the dimensions or Layout of the report page
+
+
+Self-review: Improving DAX performance
+    1. Question 1
+    When refining the DAX formula of the Total Sales field for optimization, what was one of the key changes you made?
+    => Eliminate the nested CROSSJOIN and GENERATESERIES functions.
+
+    2. Question 2
+    Based on your observation of the first 10 records, which product had the highest Product Weight value?
+    => GravityMaster 1000
+
+    3. Question 3
+    Based on your observation of the first 10 records in the sales Data view, which Day of Week has the highest frequency of sales?
+    => Monday
+
+
+Knowledge check: Optimizing Reports
+    1. Question 1
+    What does the Performance Analyzer track and document during its recording process?
+    => The time taken to load each individual visual item in the report
+
+    2. Question 2
+    What type of file can you export with your report's performance data from the Performance Analyzer?
+    => .json file
+
+    3. Question 3
+    In the context of Microsoft Power BI reports, what is the main advantage of delivering optimized DAX calculations?
+    => Empowering businesses to make quick and informed decisions by delivering the right information promptly
+
+    4. Question 4
+    What is the primary advantage of using DAX variables when dealing with repeated calculations in a formula?
+    => They save computational effort by storing the value and referencing it
+
+    5. Question 5
+    Why is breaking down a DAX formula beneficial for data analysts?
+    => It provides a systematic method for troubleshooting
+
+
+Module quiz: Bringing Data to the User
+    1. Question 1
+    You've been tasked with creating a dynamic interface in Microsoft Power BI, consisting of dashboards and reports, to enable the Adventure Works team to make sense of data in real time. A colleague unfamiliar with Power BI asks you: "What is the key difference between a dashboard and a report?" How would you respond?
+    => A dashboard summarizes the most important metrics, while a report provides an in-depth, interactive view of a dataset.
+
+    2. Question 2
+    You are working with Microsoft Power BI to create a dashboard based on sales data from Adventure Works. You have created a few visualizations and need to assemble them in a cohesive dashboard. Which steps would be necessary to create and organize your dashboard? Select all that apply.
+    => Select your Workspace to define your working area.
+    => Select Create and then Dashboard.
+
+    3. Question 3
+    Recognizing the difference between dashboards and reports in Microsoft Power BI, which statement best describes a report?
+    => A report provides an in-depth, interactive, multi-perspective view of a specific dataset or topic.
+
+    4. Question 4
+    Having recently joined Adventure Works as a data analyst, you are responsible for converting the massive amounts of data the company generates into valuable insights. To effectively carry out this task, you turn to Microsoft Power BI, particularly its Quick Insights and Q&A features. During a meeting, a team member asks, "Is it true that the Quick Insights feature requires the user to manually search datasets for potential insights?" How do you respond?
+    => False
+
+    5. Question 5
+    You have analyzed data in Microsoft Power BI Desktop and discovered a key insight presented as a card. Now, you want to share this insight with your colleagues by including this card in your Power BI dashboard. How can you accomplish this?
+    => You can pin it to your dashboard by selecting the pin icon on the top right corner of the card.
+
+    6. Question 6
+    After successfully overcoming the limitations of pinned visuals in Microsoft Power BI, you decide to present your analysis to the marketing team at Adventure Works. As you present, a team member asks you why you chose to pin a live report instead of a regular pinned visual. Which statement correctly describes an advantage of using live reports over pinned visuals in Power BI?
+    => Live reports provide a more immersive data exploration experience.
+
+    7. Question 7
+    True or False: A junior data analyst explains, "Publishing a report in Power BI just means moving the file from one place to another." How do you respond?
+    => False
+
+    8.  Question 8
+    As a data analyst at Adventure Works, you are exploring different methods to interact with and understand the vast amounts of data generated by the company's widespread operations. How can you distinguish between Report view, Data view, and Model view in Power BI Desktop? Select all that apply.
+    => The Report view is represented by a graph chart icon on the left-hand side of the screen. 
+    => The Report view will be highlighted when active. 
+
+    9. Question 9
+    You are creating a report in Microsoft Power BI for a presentation that will be displayed on a widescreen. How should you adjust the report page properties to suit this format?
+    => Adjust the Canvas Settings to a 16:9 layout.
+
+    10. Question 10
+    You have just completed a comprehensive Microsoft Power BI report for a sales and marketing executive at Adventure Works preparing for an important meeting. However, she has voiced concerns about the report being slow to load, which could impact the meeting flow. What is one tool you could use to improve the report's performance?
+    => Power BI Performance Analyzer

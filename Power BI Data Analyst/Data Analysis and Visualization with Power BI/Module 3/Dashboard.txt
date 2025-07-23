@@ -1,0 +1,20 @@
+What is a dashboard?
+    - A dashboard in Power BI is a single-page
+    - interactive view that displays key metrics and data visualizations from multiple reports or datasets in a concise and visually appealing manner.
+    - It serves as a high-level summary of the data, providing insights at a glance.
+    - Key features of a Power BI dashboard include:
+        + Single-Page summary
+        + Interactive Elements
+        + Real-Time Data
+        + Tile-Based Layout
+        + Customization
+
+Tuning report performance
+    - Performance tuning in Microsoft Power BI involves optimizing various aspects of your report so it runs faster and more efficiently.
+    - It's about making targeted changes to your data queries, data model, and visualizations to improve performance, thereby ensuring that your insights are delivered promptly and effectively:
+        + Data Queries: the journey begins with data extraction
+        + Data Model:structuring data in a way that is both meaningful and efficient
+        + DAX Calculations
+        + Visualizations
+        + Report Layout
+        + Backend Infrastructure
