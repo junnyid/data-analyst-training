@@ -40,3 +40,116 @@ Self-review: Explaining the increase
     4. Question 4
     What is the default visual that the Analyze feature creates when the Explain the increase or Explain the decrease options are selected?
     => Waterfall chart
+
+
+Knowledge check: Analytical Tools in Power BI
+    1. Question 1
+    Which of the following sentences describes what the Analyze feature in Microsoft Power BI automatically generates?
+    => It generates charts with insights and patterns from your data
+
+    2. Question 2
+    What is the primary objective of time series analysis in Microsoft Power BI?
+    => To explore patterns and trends within time-based data
+
+    3. Question 3
+    What is the primary function of Reference lines in Power BI visualizations?
+    => To highlight specific data points or values
+
+    4. Question 4
+    How do Reference lines enhance the readability and interpretation of visualizations?
+    => By providing additional insights into the underlying data
+
+    5. Question 5
+    What purpose do Error bars serve in Power BI visualizations?
+    => They indicate the range of potential data variability.
+
+Self-review: Root cause analysis
+    1. Question 1
+    According to the relevant chart created, what is the average CO2 emission of the vehicle with the largest volume of Engine Size?
+    => 360.33
+
+    2. Question 2
+    Based on the results of the Key influencers visuals, which of the following fuel type attributes are scoring below the Average of CO2 emission line? Select all that apply.
+    => Electricity/Diesel
+    => Petrol LPG
+
+    3. Question 3
+    Which of the following decomposition tree features are driven by AI algorithms? Select all that apply.
+    => High value
+    => Low value
+
+    4. Question 4
+    Which column of the VehicleDetails table does not add value when added to the Explain by field of an AI visual?
+    => Car_id
+
+    5. Question 5
+    Between Manual transmission vehicles, what is the fuel type category with the lowest average CO2 emission? Use the decomposition tree to find the answer.
+    => Petrol Electric
+ 
+Knowledge check: Working with AI Visuals
+    1. Question 1
+    Which of the following specialized tools of Power BI use AI algorithms to provide insights? Select all that apply.
+    => Q&A
+    => Key influencers
+    => Decomposition tree
+
+    2. Question 2
+    What does the Top segments tool in the key influencers visualization do?
+    => It ranks segments based on the combined influence of multiple factors.
+
+    3. Question 3
+    What are the primary purposes of the decomposition tree visualization in Power BI? Select all that apply.
+    => Identifying root causes of fluctuations
+    => Ad-hoc exploration of data patterns
+
+    4. Question 4
+    What is the primary purpose of the Q&A visual in Microsoft Power BI?
+    => llows users to ask questions in natural language and generate relevant visualizations
+
+    5. Question 5
+    The Q&A visualization provides wording underlying to showcase whether the natural language words were interpreted correctly. Which of the following underlying feedback is featured in the visualization? Select all that apply.
+    => Solid green underline
+    => Orange dotted underline
+    => Double red underline
+
+Module quiz: Identifying Patterns and Trends
+    1. Question 1
+    You're a data analyst at Adventure Works and you are tasked with enhancing reports by applying analytics. The stakeholders are requesting an analysis of the distribution of an attribute. You are planning to incorporate a histogram to achieve this outcome. Which of the following statements accurately describes a histogram? Select all that apply.
+    => A histogram groups an attribute in X-axis and analyses its frequency in Y-axis.
+    => A histogram is assigned the same attribute in both axes
+
+    2. Question 2
+    You are working with Microsoft Power BI to create a report based on sales data from Adventure Works. You have to add a measure to depict the variability of a set of data points from the average. Which statistical function of Power BI should be used to calculate the result?
+    => Variance
+
+    3. Question 3
+    You are requested to enhance the readability of the new Microsoft Power BI report by organizing an attribute into categories. The request is to categorize a sales country attribute column into 5 equal-sized groups. What Power BI analytics feature is the optimal tool to complete the request?
+    => Binning data with the Number of bins type
+
+    4. Question 4
+    A debate sparks between team members working on a Microsoft Power BI report. As the lead data analyst, you are requested to provide information regarding the type of visual that clustering can be applied to. Which of the following options is correct?
+    => Scatter chart
+
+    5. Question 5
+    Some major spikes in sales numbers have been identified in the reports you have been building. The CEO of Adventure Works requests to identify the reasons behind it so that the business will be assisted in its future decision-making. True or False: the Analyze feature of Power BI can be used to generate multiple suggested visualizations to identify the sales increase.
+    => True
+
+    6. Question 6
+    You're analyzing website traffic data in Microsoft Power BI and want to highlight a period where the traffic exceeded the expected range, based on the business’ confidence intervals. Which capability in the Analytics pane of Power BI would you use to visually indicate this anomaly?
+    => Error bars
+
+    7. Question 7
+    In your sales analysis report, you're investigating the quarterly revenue trends of your products. You want to mark a specific value on the visual to indicate the target revenue for each quarter. Which feature in the Analytics pane of Microsoft Power BI should you use for this purpose?
+    => Constant line
+
+    8. Question 8
+    You're tasked with enhancing your business reports using Microsoft Power BI's analytics features. In which scenario would the Forecast feature from the Analytics pane be most beneficial?
+    => Predicting future revenue trends based on past performance.
+
+    9. Question 9
+    You are assigned to include AI visuals in Adventure Works reports to enhance the results of your insights. Which of the following scenarios would align with the use of the key influencers visual in Microsoft Power BI? 
+    => Understanding the breakdown of factors influencing fluctuations in monthly revenue.
+
+    Question 10
+    Venturing into the technical capabilities of Microsoft Power BI, you're intrigued by the Q&A visual's potential. Which of the following accurately characterizes a key function of the Q&A visual?
+    => The Q&A visual enables users to ask questions in natural language and receive visual responses from the data.

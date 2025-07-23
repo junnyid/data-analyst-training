@@ -1,0 +1,20 @@
+Self-review: Adventure Works executive summary
+    1. Question 1
+    Based on your analysis of the column chart, which product category had the lowest Order Total?
+    => Kids Bikes
+
+    2. Question 2
+    According to the line chart, which day had the lowest Order Total in the first quarter of 2023?
+    => march 27
+
+    3. Question 3
+    Based on your findings from the Q&A visual, which city had the lowest average Order Total?
+    => Long Beach
+
+    4. Question 4
+    Based on your discoveries from the Q&A visual, which product category had the highest average Order Quantity?
+    => BMX Bikes
+
+    5. Question 5
+    Which Product Subcategory had the highest Product Weight according to your analysis of the Q&A visual?
+    => Downhill
