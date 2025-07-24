@@ -116,3 +116,18 @@ What is Data Storytelling?
         + Visualize the Data
         + Provide Context
         + Deliver the Message
+
+
+Dashboard vs Report design in Power BI
+    - dashboards and reports are both ways of visualizing and presenting data, but they serve different purposes and have different characteristics. 
+    - Dashboard: Dashboards are designed to provide a quick, high-level view of key metrics and trends at a glance. They focus on giving decision-makers a concise snapshot of the most important information.
+    - Report: Reports are more detailed and comprehensive. They are designed to provide in-depth analysis and insights into specific data points and trends.
+    => Focus: Dashboards are focused on providing a high-level overview, while reports are designed for deep-dive analysis.
+    => Interactivity: Dashboards typically allow limited interaction (e.g., drill-through or filtering), whereas reports are highly interactive with many ways to explore the data.
+    => Data Representation: Dashboards are meant to show a quick summary of key metrics, while reports provide detailed information and allow users to examine the data more thoroughly.
+    => Audience: Dashboards are often used for executives or decision-makers needing quick insights, while reports are meant for analysts or teams needing detailed exploration of the data.
+
+
+Targeting the end-user
+    - targeting the end-user is critical to ensure the right balance between data accessibility and usability. 
+

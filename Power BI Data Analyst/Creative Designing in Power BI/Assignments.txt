@@ -130,3 +130,174 @@ Module Quiz: Visualization and Design
     By implementing role-based access control, you protect sensitive information and reduce the risk of ________ data exposure.
     => unauthorized
 
+
+Self-Review: Optimizing a report for mobile
+    1. Question 1
+    How many visual elements exist in the report design before the mobile layout?
+    => 3
+
+    2. Question 2
+    In the bubble chart of the report, what does the size of the bubble represent?
+    => Total Sales
+
+    3. Question 3
+    True or False: After you select a mobile layout for a report, you can change the title properties of any visual element. This setting does not affect the desktop layout.
+    => True
+
+    4. Question 4
+    What is the percentage difference of the Goal value to the Sales values in the KPI visual of the report?
+    => +91,44%
+
+    5. Question 5
+    What is the correct path to format the title of the chart?
+    => Visualizations > General > Title
+
+
+Self-Review: Visualizing data by geographical location
+    1. Question 1
+    How many state records exist in the data set?
+    => 50
+
+    2. Question 2
+    What is the total sales value for the state of California in the Shapemap? 
+    => $210,000.00
+
+    3. Question 3
+    What was the data category of the State field before you applied any transformation?
+    => Uncategorized
+
+
+Knowledge Check: Map Visuals
+    1. Question 1
+    What visuals are a geographic representation of areas, such as countries, states, or regions, that are shaded or patterned to illustrate quantitative data values?
+    => Choropleth Maps
+
+    2. Question 2
+    Which of the following projection methods is used to display three-dimensional earth as a two-dimensional cylindrical projection that converts the globe into a grid, with each rectangular cell having the same size, shape, and area?
+    => Equirectangular
+
+    3. Question 3
+    True or False: Shape maps are most effective when visualized data has clear geographic boundaries.
+    => False
+
+    4. Question 4
+    What is the format of the vector files generally used in Shape Maps?
+    => TopoJSON
+
+    5. Question 5
+    What visual connects to a cloud service hosted to retrieve location data, such as map images and coordinates used to create the map visualization?
+    => Azure Maps
+
+
+Knowledge Check: Custom Visualizations
+    1. Question 1
+    What is the potential security risk of using external Python libraries in Microsoft Power BI?
+    => Exposure to security vulnerabilities in third-party libraries
+
+    2. Question 2
+    How can you use Python in Microsoft Power BI? Select all that apply.
+    => To retrieve data from the data sources
+    => To create a custom visualization
+
+    3. Question 3
+    True or False: Custom visuals can be created in the Microsoft Power BI desktop and can then be published and shared through the Power BI service.
+    => True
+
+    4. Question 4
+    You are working with a multiple-table data model. If you enable Python scripting in Power BI and import the visualization library, what is the most important thing to do before creating Python visuals?
+    => Ensure the data tables are related in the data model
+
+    5. Question 5
+    What is a potential limitation of a Python visualization in Power BI?
+    => You cannot cross-filter Microsoft Power BI core visuals by selecting a data point from the Python visuals
+
+
+Module Quiz: Designing Powerful Report Pages
+    1. Question 1
+    While working on a dataset and designing a report, you realize that you need to use a specialized chart type that is not available in the Microsoft Power BI Visualization pane. How do you solve this problem? Select all that apply.
+    => Install a custom visual from Microsoft Power BI AppSource.
+    => Utilize Python-based visualization libraries.
+
+    2. Question 2
+    What additional elements are often included in a KPI visual to provide context for the metric? Select all that apply.
+    => Trend axis
+    => Target value
+
+    3. Question 3
+    What advantages does a Dot plot give you over other visualizations for comparing data points? Select all that apply.
+    => Its ability to use categorical information on the horizontal axis.
+    => It allows for plotting multi-dimensional data.
+    => Its simplicity and ease of interpretation
+
+    4. Question 4
+    You are creating visualizations for a complex dataset in Microsoft Power BI to uncover correlations, patterns, and insights from the raw data. Upon careful review of the data, you realize the dataset contains multiple numerical fields. Which chart type should you choose?
+    => Scatter chart
+
+    5. Question 5
+    Your task is to design a Microsoft Power BI report that is accessible and accommodates the needs of all users. What accessibility features can you include in your report? Select all that apply.
+    => Use tab orders from the selection pane.
+    => Apply an accessibility theme.
+    => Provide appropriate chart and axis titles.
+
+    6. Question 6
+    You are a data analyst in an environmental agency. You are responsible for analyzing air quality, temperature variations, and pollution levels in various regions. A map visualization is an ideal approach to visualize such data. Which of the following visuals is most suited to representing this type of data? 
+    => Filled Maps
+
+    7. Question 7
+    You are building a Power BI report that needs to display up-to-date boundary information for different countries. What map type allows you to visualize this type of information?
+    => Filled map
+
+    8. Question 8
+    When using Azure maps what field of the visual is used to represent a numerical value such as sales?
+    => size
+
+    9. Question 9
+    True or False: When using a Python visualization in Microsoft Power BI, the Python visual creates a dataframe. To create the dataframe, you need to bring all the required fields to the Values section of the visual.
+    => True
+
+    10. Question 10
+    You are working in a marketing agency analyzing website traffic. You want to highlight which areas of the website receive the most and the least clicks. Which chart type can you use to best visualize this data?
+    => Heatmap
+
+
+Self-Review: Optimizing a dashboard
+    1. Question 1
+    True or False: When you go back to the desktop layout of your dashboard, the mobile optimized layout is deleted, and you need to create it again next time you log in to Microsoft Power BI service? 
+    => False
+
+    2. Question 2
+    From the generated report, which of the following is the most profitable product category?
+    => Components
+
+    3. Question 3
+    Based on the dashboard, how many units have been sold?
+    => 6560
+
+
+Knowledge Check: Improving Dashboard Design
+    1. Question 1
+    What are the key characteristics of Microsoft Power BI report design? Select all that apply.
+    => Interactive filtering
+    => Drill through functionality
+
+    2.Question 2
+    What is the primary goal of creating a dashboard in Power BI?
+    => Provide high level insights about the data
+
+    3. Question 3
+    True or False: Once you publish your Power BI report to Power BI service, you can still edit and make changes to any chart of your report in the Power BI service.
+    => True
+
+    4. Question 4
+    When you publish a Power BI report to Power BI service, which of the following components are also published to the service? Select all that apply.
+    => The data model and relationships
+    => All measures you created
+    => Underlying dataset
+
+    5. Question 5
+    True or False:You have created a dashboard in Power BI service and when you select mobile layout, all the visual elements automatically appear in edit mobile layout pane? 
+    => True
+
+    6. Question 6
+    You have multiple graphs and charts in your Power BI report. One of the charts shows real-time data about the click trough rates (CTR) of the company’s website. Which of the following is the best dashboard to include this tile?
+    => Marketing dashboard
