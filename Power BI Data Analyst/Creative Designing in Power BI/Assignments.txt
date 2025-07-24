@@ -1,0 +1,132 @@
+Self-Review: Improving report cohesiveness
+    1. Question 1
+    In the pie chart, each slice indicates the total value and percentage contribution of the category towards the grand total. To reduce the onscreen clutter, you only need to display the percentage contribution towards the whole. In Power BI’s visualization pane, what control option in allows you to change that option? 
+    => Details labels
+
+    2. Question 2
+    True or False: The table visual in Power BI allows you to change the text color of the values of a specific column without affecting the text color of other columns.
+    => True
+
+    3. Question 3
+    True or False: You can rename the chart titles by selecting the chart first, then navigating to Visualizations > Format visual > General and changing the text property.
+    => True
+
+    4. Question 4
+    What is the percentage value for the Bikes category in the pie chart named Marketing Budget 2023-Q1?
+    => 47,17%
+
+    5. Question 5
+    Which of the following are key elements of visual hierarchy? Select all that apply. 
+    => Fonts
+    => Colors
+    => Negative space
+
+Knowledge Check
+    1. Question 1
+    Which Microsoft Power BI menu item is used to set text, color, and style for a visual element?
+    => Format Visual
+
+    2. Question 2
+    What term describes that the information is grouped together logically and presented in a sequential manner?
+    => Strategic positioning
+
+    3. Question 3
+    True or False: Color harmony is a circular diagram that organizes colors based on their relationship to one another, providing insights into color harmonies and combinations in design. It consists of primary colors, secondary colors, and intermediate colors formed by mixing primary and secondary colors.
+    => False
+
+    4. Question 4
+    You are working on a data analysis project for Adventure Works. The company provides you with a large dataset containing information about the marketing budget of the previous and current quarter. Your task is to create reports that show a detailed list of the quarterly budgets and display the budgets per category in a pie chart. Your objective is to enhance the color scheme, positioning, scale, and overall cohesiveness of the report.
+    In this scenario, how can you simplify the layout? Select all that apply.
+    => Align visual elements vertically and horizontally.
+    => Leave an empty space between the vertical and horizontal visuals to make the elements more readable
+
+    5. Question 5
+    Which statement best describes the difference between chaotic and cohesive pages in report design?
+    => Chaotic pages have a cluttered layout with inconsistent use of colors and fonts, while cohesive pages have a clean and organized layout with consistent design elements
+
+Self-Review: Highlighting key information
+    1. Question 1
+    In conditional formatting of fields in Microsoft Power BI, which of these is a format style?  Select all that apply.
+    => Gradient
+    => Field value
+    => Rules
+
+    2. Question 2
+    What is the correct path to change the colors of columns in a column chart in the current report?
+    => Visualizations > Format Visual > Visual > Columns
+
+    3. Question 3
+    True or False: Dragging and positioning with the mouse is the only way to change the size and position of visuals in a Microsoft Power BI report canvas?
+    => False
+
+    4. Question 4
+    What is the 2022 Sales value for the Components category in the table named Sales vs. Target by Category Details? 
+    => 2600
+
+
+Knowledge Check: Considering the audience
+    1. Question 1
+    Which feature is implemented to track and monitor data access, providing accountability and visibility into data usage?
+    => Access logs
+
+    2. Question 2
+    Which term describes removing personally identifiable information or replacing it with pseudonyms?
+    => Data anonymization
+
+    3. Question 3
+    True or False: Data integrity is used to ensure the accuracy and reliability of the visualized information by implementing data validation, error detection, and consistency checks.
+    => True
+
+    4. Question 4
+    Which design consideration can be used for older audiences?
+    => Provide clear navigation
+
+    5. Question 5
+    Why is it essential to understand the target audience in data reporting and analysis in Microsoft Power BI? 
+    => It enables the customization of reports to meet the audience's specific needs and preferences.
+
+
+Module Quiz: Visualization and Design
+    1. Question 1
+    What serves as a visual representation of the relationships between colors?
+    => The color wheel
+
+    2. Question 2
+    True or False: Warm colors like red and orange are associated with energy, passion, excitement, and attention or warning.
+    => True
+
+    3. Question 3
+    Where do you place important data points or key messages to emphasize them in a Microsoft Power BI report?
+    => At the top or in the center of the report
+
+    4. Question 4
+    True or False: By utilizing consistent color palettes, strategic positioning of elements, and clear visual hierarchy, designers can create reports that are visually appealing, easy to navigate, and convey a unified message.
+    => True
+
+    5. Question 5
+    What key factors refer to using specific information or insights in reports which are sought by the report viewers?
+    => Goals and objectives
+
+    6. Question 6
+    Complete the following sentence.
+    Incorporating ________, such as clickable buttons or draggable elements, can make the experience more interactive and enjoyable for young users.
+    => Interactive features
+
+    7. Question 7
+    Which techniques are used to capture the attention of your audience quickly and convey the main message effectively?
+    => Focusing on headlines
+
+    8. Question 8
+    True or False: By understanding your audience, focusing on headlines, highlighting outliers, providing access to detailed information, and adapting to audience preferences, you can enhance data insights and drive meaningful decision-making.
+    => True
+
+    9. Question 9
+    Which items would be considered sensitive data? Select all that apply.
+    => Passport number
+    => Email address
+
+    10. Question 10
+    Complete the following sentence.
+    By implementing role-based access control, you protect sensitive information and reduce the risk of ________ data exposure.
+    => unauthorized
+

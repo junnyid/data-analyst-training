@@ -1,0 +1,118 @@
+Understand Color Theory Basics
+    - Primary Colors: Red, Yellow, and Blue.
+    - Secondary Colors: Orange, Green, and Purple (mixing primary colors).
+    - Tertiary Colors: Formed by mixing primary and secondary colors.
+    - Complementary Colors: Colors opposite each other on the color wheel (e.g., blue and orange). Using these creates high contrast.
+    - Analogous Colors: Colors next to each other on the color wheel (e.g., blue, blue-green, and green). These are more harmonious and work well for backgrounds or larger areas.
+    - Triadic Colors: Three colors evenly spaced around the wheel, such as red, blue, and yellow. These create a balanced yet vibrant design.
+Use Color to Convey Meaning
+    - Color for Highlighting
+    - Conditional Formatting
+    - Data Segmentation
+Create a Color Palette
+    - Consistent Color Scheme: Use 4-6 colors across the report. Select colors that work well together using color harmony principles
+    - Use Power BI's Default Themes
+    - Avoid Too Many Colors
+Apply Color Theory to Key Visuals in Power BI
+    - Charts and Graphs
+    - Tables and Conditional Formatting
+    - Themes for Consistency
+
+
+Positioning and scale of information
+    - positioning and scaling of information are crucial for creating reports that are not only visually appealing but also easy to navigate and interpret
+    - Positioning of Information:
+        + Positioning refers to how the elements on the report page are arranged to guide the user's eye and enhance the storytelling aspect of the data. 
+            * Prioritize Important Information
+            * Hierarchy of Information
+            * Whitespace 
+            * Alignment and Consistency
+            * Interactivity
+    - Scaling of Information:
+        + Scaling refers to adjusting the size of visual elements to ensure clarity and to make sure the report works across different devices, screen sizes, and for different audiences.
+            * Size and Proportions of Visuals
+            * Responsiveness
+            * Font Size and Readability
+            * Visual Scaling with Filters
+
+Chaotic versus cohesive pages
+    - The difference between chaotic and cohesive pages in Power BI (or any data visualization platform) is crucial in determining the effectiveness and user experience of the report. 
+    - Chaotic Pages: A chaotic page is one that feels cluttered, overwhelming, and hard to navigate. 
+        + Overcrowding of Visuals
+        + Inconsistent Layout
+        + Color Overload
+        + Unclear Visual Hierarchy
+        + Inconsistent Font Sizes and Styles
+        + Lack of Interactivity
+    - Cohesive Pages: A cohesive page is one that has a clear, organized design, with all elements working together to tell a unified, insightful story.
+        + Minimal and Intentional Visuals
+        + Logical Layout and Alignment
+        + Consistent and Purposeful Color Usage
+        + Clear Visual Hierarchy
+        + Consistent Font Styles and Sizes
+        + Interactive Elements
+        + Consistency Across Pages
+
+Clarify and visual impact in charts
+    - Clarity in Charts: Clarity ensures that users can easily understand the data, identify trends, and interpret key insights. 
+        + Choose the Right Type of Chart: 
+            * Bar/Column Chart: Ideal for comparing categorical data (e.g., sales by region) (So sánh dữ liệu phân loại)
+            * Line Chart: Great for showing trends over time (Hiển thị xu hướng theo thời gian)
+            * Pie Chart: Best for showing parts of a whole, but only for a small number of categories. (Hiển thị các phần của một tổng thể, nhưng chỉ nên là một số lượng nhỏ các danh mục)
+            * Scatter Plot: Ideal for showing relationships between two continuous variables. (Hiển thị mối quan hệ giữa 2 biến liên tục)
+            * Tree Map: Use for hierarchical data. (Sử dụng cho dữ liệu phân cấp)
+            * Gauge or KPI: Effective for showing a single performance indicator. (Hiển thị một chỉ báo hiệu suất duy nhất)
+        +  Keep It Simple
+        + Proper Labeling
+        + Use of Gridlines and Axes
+        + Focus on Data Insights
+    => Clarity: Focus on simplicity, consistency, and readability. Label your charts well, avoid clutter, and ensure that the data is presented in a way that’s easy to interpret.
+
+    - Visual impact in Charts: Visual impact refers to how effectively the chart draws attention to key insights and engages the audience. 
+        + Effective Use of Color: Color Consistency; Contrast for Emphasis; Color Meaning
+        + Size and Scale for Emphasis
+        + Data Highlighting with Annotations
+        + Trend and Patterns Visualization
+    => Visual Impact: Use color, size, and visual hierarchy strategically to emphasize important data points and trends. Keep the design clean and purposeful to ensure that the chart is not only informative but also visually engaging.
+
+    - Improving Both Clarity and Visual Impact: Best Practices: 
+        + Focus on the Story
+        + use simplified and effective layouts
+        + Optimize for device and audience
+        + Experiment with Visual Enhancements
+
+What are custom visualizations?
+    - Custom visuals are specialized charts or visual components that are:
+        + Not available in the default Power BI visualization gallery.
+        + Developed using JavaScript and TypeScript, or through the Power BI Custom Visuals SDK.
+        + Designed to address specific business or reporting needs that cannot be met by the default Power BI visuals (e.g., custom maps, unique chart types, etc.).
+    - Types of Custom Visualizations:
+        + Advanced Chart Types: Visualizations like Sankey diagrams, heatmaps, radar charts, bullet charts, and waterfalls that go beyond what’s offered by default.
+        + Geospatial and Mapping Visuals: Maps with customized layers, different charting approaches for locations (like 3D maps or clustered maps), or complex spatial data visualizations.
+        + Interactive Components: Visuals that offer advanced interactivity, such as hover effects, drill-down capabilities, or real-time data updates.
+        + Specialized Metrics: Custom visuals for KPIs, gauges, or scorecards that require unique formatting or behavior.
+    - Benefits of Custom Visualizations
+        + Tailored Solutions
+        + Advanced Interactivity
+        + Branding and Design
+        + Integration of External Libraries
+
+
+What is Data Storytelling?
+    - Data Storytelling is the practice of using data to tell a compelling and insightful story.
+    - It involves combining data visualization, narrative, and context to make complex data more engaging, undertandable, and actionable for the audience
+    - Aim to communicate the key insights, trends, and implications behind the data in a way that resonates with the audience, often influencing decisions and actions
+    - Key Components of Data Storytelling:
+        + Data
+        + Visualization
+        + Narrative
+        + Context
+        + Emotion
+    - Steps in Creating a Data Story:
+        + Define the Goal 
+        + Understand the audience
+        + Select relevant data
+        + Create a narrative structure: intro => body => conclusion
+        + Visualize the Data
+        + Provide Context
+        + Deliver the Message
