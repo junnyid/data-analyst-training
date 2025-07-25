@@ -116,7 +116,15 @@ What is Data Storytelling?
         + Visualize the Data
         + Provide Context
         + Deliver the Message
-
+    - The storytelling process:
+        + Goal
+        + Data collection and preparation
+        + Data analysis and exploration
+        + Data visualization
+        + Audience consideration
+        + Communication
+        + Feedback and iterations
+        + Actions and decision making
 
 Dashboard vs Report design in Power BI
     - dashboards and reports are both ways of visualizing and presenting data, but they serve different purposes and have different characteristics. 

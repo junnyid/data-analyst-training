@@ -301,3 +301,122 @@ Knowledge Check: Improving Dashboard Design
     6. Question 6
     You have multiple graphs and charts in your Power BI report. One of the charts shows real-time data about the click trough rates (CTR) of the company’s website. Which of the following is the best dashboard to include this tile?
     => Marketing dashboard
+
+
+Knowledge Check: Additional Dashboard Elements
+    1. Question 1
+    You are designing a dashboard for the Adventure Works inventory management team. The team needs real-time access to the inventory levels while inspecting the warehouse. What is the most appropriate way to include this information in the dashboard?
+    => Create a QR code of the tile the inventory level of products and use the code as an email attachment, orattachment or display it in a common area of your office
+
+    2. Question 2
+    What file types are supported in a Microsoft Power BI dashboard? Select all that apply.
+    => PNG
+    => BMP
+    => JPG
+
+    3. Question 3
+    True or False: In Microsoft Power BI service, you can pin a visual element from one dashboard to another dashboard.
+    => True
+
+    4. Question 4
+    In Microsoft Power BI, which media types can you add to a dashboard using Edit > Add a tile.
+    Select all that apply.
+    => Image
+    => Video
+    => Web content
+
+    5. Question 5
+    What live streaming data is stored in Microsoft Power BI memory? 
+    => Push dataset
+
+
+Self-Review: The elements of a data story
+    1. Question 1
+    You have presented a story as a Power BI report for the sales team. Your manager needs to have a QR code for the entire report for easy distribution among the team members. What is the best option you can opt for to fulfil your manager's needs?
+    => Publish report to Power BI service and generate a QR code of the report
+
+    2. Question 2
+    Which alternative chart type can you use instead of a column chart to display current revenue and revenue from the previous year without losing clarity?
+    => Bar chart
+
+    3. Question 3
+    How does your storytelling approach help to present the company’s growth in a more engaging and understandable manner? Select all that apply.
+    => By choosing the correct chart type for visualization
+    => By designing a logical canvas layout
+    => By crafting a clear narrative
+
+    4. Question 4
+    True or False: You have crafted a growth story for Adventure Works, based on the scenario presented. Both you and the CEO of the company are characters in this data story.
+    => True
+
+
+Knowledge Check: Principles of Data Storytelling
+    1. Question 1
+    What is the role of a business analytic tool such as Microsoft Power BI in the data storytelling process?
+    => It increases understanding of the narrative by providing context throughout your data story.
+
+    2. Question 2
+    In the context of data storytelling, what does the term conflict refer to?
+    => A central issue or challenge that the data analyst aims to resolve.
+
+    3. Question 3
+    True or False: You have received a donut chart showing the total sales broken down by 13 individual countries. In terms of data storytelling best practices, a donut chart is not an appropriate chart type to display this data.
+    => True
+
+    4. Question 4
+    What purposes does data visualization have in data storytelling? Select all that apply.
+    => To provide context and interpret results
+    => To explore and communicate data pattern effectively to the shakeholders
+    => To improve audience engagement
+
+    5. Question 5
+    You are analyzing the Adventure Works sales data for Australia. What is the best way to color code a map visual in the context of data storytelling in Power BI?
+    => Add a single color with difference saturation levels based on the sales amount
+
+
+Module Quiz: Dashboard Design and Storytelling
+    1. Question 1
+    What describes the characteristics of Microsoft Power BI reports? Select all that apply.
+    => Reports are detailed and structured documents.
+    => Reports support filtering and drill-through.
+
+    2. Question 2
+    True or False: In Power BI, you can optimize both reports and dashboards for mobile devices.
+    => True
+
+    3. Question 3
+    Once you select a tile on a dashboard (by clicking or tapping), what action is executed?
+    => The source report of the tile is opened on the screen
+
+    4. Question 4
+    Which visualization elements can you generate QR codes for? Select all that apply.
+    => A tile from a dashboard.
+    => An entire report.
+
+    5. Question 5
+    True or False: The Microsoft Power BI service does not allow you to add a video playlist to your dashboard.
+    => False
+
+    6. Question 6
+    In Microsoft Power BI service, which live-streaming datasets store data in Microsoft Power BI memory?
+    => Push dataset
+
+    7. Question 7
+    In data storytelling, which component creates the connection between your narrative and your audience?
+    => Visualization
+
+    8. Question 8
+    You are working as a Microsoft Power BI consultant in a big analytics company. What common issues could contribute to poor storytelling? Select all that apply.
+    => Improper chart for the data type presented.
+    => Each tile of dashboard showing an independent story.
+    => A chaotic dashboard layout.
+
+    9. Question 9
+    In the context of data storytelling, what is the primary advantage of using images and video in a Microsoft Power BI dashboard? 
+    => Images and videos create an emotional connection for audience engagement.
+    
+    10. Question 10
+    What are common mistakes to avoid when designing dashboards? Select all that apply.
+    => Not scaling your charts
+    => Including unrelated data
+    => Inconsistent labeling
