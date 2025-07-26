@@ -1,0 +1,8 @@
+Data flow:
+    - The movement of data through an organization
+    - 4 stages: Collection => Processing => Analysis => Decision making
+=> Data flows through a business in a structured lifecycle, enabling decision-making, operations, and strategic planning. 
+
+Data-driven enterprise:
+    - A data-driven enterprise is an organization that makes strategic and operational decisions based on data, not just intuition or past habits.
+    

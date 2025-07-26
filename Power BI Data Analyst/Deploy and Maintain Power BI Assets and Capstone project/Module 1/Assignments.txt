@@ -1,0 +1,45 @@
+Knowledge check: Data in enterprise
+    1. Question 1
+    What is the main benefit of well-implemented reporting for a business like Adventure Works?
+    => Extracting actionable insights from data
+
+    2. Question 2
+    Which steps are part of the data cleansing and transformation process? Select all that apply.
+    => Aggregating and calculating data
+    => Standardizing data
+
+    3. Question 3
+    In data-driven enterprises, what is the main function of Power BI Service?
+    => It allows for real-time collaboration and sharing
+
+    4.Question 4
+    How can a data analyst contribute to inventory optimization in a retail business?
+    => By analyzing historical sales data and market trends
+
+    5.Question 5
+    True or False: Data analysts can offer a great deal of value when safeguarding against fraudulent activities by analyzing patterns with the data.
+    => True
+
+
+Knowledge check: SQL data sources
+    1. Question 1
+    Which of the following SQL commands retrieves data from a database table?
+    => SELECT 
+
+    2. Question 2
+    Which elements are typically required when connecting Power BI to an SQL database? Select all that apply.
+    => Password
+    => Server name
+    => Username
+
+    3. Question 3
+    True or False: In SQL, structured data refers to information that is organized in tables with predefined data types for each column, making it easy to query and analyze.
+    => True
+
+    4. Question 4
+    What distinguishes Import mode from DirectQuery mode when connecting Power BI to a SQL database?
+    => In Import mode, Power BI loads the data into its in-memory storage, while in DirectQuery mode, it queries the data source directly
+
+    5. Question 5
+    Which of the following definitions best describes a dynamic report in Power BI? 
+    => A report that alters the imported data based on user selection

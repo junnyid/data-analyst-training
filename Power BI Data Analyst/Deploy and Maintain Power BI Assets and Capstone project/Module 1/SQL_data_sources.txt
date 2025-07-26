@@ -1,0 +1,31 @@
+SQL data source 
+    1. The importance of SQL
+        - Advantages for working with large enterprise database, they faciliate complex queries for quickly extracting specific subsets of data. main advantage of a SQL database, is its storage capabilities
+        - A SQL database is a system for organizing and storing data in a structured format
+        - How does this storage work? SQL databases store data using a method called normalization "NORMALIZATION":
+            + Normalization divides data into multiple related tables, each with a specific purpose.
+
+    2. SQL data storage and queries
+        - SQL database structure:
+            + A SQL server is a relational database management system, or RDBMS, developed by Microsoft.
+            + It provides a secure and scalable platform for storing, managing, and retrieving data
+            + SQL servers organize data into structures called databases, where they're stored in tables with rows and columns.
+        - Connecting a SQL database to Power BI:
+            + requires three pieces of information: server name, database name, credentials
+                (The server name identifies the location of the database server (the gateway) - The database name is the database within the server you intend to access - The credentials are typically the user name and password that grant access permission to the server)
+            => Credentials > Server > SQL database
+        - Connection modes: two primary modes
+            + Import mode:  data is loaded directly into power BI for fast and responsive visualizations, however the data is STATIC (Tĩnh), it might need to be refreshed to reflect real time updates
+            + Direct query mode: connects power BI directly to the source database. This enables real time analysis, but potentially leads to slower performance due to continuous queries to the database
+    
+    3. SQL and Power BI integration
+        - Dynamic reports:
+            + dynamic reports are created using parameters (parameters are dynamic variables that influence the data displayed in the report)
+            + Dynamic reports are an interactive, user friendly way of viewing and analyzing data and offer much more powerful insights than traditional static reports.
+        - Parameters:
+            + Parameters including numerical values, text inputs, and Boolean, or true false settings, default values or freeform text
+            + Parameters also enable dynamic data source connections
+            + use parameters to explore high levels of data granularity with dynamic data selection and filtering
+            + Parameters can be used to analyze existing business situations or create new what-if-scenarios
+        - Generating reports:
+            

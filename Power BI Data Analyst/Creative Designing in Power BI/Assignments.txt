@@ -420,3 +420,33 @@ Module Quiz: Dashboard Design and Storytelling
     => Not scaling your charts
     => Including unrelated data
     => Inconsistent labeling
+
+
+Self-Review: Adventure Works Quarterly Report
+    1. Question 1
+    You have presented a story as a Power BI report for the sales team. Your manager needs to have a QR code for the entire report for easy distribution among the team members. What is the best option you can opt for to fulfil your manager's needs?
+    => Publish report to Power BI service and generate a QR code of the report
+
+    2. Question 2
+    In the exercise, you created visualizations for the sales data. Based on the visualizations, Adventure Works has ______________ in sales amount for the second quarter of 2020?
+    => 0.19M
+
+    3. Question 3
+    Based on the story presented to the executive board, what is the primary concern the story reveals?
+    => Despite an increase in the sales, the profit margin is negligible
+
+    4. Question 4
+    You presented the quarterly sales performance story to the executive board by applying the filters for years and quarters to the data visualization. 
+    In Microsoft PowerBI, what is an alternative waythat you can present these measures without creating slicers and filters?
+    => By using DAX logical
+
+    5. Question 5
+    True or False: Tsvi Reiter is the top-performing salesperson of Adventure Works for the first quarter of 2020.
+    => False
+
+    6. Question 6
+    What alternative chart types can you use to visualize sales by country without losing clarity and impact?
+    => Map visual
+    => Bar chart
+
+
