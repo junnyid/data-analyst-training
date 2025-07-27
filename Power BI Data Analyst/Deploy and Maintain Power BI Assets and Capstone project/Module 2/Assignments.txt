@@ -1,0 +1,39 @@
+Self-review: Creating a shared workspace
+    1. Question 1
+    What contents are created in Power BI Service when uploading a .pbix file?
+    => A report, a dashboard, a dataset
+
+    2. Question 2
+    What percentage of storage capacity is consumed by the Orders Report content against the total workspace storage capacity?
+    => 0.01%
+
+    3. Question 3
+    True or False: When republishing a report in a workspace, a warning appears onscreen that the dashboard is about to be overwritten.
+    => False
+
+
+Knowledge check: Deploying assets
+    1. Question 1
+    What is the main purpose of workspaces in Power BI Service?
+    => Workspaces are used to collaborate on data
+
+    2. Question 2
+    Which of the following options can be modified by a user through Power BI Service workspace settings? Select all that apply.
+    => License Mode
+    => System Storage
+    => Contact list
+
+    3. Question 3
+    True or False: A senior data analyst who collaborates on a workspace’s content and is also responsible for adding new analysts should be granted the Contributor role. 
+    => False
+
+    4. Question 4
+    Which of the following can be integrated as content into workspace apps? Select all that apply.
+    => reports
+    => external links
+    => dashboards
+
+    5. Question 5
+    What is the purpose of managing audiences in workspace apps?
+    => Configuring content visibility for different users and groups
+

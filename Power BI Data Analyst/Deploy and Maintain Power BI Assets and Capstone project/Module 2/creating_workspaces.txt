@@ -1,0 +1,29 @@
+What is workspace?
+    - Overview of workspaces:
+        + Use workspace feature to manage data assets in one place, using personal and shared environments
+        + these include organization; access control; collaboration; streamlined updates    
+            * Organization: Each workspace is a unique container for related reports, dashboards, and datasets => This helps keep your data tidy and easy to locate
+            * Access control: safeguard your data, from unauthorized users, with your workspace access control features. =>  Depending on the workspace, you can determine who can see or edit the content
+            * Streamlined updates: Updating or modifying data is much easier, with everything in its right place.
+    - Types of workspaces: two main types of workspaces
+        + Personal workspaces: 
+        + Shared workspaces: It's a space designed for collaboration, allowing multiple users to add, edit, and refine reports and dashboards simultaneously. 
+    - Best practices:
+        + Perform regular clean-ups
+        + establish clear naming conventions
+        + Review access controls
+        + Perform regular backups
+        + Encourage a feedback loop
+
+Assign workspace roles
+    - Types of workspace roles: four roles in a Power BI workspace
+        + Admin
+        + Member
+        + Contributor
+        + Viewer
+    - Configuring workspace roles
+
+Managing audiences in workspace apps
+    - Workspace audiences: a powerful new feature of workspace apps that makes these apps more flexible
+    - Advantages of audiences in workspace apps: directly interact with the data pertinent to their roles or departments
+    - End-users can view tabs at the top of the screen for each audience they can access. 
