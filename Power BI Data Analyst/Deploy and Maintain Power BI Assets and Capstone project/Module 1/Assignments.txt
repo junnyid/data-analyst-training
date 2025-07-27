@@ -43,3 +43,46 @@ Knowledge check: SQL data sources
     5. Question 5
     Which of the following definitions best describes a dynamic report in Power BI? 
     => A report that alters the imported data based on user selection
+
+
+Module quiz: Power BI in enterprise
+    1. Question 1
+    What is the purpose of a Power BI Workspace?
+    => It is a space for collaborating on reports and dashboards
+
+    2. Question 2
+    What actions can Adventure Works take to ensure it works with its most current data? Select all that apply:
+    => Refresh the dataset on Power BI Desktop
+    => Enable scheduled refresh in Power BI Service
+
+    3. Question 3
+    You’re working with a spreadsheet containing blank rows, creating inconsistencies in the metrics. You need to remove these rows so that the metrics show accurate numbers. In which data process step does this belong?
+    => During the data cleansing stage
+
+    4. Question 4
+    You are working on a new Adventure Works report where you must load some customer information from Customer Relationship Management (CRM) software used specifically in a foreign Adventure Works branch. In which data process step does this belong?
+    => Connection to data sources
+
+    5. Question 5
+    What Power BI Service feature eliminates the need for extensive hardware and infrastructure investments?
+    => Cloud Scalability
+
+    6. Question 6
+    True or False: Data analysts can help to implement fraud detection and prevention procedures.
+    => True
+
+    7. Question 7
+    What is the purpose of using normalization in SQL databases?
+    => To divide data into multiple related tables
+
+    8. Question 8
+    Which information pieces are required to establish a connection between Power BI and a SQL database?
+    => A server name, database name, Credentials
+
+    9. Question 9
+    Your colleague asks you what the term "parameters" means in Power BI. How should you define this term for them?
+    => Parameters are dynamic variables that influence the data displayed in the report, providing options for customization.
+
+    10. Question 10
+    How can parameters be used in dynamic reports for scenario analysis?
+    => Parameters can be inputted to create "What-If?" scenarios, exploring multiple outcomes based on different assumptions.
