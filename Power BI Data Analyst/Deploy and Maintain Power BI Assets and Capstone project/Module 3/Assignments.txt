@@ -1,0 +1,58 @@
+Self-review: Applying sensitivity labels
+    1. Question 1
+    Based on your observation of the Order Total by Product Color visual, which product color has the highest order total?
+    => Blue
+
+    2. Question 2
+    Based on your observation of the Order Total by Product Category clustered bar chart, which product subcategory has the lowest order total?
+    => Balance
+
+    3. Question 3
+    Which label did you apply to ensure the data in the report remains within its shared domain?
+    => Confidential
+
+Knowledge check: Sharing information in Power BI
+    1. Question 1
+    What is the purpose of Row-level security (RLS) in Power BI?
+    => To display only the data rows that a user's identity or role permits
+
+    2. Question 2
+    Which security measure in Power BI allows users to work with obscured versions of sensitive data?
+    => Data masking
+
+    3. Question 3
+    What is the primary purpose of the People with Existing Access sharing option in Power BI?
+    => To limit viewership to those previously granted permission
+
+    4.Question 4
+    True or False: The primary reason for ensuring that recipients cannot reshare your report in Power BI is to maintain data integrity and ensure content is viewed only by its intended audience.
+    => True
+
+    5. Question 5
+    Which of the following statements are correct descriptions of data sensitivity labels?
+    => The Highly Confidential label safeguards pivotal proprietary information.
+    => The Personal label denotes data linked to specific individuals but not intended for the wider organization.
+    => The Restricted label denotes data requiring the utmost secrecy.
+
+
+Knowledge check: Organizations and permissions
+    1. Question 1
+    Which Power BI dataset permission primarily allows visual representation without altering the source data?
+    => Build
+
+    2. Question 2
+    What is the primary function of dataset permissions in Power BI?
+    => To act as gatekeepers to organizational information
+
+    3. Question 3
+    True or False: The primary purpose of the Direct Access tab in Power BI Service is to enable users to grant direct access to specific individuals or groups for a particular dataset.
+    => True
+
+    4. Question 4
+    True or False: The primary function of the Links section in Power BI Service is to provide shortcuts to the data source settings and configuration.
+    => False
+
+    5. Question 5
+    Which of the following are accurate descriptions of specific Power BI dataset permissions? Select all that apply.
+    => To Build permission lets users construct visuals and reports without alterning the source data
+    => To Reshare permission lets users distribute data to other users or teams

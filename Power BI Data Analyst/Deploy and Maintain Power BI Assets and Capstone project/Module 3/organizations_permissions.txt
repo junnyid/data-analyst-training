@@ -1,0 +1,8 @@
+Dataset permissions
+    - Core dataset permissions
+        + Read 
+        + Build
+        + reshare
+        + Write
+
+        

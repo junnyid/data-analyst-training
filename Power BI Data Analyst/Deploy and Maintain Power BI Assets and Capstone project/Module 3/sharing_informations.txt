@@ -1,0 +1,15 @@
+Safely sharing information
+    - Identify sensitive data: 
+        + Safeguarding sensitive data is important for protecting its reputation and success
+        + Sensitive data contains important information about a business or its stakeholders that, if mishandled, could cause harm or misuse
+    - Protect sensitive data:
+        + Authentication and authorization
+        + Roles and permissions
+        + Row-level security (RLS)
+        + Data Encryption
+        + Data masking
+
+Data sensitivity labels
+    - Identify sensitivity labels:
+        + Data sensitivity labels: Categorize and safeguard data using digital tags
+    - Work with sensitivity labels
