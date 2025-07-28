@@ -1,0 +1,19 @@
+Development lifecycles
+    - Power BI deployment pipelines:
+        + Deployment pipelines in Power BI help content move smoothly through development, testing, and production stages
+        + This allows for controlled testing and validation of content before it reaches end users.
+        + these three stages of deployment:
+            * development environment: in the deployment process
+            * test environment: review and test new reports for issues => feedback and checking for bugs and data problems
+            * Production environment: Where end-users interact with reports and features
+    - Separate environments:
+        + Data safety
+        + Data integrity
+        + Efficiency and control
+    - Enhanced  data security
+        + Using Power BI's deployment pipelines for a structured development process, ensures safe data handling
+
+Deployment pipeline
+    - Configuring a deployment pipeline
+    - Allocating existing workspaces
+    - Monitoring deployment history

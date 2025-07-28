@@ -37,3 +37,85 @@ Knowledge check: Deploying assets
     What is the purpose of managing audiences in workspace apps?
     => Configuring content visibility for different users and groups
 
+
+Knowledge check: Monitoring workspaces
+    1. Question 1
+    What new type of metric does the Workspace Metrics Preview feature introduce?
+    => Report Performance
+
+    2. Question 2
+    What feature enables a user to compare report usage across the workspace?
+    => Report list
+
+    3. Question 3
+    True or False: The improved Usage Metric report refreshes daily with new monitoring data.
+    => True
+
+    4. Question 4
+    What does a Report View represent in the improved Usage Metrics report?
+    => The number of times the report has been opened
+
+    5. Question 5
+    Which actions may require you to resume a scheduled refresh in the Usage Metrics report? Select all that apply.
+    => The credentials of the report's dataset expire
+    => The user who first launched the Usage metrics report leaves the organization
+
+
+Self-review: Configuring a dataset
+    1. Question 1
+    True or False: A new gateway must be installed for each new workspace created.
+    => False
+
+    2. Question 2
+    What maximum number of scheduled refreshed instances could you set up daily?
+    => 8
+
+    3. Question 3
+    Why was the Certified option disabled when endorsing the dataset?
+    => Tenant admins must enable the dataset certification option
+
+
+Knowledge check: Datasets and gateways
+    1. Question 1
+    What steps must you take before setting up a refresh schedule?
+    => Create a gateway connection
+
+    2. Question 2
+    True or False: A Power BI admin must enable promotion and certification through the portal.
+    => False
+
+    3. Question 3
+    What does a dataset certification in Power BI signify?
+    => The dataset's data quality has been verified
+
+    4. Question 4
+    Which of the following refresh options are available in Power BI? Select all that apply.
+    => Manual on-demand refresh by a workspace user
+    => Weekly refresh on a Monday monitoring
+
+    5. Question 5
+    Which of the following can be endorsed in Power BI? Select all that apply. 
+    => Datasets
+
+
+Knowledge check: Maintaining workspaces and datasets
+    1. Question 1
+    What is the default name of the final environment in Power BI development lifecycles?
+    => Production environment
+
+    2. Question 2
+    What is the optimal environment to use when developing new features in Power BI?
+    => Development environment
+
+    3. Question 3
+    True or False: Caching in Power BI Premium or Embedded stores query results temporarily, making data retrieval faster by reducing the need to fetch data repeatedly.
+    => True
+
+    4. Question 4
+    Which Workspace options let you view the relationships between all workspace components?
+    => Lineage view
+
+    5. Question 5
+    Which feature in Power BI service allows users to assess the potential impact of dataset changes on downstream reports and dashboards?
+    => Impact analysis
+

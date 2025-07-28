@@ -1,0 +1,28 @@
+Datasets in Power BI Service
+    - Datasets and Power BI:
+        + A dataset in Power Bi is a collection of data you import or connect to.
+        + This data can come from a single source or multiple sources
+    - Dataflows and reports:
+        + Data flows collect and transform data from various sources, like SQL databases and Excel files
+    - Scheduled and incremental refresh
+        + There are two main ways to automatically refresh your data in Power BI service:
+            * A scheduled refresh
+            * An incremental refresh
+
+
+Power BI gateways
+    - Connect data with Power BI gateways
+        + With Power BI gateways, you can create a strong safeguarded bridge between Power BI services, and your on premises data.
+        + Power BI gateways establish a secure and reliable connection or bridge between your on premises data, and the Power BI service on Microsoft's Cloud.
+        + This connection allows Power BI service to access and retrieve data from on premises data sources. 
+    - Explore gateway types and uses:
+        + Power BI gateways interact with on premises data in two ways:
+            * A data refresh
+            * query execution
+        + There are three main types of gateways in Power BI:
+            * the on premises data gateway
+            * the on premises data gateway personal mode
+            * the Azure Virtual Network or VNet (virtual network) data gateway
+    - Setup and manage gateways
+    https://www.coursera.org/learn/deploy-and-maintain-power-bi-assets-and-capstone-project/supplement/MoKyg/installing-a-personal-gateway
+    

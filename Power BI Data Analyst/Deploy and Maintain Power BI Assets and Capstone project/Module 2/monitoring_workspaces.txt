@@ -1,0 +1,8 @@
+Usage metrics report
+    - A Usage metric report is crucial for understanding how individuals interact with the reports and dashboards in the workspace. 
+    - The updated Usage metric report is split into four different pages, which focus on different areas of performance results and metrics:
+        + Report usage: This page provides information about the number of report views and viewers. 
+        + Report performance: This report page collates the report opening times
+        + Report list: shows a list of all active reports in a workspace, providing report usage tools across all contents.
+        + FAQ: This valuable information page answers frequently asked questions, such as “What is a viewer?” and “What is a view?”
+        
