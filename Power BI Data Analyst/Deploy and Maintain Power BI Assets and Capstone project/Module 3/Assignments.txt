@@ -169,3 +169,122 @@ Module quiz: Security and monitoring
     Which statements on static and dynamic row-level security (RLS) are true? Select all that apply.
     => Dynamic RLS checks the user's attributes or roles and adjusts their data access accordingly.
     => Static RLS allows users only to access their assigned data sets, and this access remains consistent unless modified.
+
+
+Self-review: Prepare Sales Excel data
+    1. Question 1
+    Based on your observation of the first 10 records in the dataset, which product generated the highest Net Revenue?
+    => Power Drill set
+
+    2. Question 2
+    True or False: Net Revenue for each product is calculated by subtracting the tax amount from the gross revenue.
+    => True
+
+    3. Question 3
+    What was your next step after calculating the gross revenue for each product?
+    => Calculate each product's Total Tax by multiplying the tax per product by the quantity sold
+
+
+Self-review: Configure data sources
+    1. Question 1
+    What was the purpose of selecting the Whole Number data type for the OrderID column in the Tailwind Traders Sales data?
+    => To ensure every OrderID is consistent and avoids any reporting error
+
+    2. Question 2
+    True or False: When configuring the Purchases dataset, ensuring the Valid percentage is less than 100% in the Column Quality pane indicated no errors or empty cells needed addressing in the ReturnStatus column.
+    => False
+
+    3. Question 3
+    What purpose did the Python script serve in the exercise?
+    => to transform and refine the historical currency exchange data
+
+
+Self-review: Design and develop the data model
+    1. Question 1
+    While designing and developing the data model, which tables did you establish a relationship based on One-to-one (1:1) cardinality? Select all that apply.
+    => Countries and Exchange Data tables
+    => Purchases and Sales tables
+
+    2. Question 2
+    True or False: The Net Revenue in USD for the order with Order ID 1035 is 300USD, representing the total revenue generated from this order before accounting for any deductions, returns, allowances, and discounts.
+    => False
+
+    3. Question 3
+    Which cardinality was required for the relationship between the Sales and Countries tables?
+    => Many to One (1:1)
+
+
+Self-review: Configure aggregations using DAX
+    1. Question 1
+    Which DAX function was important for determining the company’s median sales?
+    => MEDIAN 
+
+    2. Question 2
+    True or False: When calculating the Yearly ProfitMargin for Tailwind Traders, you derived the margin by dividing the total gross revenue by the net revenue from the Sales in USD table 
+    => True
+
+    3. Question 3
+    Which DAX formula did you use to calculate the Year-to-Date profit?
+    => TOTALYTD([Yearly Profit Margin], 'CalendarTable'[Date]) 
+
+
+Self-review: Create a Sales report
+    1. Question 1
+    What type of chart did you use to visualize Loyalty Points by Country?
+    => Clustered bar chart
+
+    2. Question 2
+    True or False: The UAE has the highest loyalty points among the listed countries, leading the chart with 151 loyalty points.
+    => False
+
+    3. Question 3
+    Which of the following metrics did you use to create a Card visual? Select all that apply.
+    => Quantity Purchases
+    => Stock
+    => Median Sales
+
+
+Self-review: Create a Profit report
+    1. Question 1
+    Which features in Power BI did you utilize to enhance the Profit report's effectiveness? Select all that apply.
+    => Detailed labels in donut charts
+    => Sorting axis in bar charts
+
+    2. Question 2
+    True or False: The area chart for Yearly Profit Margin over Time in the Tailwind Traders Profit Report was primarily created for forecasting future sales volumes.
+    => False
+
+    3. Question 3
+    Which visuals did you create to help analyze profit data in the Profit Report? Select all that apply.
+    => A donut chart for Yearly Profit Margin by Country
+    => A bar chart for Net Revenue by Product
+
+
+Self-review: Create an executive dashboard
+    1. Question 1
+    What was the primary consideration for optimizing the dashboard for mobile accessibility?
+    => Ensuring that crucial data is readily available on-the-go
+
+    2. Question 2
+    True or False. Based on your observation of the Net Revenue by Product bar chart, the Modular Sofa Set product has the highest Net Revenue.
+    => True
+
+    3. Question 3
+    When pinning the Profit OverviewCore Visualizations, which chart type represented Yearly Profit by Country?
+    => Donut Chart
+
+
+Self-review: Configure alerts and subscriptions
+    1. Question 1
+    What occurs when the Gross Revenue falls below $400? 
+    => An alert is triggered, indicating a potential financial concern
+
+    2. Question 2
+    True or False: The UAE leads the Median Sales Distribution by Country visual with a value of 20.85, indicating its prominence as a key market for sales revenue and suggesting that most sales transactions in the UAE are of high value.
+    => False
+
+    3. Question 3
+    On which days of the week was the Profit Overview subscription scheduled to support strategic decision-making at Tailwind Traders optimally? Select all that apply.
+    => Wednesday
+    => Monday
+    => Friday
