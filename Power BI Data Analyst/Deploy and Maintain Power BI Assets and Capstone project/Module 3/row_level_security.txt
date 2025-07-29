@@ -1,0 +1,19 @@
+What is row-level security?
+    - Maintaining data integrity:
+        + Ensure only authorized individuals can access data => preserve the security and integrity of overall datasets
+        + RLS controls who sees what data based on predefined roles and rules
+    - The basics of row-level security:
+        + Granular control over data
+        + Scalability
+        + Compliance and auditing
+        + Increased security
+    - Regulating data access with RLS: Row-level security (RLS) protects sensitive data by limiting access based on user roles.
+        + Static row-level security: 
+            * Static RLS explicitly defines what data each role can access in Power BI. 
+            * It ensures that users only access their assigned data sets and nothing more. Once these assignments are made, they remain fixed unless modified deliberately.
+            * Configuring static RLS involves creating precise DAX filters for each role to specify their data access
+        + Dynamic row-level security
+            * Dynamic RLS adapts to the user's needs, unlike static RLS, which has fixed rules. 
+            * It checks the user's attributes or roles and grants access accordingly.
+            * Dynamic RLS automatically adapts using user attributes like USERNAME() or USERPRINCIPALNAME() in Power BI to apply the correct data filters based on the user's profile.
+            

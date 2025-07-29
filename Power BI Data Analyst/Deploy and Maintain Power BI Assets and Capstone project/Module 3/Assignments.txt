@@ -56,3 +56,116 @@ Knowledge check: Organizations and permissions
     Which of the following are accurate descriptions of specific Power BI dataset permissions? Select all that apply.
     => To Build permission lets users construct visuals and reports without alterning the source data
     => To Reshare permission lets users distribute data to other users or teams
+
+
+Knowledge check: Row-level security
+    1. Question 1
+    What does row-level security (RLS) primarily manage in Power BI?
+    => It manages granular access to data based on predefined roles and rules.
+
+    2. Question 2
+    How does static row-level security control users' access in their respective data domains? Select all that apply.
+    => By relying on DAX expressions to specify boundaries for users.
+    => By confining users to predetermined and specific segments of data
+
+    3. Question 3
+    Why is naming a role important when configuring static row-level security in Power BI?
+    => To ensure clarity and avoid potential ambiguities in role management
+
+    4. Question 4
+    True or False: Validating configured roles before publishing a report ensures that the data viewed by the user is exactly what they should be seeing.
+    => True
+
+    5. Question 5
+    How does dynamic row-level security enhance data accessibility for users with multifaceted roles within a company? Select all that apply.
+    =>  By utilizing dynamic filters like USERPRINCIPALNAME() to control data access based on the user's identity.
+    => By allowing tailored access to data segments per user permissions
+
+
+Self-review: Configuring a data alert
+    1. Question 1
+    True or False: You configured the frequency of the Profit Margin alert to Every 24 hours to monitor the KPI, as this is the optimal regular interval at which you should monitor pivotal metrics related to Adventure Works' financial health.
+    => False
+
+    2.Question 2
+    What threshold percentage did you configure for the profit margin for triggering the alert?
+    => 15%
+
+    3. Question 3
+    What was the primary purpose of pinning the ProfitMargin KPI to a dashboard in the exercise?
+    => To ensure that the KPI is easily accessible for monitoring.
+    => To emphasize the importance of the KPI in Adventure Works' financial health
+
+
+Knowledge check: Subscriptions and alerts
+    1. Question 1
+    What are the benefits of setting up subscriptions in Power BI? Select all that apply.
+    => Subscriptions boost efficiency and productivity by reducing the time data analysts spend manually retrieving reports.
+    => Subscriptions establish a shared understanding within teams when making decisions if all members are subscribed to the same reports.
+    => Subscriptions provide instant updates, ensuring subscribers always have the most current data.
+
+    2. Question 2
+    True or False: When you set up a subscription in Power BI, the primary aim is to create new reports and dashboards based on live data feeds.
+    => False
+
+    3. Question 3
+    How do data alerts enhance collaboration within teams?
+    => By notifying relevant parties about critial data-driven insights
+
+    4. Question 4
+    True or False: Data alerts in Power BI send notifications when metrics go above or below a predefined threshold.
+    => True
+
+    5. Question 5
+    Which type of visuals in Power BI can you set alerts on?
+    => Gauses, KPIs, and cards
+
+
+Module quiz: Security and monitoring
+    1. Question 1
+    You've been working closely with the marketing team at Adventure Works on a new campaign. To ensure the right people get access to a report detailing the campaign's metrics, which Power BI sharing option would you choose to define individual email addresses for access?
+    => specific people
+
+    2. Question 2
+    You’ve created a report for Adventure Works and wish to share it with the marketing and sales departments. However, you're wary about accidentally sharing the report with other departments. How can you use Reshare permissions to manage who you share the report with?
+    => It allows you to share the received report with others
+
+    3. Question 3
+    True or False: The General sensitivity label in Power BI is primarily for data targeted at external stakeholders containing specific sensitivities.
+    => False
+
+    4. Question 4
+    Which of the following statements correctly describes the permissions available in Power BI datasets? Select all that apply.
+    => The Read permission allows team members to access and view datasets without changing the original content.
+    => The Reshare permission lets you distribute specific datasets or reports to other users or groups.
+    => The Write permission enables users to modify the actual datasets in Power BI.
+
+    5. Question 5
+    How would you identify the main features and purposes of row-level security (RLS) in Power BI? Select all that apply.
+    => RLS restricts access to data based on an individual's roles.
+    => RLS regulates data visibility based on predefined rules
+
+    6. Question 6
+    You're refining user access to specific datasets within Power BI for Adventure Works. Having created roles in the Manage Roles window in Power BI, what next step is essential to ensuring the role's data visibility is restricted appropriately?
+    => Define boundaries using a table filter DAX expression.
+
+    7. Question 7
+    Which of the following actions should you take when implementing dynamic row-level security? Select all that apply.
+    => Assign specific data access roles to different users.
+    => Use the USERPRINCIPALNAME( ) function to correlate data rows with user identities.
+    => Use DAX formulars to create dynamic data filters
+
+    8. Question 8
+    What is the main purpose of the subscription feature in Power BI?
+    => To set up automated delivery for reports and dashboards
+
+    9. Question 9
+    Which statements best describe the advantages of Power BI data alerts? Select all that apply.
+    => They are customizable and personalized to the user's needs.
+    => They promote proactive problem-solving.
+    => They save time and increase efficiency.
+
+    10. Question 10
+    Which statements on static and dynamic row-level security (RLS) are true? Select all that apply.
+    => Dynamic RLS checks the user's attributes or roles and adjusts their data access accordingly.
+    => Static RLS allows users only to access their assigned data sets, and this access remains consistent unless modified.
