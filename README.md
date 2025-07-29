@@ -6,9 +6,8 @@
 I'm training myself with Data Analyst.
 
 This is what I am learning by following the **Data Analyst Roadmap** - https://roadmap.sh/data-analyst
-- Python:
-          Python Crash Course: https://ehmatthes.github.io/pcc/
-          Challenges on HackerRank: https://www.hackerrank.com/domains/python?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=python
+- Python: Python Crash Course: https://ehmatthes.github.io/pcc/ 
+          Challenges on HackerRank
 - SQL: Challenges on HackerRank; w3school; DA Roadmap, Luke Barousse (ytb)
 - R: w3school, DA Roadmap
 - Excel: Do projects with ChatGPT
