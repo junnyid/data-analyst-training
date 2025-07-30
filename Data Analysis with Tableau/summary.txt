@@ -1,0 +1,46 @@
+Data Analysis Process Overview
+
+Prepare Data => Analyze Data => Develop Insights => Build Story
+
+    1. Data Preparation
+        Exploration & Preprocessing
+        - The data preparation stage focusses on understanding raw data and transforming it into a format that's optimized for analysis.
+        - These tasks:
+            + Adjusting data types
+            + Combining tables
+            + Identifying relationships between fields
+            + Creating calculated fields
+            + Adding filters
+            + Reshaping data
+
+    2. Data Analysis
+        Visualizations & Statistics
+        - There are 03 main steps:
+            + Creating visualizations
+            + Calculating Statistics
+            + Identifying patterns
+
+    3. Insight Development
+        come from observations & identified patterns - actionable trends & patterns
+        - Ask yourself questions:
+            + What are the key takeaways from the data or information?
+            + How does this information provide a new perspective or understanding?
+            + How does this help me solve the business problem or challenge?
+
+    4. Data Storytelling
+        resonates with audience - may need worksheets or dashboards - provides context & interpretation
+        - A Tableau story involves arranging worksheets or dashboards into a sequence similar to a slide deck
+        - understanding of the data's implications, a clear vision of the key messages 
+        - build worksheets or dashboards to successfully convey your narrative
+
+
+Data Exploration
+    - data exploration is about asking the right questions, while preprocessing is about taking the right actions in response to those questions.
+    1. Exploring Structure and Metadata
+        - The structure refers to the physical layout of your data — how it's organized in terms of rows and columns
+        - Metadata, on the other hand, is the information about the data within your dataset, such as field names and data types.
+        - Preparing the structure and metadata of a dataset generally involves three tasks: 
+            + Determining structure
+            + Renaming fields
+            + Editing field data types
+        

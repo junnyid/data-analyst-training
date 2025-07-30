@@ -1,0 +1,22 @@
+Practice - Data Analysis Process
+1. Question 1
+Which of the following is NOT a stage in the Tableau data analysis process?
+=> Implement Solutions
+
+2. Question 2
+What is the primary objective of the data preparation stage in Tableau?
+=> To understand and transform raw data for optimized analysis
+
+3. Question 3
+In addition to creating visualizations, what is another important step in the data analysis stage?
+=> Calculating statistical measures
+
+4. Question 4
+Insights in data analysis are mainly created for what purpose?
+=> To provide the foundation for informed decision-making
+
+5. Question 5
+What does the refinement of worksheets and dashboards in Tableau typically involve?
+=> Adjusting layout, selecting colors and fonts, and adding interactive elements
+
+
