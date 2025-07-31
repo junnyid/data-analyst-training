@@ -43,4 +43,44 @@ Data Exploration
             + Determining structure
             + Renaming fields
             + Editing field data types
-        
+    
+    2. Relationships, Joins, and Unions
+        - Combining data from multiple tables is often necessary to create a comprehensive view of datasets
+        - Tableau can combine tables in the following ways:
+            + Relationships
+            + Joins
+            + Unions
+            + Cross-database Joins
+            + Data blends
+    
+    3. Organizing and Customizing fields
+        - Tableau provides various methods to restructure and combine fields. 
+        - A key question to guide your exploration "Could the fields be restructured for better organization, navigation, or analysis?"
+        - Combine fields in the following ways:
+            + Folders
+            + Hierarchies
+            + Pivot fields
+    
+    4. Combining Values
+        - involves consolidating individual data points within a field into more meaningful categories or groups
+        - a guiding question here is: "Within a single field, are there values that can be categorized under a single value?"
+        - Values can be combined in the following ways:
+            + Groups 
+                Groups essentially build a new field based on the original field chosen, but the values are now grouped with their respective "group names."
+            + Sets 
+                Sets function similarly to groups, as they allow you to segment a portion of your values in a new field
+                Sets, on the other hand, split up all the values into two groups — in or out of the set.
+                The in/out modes of sets in Tableau offer a dynamic way to control which data points are included or excluded from your visualizations.
+    
+    5. Removing Fields and Values
+        - Removing fields and values is crucial for focusing your analysis on relevent data. 
+        - These steps allow you to exclude irrelevant or undesired values and fields. 
+        - Methods:
+            + Hiding fields 
+            + Adding filters
+    
+    6. Creating Fields 
+        - Creating fields in Tableau is a key step that adds more detail to your dataset, different from the earlier steps which focus more on organizing and simplifying data.
+        - Methods:
+            + Creating calculated fields
+            + Splitting fields: SPLIT(string, delimiter, token number)
