@@ -1,0 +1,72 @@
+Statistical Analysis
+    - Statistics provides the methods we use to make sense of data
+    - It helps describe and summarize the data, understand how much the data points differ from each other, adn determine the likelihood that our observations are due to chance or reflect a real trend
+
+External module
+    - Data Distributions
+        + a fundamental aspect of statistical analysis because it provides a variety of information about the data, including its variability, overall pattern, and the presence of any anomolies or patterns
+        + crucial for differentiating between how often values occur and their relative significance
+        + learn how to do the following:
+            * Define data Distributions
+            * Distinguish between frequency and proportion distributions for discrete variables
+            * Identify shapes of distributions for continuous variables
+            * Describe how to use histograms to represent distribution of data
+            * Describe how to use box plots to represent distribution of data
+            * Create a box plot
+    - Variation for Data Comparisions
+        + Variation is essential for statistical analysis, as it measures how data points vary from the mean, allowing for meaningful comparisions between datasets
+        + Crucial for interpreting the significance and reliability of statistical results, particularly when assessing if observed differences are due to chance or if they represent true underlying effects
+        + learn how to do the following:
+            * Define variance and standard deviation
+            * Calculate mean, variance, and standard deviation
+            * Describe continuous distributions
+            * Describe the characteristics of a normal distribution
+            * Describe the purpose of hypothesis testing
+            * Define the use and limitations of p-values in hypothesis testing
+
+    - Statistics Cheat Sheet
+        + Variable types: 
+            * discrete (rõ ràng)
+            * Continuous
+        + distributions
+            * Frequency distributions
+            * Proportion distributions
+            * Bin 
+            * Symmetrical distribution
+            * Right-skewed (positively skewed) distribution
+            * Left-skewed (negatively skewed) distribution
+            * Normal distribution
+        + Measures in Datasets
+            * mean
+            * variance
+            * standard deviation
+        + Visualizations
+            * histograms
+            * box plot
+        + Hypothesis Testing (Kiểm tra giả thuyết)
+            * Confidence interval
+            * Hypothesis test
+            * Null hypothesis
+            * Alternative hypothesis
+            * p-value
+    
+Histograms
+    - A histogram is a chart that groups continuous values into different groups (known as bins) to show the distribution of numerical data
+    - Histograms are univariate visualizations, meaning they only plot one numerical field
+    - When a histogram is created, a dimension called a bin created, which is used within the visual.
+    - Bins describe a consistent value range that data is sorted into to from groups
+    - To interpret a histogram, you should be aware of skewness. Skewness is the measure of symmetry or asymmetry of a distribution
+    Distributions are typically classified as left-skewed, right-skewed, or balanced:
+        + Left skewed (negatively skewed)
+        + Right skewed (positively skewed)
+        + Balanced (symmetrical)
+    - A few questions you can answer using histogram:
+        + what is the distribution of salaries at the company?
+        + What is the distribution of product costs?
+        + What is the distribution of the Superstore sales?
+
+Histogram Design
+    - Histogram Dos and Don'ts 
+        + DO: choose the right bin size; consider the shape and distribution
+        + DON'T: use inconsistent intervals; include too many bins; Leave gaps for continuos data; forget to try different bin counts
+        

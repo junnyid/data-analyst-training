@@ -1,22 +1,86 @@
 Practice - Data Analysis Process
-1. Question 1
-Which of the following is NOT a stage in the Tableau data analysis process?
-=> Implement Solutions
+    1. Question 1
+    Which of the following is NOT a stage in the Tableau data analysis process?
+    => Implement Solutions
 
-2. Question 2
-What is the primary objective of the data preparation stage in Tableau?
-=> To understand and transform raw data for optimized analysis
+    2. Question 2
+    What is the primary objective of the data preparation stage in Tableau?
+    => To understand and transform raw data for optimized analysis
 
-3. Question 3
-In addition to creating visualizations, what is another important step in the data analysis stage?
-=> Calculating statistical measures
+    3. Question 3
+    In addition to creating visualizations, what is another important step in the data analysis stage?
+    => Calculating statistical measures
 
-4. Question 4
-Insights in data analysis are mainly created for what purpose?
-=> To provide the foundation for informed decision-making
+    4. Question 4
+    Insights in data analysis are mainly created for what purpose?
+    => To provide the foundation for informed decision-making
 
-5. Question 5
-What does the refinement of worksheets and dashboards in Tableau typically involve?
-=> Adjusting layout, selecting colors and fonts, and adding interactive elements
+    5. Question 5
+    What does the refinement of worksheets and dashboards in Tableau typically involve?
+    => Adjusting layout, selecting colors and fonts, and adding interactive elements
 
+
+Practice - Data Aggregation
+    1. Question 1
+    Which of the following are common aggregate functions? Select all that apply.
+    => SUM - Returns the sum of all values in the expression
+    => COUNTD - Returns the number of items.
+
+    2. Question 2
+    What is the main difference between aggregate and non-aggregate functions in Tableau?
+    => Aggregate functions perform calculations on groups of data, non-aggregate on individual data points
+
+    3. Question 3
+    Consider the table below:
+    => Percent of Total Sales (60%, 5% and 35%)
+
+    4. Question 4
+    In which scenario would you likely use a table calculation in Tableau?
+    => When you need to compute values based on the entire table's data, or a subset of it, that is visible in your view.
+
+    5. Question 5
+    What do table calculations typically show in a visualization?
+    => The relationship between the values of a specific field.
+
+    6. Question 6
+    How do you access quick table calculation options in Tableau?
+    => By right-clicking on a field and hovering over "Quick Table Calculation".
+
+    7. Question 7
+    What is the primary difference between Grand Totals and Subtotals in a table?
+    => Grand totals represent the sum of all data points in a given column or row, while subtotals represent the sum within each category or grouping.
+
+    8. Question 8
+    What are the available options when dragging "Totals" to a table in Tableau?Select all that apply.
+    => Percentage Totals
+    => Subtotals
+    => Column Grand Totals
+    => Row Grand Totals
+
+    9. Question 9
+    You are designing a visualization for a sales team to analyze product performance. You have decided to build a table displaying the total sales for each product category and an overall grand total. How would the inclusion of grand totals and subtotals benefit the sales team's analysis?
+    => By facilitating a clear comparison of sales within each product category and providing an overall sum for all categories.
+
+    10. Question 10
+    You are analyzing the sales data for a bakery that offers a variety of products, including bread, pastries, and cakes. The dataset includes information on the sales of each product category over several months. Your objective is to showcase the growth rate of each product category over time.
+    True or False? In this scenario, you can use a quick table calculation to show the growth rate of each product category.
+    => True
+
+
+Histograms
+    1. Question 1
+    If the following histogram has a bin size of 2, where would an order of 6 products be categorized?
+    => In the fourth bin
+
+    2. Question 2
+    What type of questions can histograms help answer?
+    => Questions about the distribution of a single numerical variables
+
+    3. Question 3
+    When creating a histogram in Tableau, what does the Quantity (bin) dimension represent?
+    => The intervals into which the data is divided
+
+    4. Question 4
+    What is the impact of including too many bins in a histogram?
+    => it overcomplicates the histogram, making it difficult to discern trends
 

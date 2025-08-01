@@ -1,0 +1,73 @@
+DATA FILTERING 
+
+    1. Data Preparation Overview
+        - Filtering data
+        - Combining data
+        - Aggregating data
+    
+    2. Filtering Data in Tableau Overview
+        - apply filter such as: worksheets, dashboards, or even across multiple data source
+        - Filter in Tableau can be applied to dimensions (qualitative data - dữ liệu định tính) or measures (quantitative data - dữ liệu định lượng) => a comrehensive exploration of your dataset
+        - 2 main ways to filter data in the first module:
+            + Data source filters: These are used to filter data in the data source before the data gets to the worksheet
+            + Worksheets filters: These are used to filter data for a specific data visualization
+            + Context filters (another way): these are used to narrow down the data displayed in a view by focusing on a specific subset of the data
+    
+    3. Filter Interface with dimensions
+        - a fundamental technique that allows you to refine your insights and gain a deeper understanding of your data.
+        - dimensions represent categorical or qualitative attributes in dataset (regions, product categories, customer names,...)
+        - by applying filters to dimension, you can selectively isolate and analyze specific subsets of your data => uncover trends, patterns, actionable information.
+    
+    4. Filter Interface with Measures
+        - Measures are the quantitive value that drive insights and decision-making. 
+        - Filtering measures in Tableau is a crucial technique that allows you to dissect and focus on specific numerical aspects of your data (sales revenue, profit margins, quantities sold)
+        - By applying filter to measures, you can dynamically control the range or thresholds for these values, enabling you to zero in on critical data points, identify outliers, and glean actionable insights.
+            + Filter types
+            + Minimum value
+            + Maximum value
+            + Value slider
+    
+    5. Understanding Context Filters
+        - Context filters serve several purposes:
+            + They can ensure that a specific filter is executed before others
+            + create dependent numerical or top N filters
+        - You can modify a context filter by taking these steps:
+            + Removing the field from the Filter shelf
+            + Editing the filter
+            + Selecting "Remove from Context"
+
+    6. Filtering Order of Operations
+        - Types of filters:
+            + Data source filters
+            + Context Filters
+            + Worksheet Filters on Dimensions 
+            + Worksheet Filters on Measures 
+
+
+COMBINING DATA
+    1. Hierarchy
+        - A hierarchy is another organizarional structure in which dimensional metadata is organized by position
+        - Metadata is the imformation about the data within your dataset, such as field name and data types
+    
+    2. Understanding Drill-Down Reports
+        - To drill-down means to break data into smaller pieces
+        - explore different levels of detail - or granularity, providing much more freedom to choose how you need your data summarized or shown
+        - Drill-down reports are simply data visualizations that implement this drill-down feature.
+    
+    3. Introduction to Sets
+        - Sets function as curated subsets, offering a methodical approach to segmenting and scrutinizing specific data elements
+        - These sets act as dynamic filters, enabling users to focus on pertinent information, such as identifying peak months or analyzing the performance of top-selling products
+        - Once a set is created, tableau provides 2 primary modes for utilizing sets: in and out
+            + In mode: it includes only the members of the set in your visualization or analysis
+                    => This mode is useful when you want to focus execlusively on the data points that meet the conditions defined by the set
+            + Out mode: When you use a set in Out mode, it execludes the members of the set from your visualization or analysis
+                    => This mode is benefical when you want to analyze the data outside the conditions specified by the set, providing a comparative view
+        => Control data points are included or exclued from your visualization
+
+
+AGGREGATION
+    - means that the field is summarized using mathematical equations such as sum total, median, or average.
+    - it means to "roll up" the data and present it in a summary form using statistical functions known as aggregate functions.
+    - Aggregate functions are built-in Tableau functions that allow you to summarize fields of data by returning single values, such as the minimum, average, or sum of a column.
+    - Tableau automatically aggregates any measure field added to a Tableau worksheet
+    
