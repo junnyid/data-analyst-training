@@ -65,8 +65,33 @@ Histograms
         + What is the distribution of product costs?
         + What is the distribution of the Superstore sales?
 
-Histogram Design
-    - Histogram Dos and Don'ts 
-        + DO: choose the right bin size; consider the shape and distribution
-        + DON'T: use inconsistent intervals; include too many bins; Leave gaps for continuos data; forget to try different bin counts
+    Histogram Design
+        - Histogram Dos and Don'ts 
+            + DO: choose the right bin size; consider the shape and distribution
+            + DON'T: use inconsistent intervals; include too many bins; Leave gaps for continuos data; forget to try different bin counts
+
+Box Plots
+    - Box plots, also knowns as box-and-whisker plots, are visualizations that show a statistical summary of selected data. 
+    - The statistical summary is made up of five values: the data's minimum, maximm, median, first quartile, and third quartile.
+    - Box plots give a quick overview of the data within a field, which can be useful for explaining your analysis
+    - A box plot provides:
+        + Minimum: The smallest value in the dataset.
+        + Maximum: The largest value in the dataset. 
+        + Lower Whisker: The smallest value within the dataset that falls within an acceptable range, typically within 1.5 times the interquartile range (IQR) <phạm vi liên vùng> below the first quartile (Q1) 
+                        => If the value falls out of this range, it will be considered a potential outlier
+        + Upper Whisker: The largest value within the dataset that falls within an acceptable range, typically within 1.5 times the interquartile range (IQR) above the third quartile (Q3)
+                        => If the value falls out of this range, it will be considered a potential outlier
+        + Quartiles: Numbers that divide the values in your datase:
+            * Lower Hinge/ First quartile (Q1)
+            * Median (Q2)
+            * Upper Hinge/ Third quartile (Q3)
+        + Interquatile range (IQR): phạm vi liên vùng
+    - A few questions: 
+        * What is the distribution of waiting times for customers at different service counters?
+        * How do the ages of participants differ across different categories of a survey?
+        * What is the variability in monthly sales for different products in a retail store?
+    - Box Plot Design
+        + Box Plot Dos and Don'ts
+            * DO: Use the right data; include and explain outliers; use annotations; assess symmetry
+            * DON'T: Use for limited data points; Use when measurements are similar; Ignore scale
         

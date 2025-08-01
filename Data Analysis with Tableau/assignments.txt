@@ -84,3 +84,21 @@ Histograms
     What is the impact of including too many bins in a histogram?
     => it overcomplicates the histogram, making it difficult to discern trends
 
+
+Box Plots
+    1. Question 1
+    What value on the box plot is indicated by the arrow?
+    => Median
+
+    2. Question 2
+    A dataset you are analyzing with Tableau has a box plot with numerous data points plotted as circles outside the whiskers. What do these points represent?
+    => These points are the potential outliera
+
+    3. Question 3
+    Which of the following options allows you to transform a vertical box plot showing Sales by Category to a horizontal box plot? Select all that apply.
+    => Move the SUM(Sales) pill from the Rows shelf to the Columns shelf
+    => Select the "Swap the Rows and Columns" button
+
+    4. Question 4
+    What type of data should be used for creating a box plot?
+    => Continuous variable for primary data, discrete for category
