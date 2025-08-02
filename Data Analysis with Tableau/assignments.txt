@@ -146,3 +146,145 @@ Statistical Analysis
     10. Question 10
     If a data point is plotted as a dot outside the whiskers of a box plot, what does this indicate?
     => The data point is a potential outlier
+
+
+Practice - Predictive Analytics
+    1. Question 1
+    What is the purpose of using a predictive chart?
+    => To reveal trends in data and to support the analyst's Insights
+
+    2. Question 2
+    What is correlation?
+    => A technique that can show whether and how strongly pairs of quantitative variables are related
+
+    3. Question 3
+    True or false? Correlation can be used to prove causation.
+    => False
+
+    4. Question 4
+    What is the purpose of the linear regression line?
+    => The linear regression line can be used to calculate, or predict, the Y value in a scatter plot if the X value is known
+
+
+Practice - Scatter Plots
+    1. Question 1
+    What is the purpose of a scatter plot?
+    => to show the relationship between two variables, or how they correlate
+
+    2. Question 2
+    What is the difference between an independent variable and a dependent variable?
+    => An independent variable is a variable that you believe may influence or explain changes in the dependent variable. In contrast, the dependent variable is the variable you’re trying to predict, explain, or understand based on changes in the independent variable.
+
+    3. Question 3
+    What is required to build a scatter plot?
+    => At least two measures
+
+    4. Question 4
+    Imagine that you were creating a scatter plot to show the Sales and Profit for each Postal Code. Sales is the independent variable, Profit is the dependent variable, and Postal Code is the dimension. When building this plot in Tableau, where would you put Sales?
+    => Columns shelf
+
+    5. Question 5
+    Imagine that you were creating a scatter plot to show the Sales and Profit for each Postal Code. Sales is the independent variable, Profit is the dependent variable, and Postal Code is the dimension. When building this plot in Tableau, where would you put Postal Code?  
+    => Details property on the Marks card
+
+    6. Question 6
+    In the same Sales and Profit by Postal Code scenario, where would you put Profit?
+    => Rows shelf
+
+
+Practice - Custom Analytics
+    1. Question 1
+    What is the primary purpose of adding elements such as reference lines, reference bands, and distribution bands to your data visualizations?
+    => All of the above
+
+    2. Question 2
+    Reference lines, reference bands, and distribution bands can only be added to a visualization that uses a continuous axis. Which of the following charts cannot have a reference line added?
+    => Pie chart
+
+    3. Question 3
+    You are making a visualization in Tableau, and you’d like to add a reference line that shows the average Profit across Sub-Categories. In Tableau, where would you find the “Average Line” to drag onto your visualization?
+    => In the Analytics tab
+
+    4. Question 4
+    As a data analyst working with an environmental agency, you are creating a visualization to show the average temperature changes over the last few decades. You’ve created a line graph to show the maximum temperature reached each year. Which of the following would you add to the visualization to show the frequency of values within specific temperature ranges?
+    => Distribution bands
+
+    5. Question 5
+    As a data analyst, you are evaluating the sales performance of the company’s various products, and your boss wants to see how each product has performed against the company’s predefined sales target. Which of the following would you add to the visualization to show which products met or exceeded the sales target and which ones fell short?
+    => Reference line
+
+    6. Question 6
+    As a data analyst, you are creating a visualization to track monthly revenue. You have a bar chart, where each bar represents the actual revenue for each month. Your company has a forecasted revenue range for each month, showing the minimum and maximum revenue targets. Which of the following would you add to your chart to show this forecasted revenue range so that you can quickly see which months fall within the forecasted range?
+    => Reference band
+
+    7. Question 7
+    You are creating a visualization in Tableau, and you’d like to add a reference band that shows which Sub-Categories earn more than $20,000 and less than $40,000 in Profit. You drag “Reference Band” to the chart and drop it under the Table scope option in the SUM(Profit) row. In the “Edit Band” interface, the default “Computation” value is “Minimum.” Before you can change the values to $20,000 and $40,000, you need to change the “Computation” value to what?
+    => Constant
+
+Practice - Trend Lines and Forecasts
+    1. Question 1
+    True or False? A linear trend line is a straight line that best fits a set of data points in a way that represents a linear trend in the data.
+    => True
+
+    2. Question 2
+    When you add a trend line to a visualization in Tableau, it will also include a tooltip that contains statistically calculated numbers. In this tooltip, what does the r-squared value tell you?
+    => The amount of variance that the trend line explains
+
+    3. Question 3
+    You are creating a visualization in Tableau, and you add a trend line. In the tooltip, you see that the r value is -0.45. What does this tell you about your correlation?
+    => There is a modest negative correlation
+
+    4. Question 4
+    You are creating a visualization in Tableau, and you want to add a trend line. Where can you find this statistical feature in Tableau?
+    => In the Analytics tab
+
+    5. Question 5
+    How can you find the correlation coefficient using a trend line in Tableau?
+    => By taking the square root of the R-squared value and considering the trend line's slope
+
+    6. Question 6
+    What are the two dominant behaviors that Tableau's forecasting algorithm takes into account?
+    => Trends and seasonality
+
+
+Predictive Analytics
+    1. Question 1
+    True or false? Linear regression uses the best-fitting straight line through the points on a scatter plot to predict Y-values from X-values.
+    => True
+
+    2. Question 2
+    The visualization below uses which statistical feature in Tableau to show the distribution of data within a series of ranges?
+    => Distribution bands
+
+    3. Question 3
+    The visualization below shows which statistical feature in Tableau that can be used to show a comparison between each data point on an axis and the value of the line?
+    => reference line
+
+    4. Question 4
+    What is the purpose of a scatter plot?
+    => To show the relationship between two variables, or how they correlate
+
+    5. Question 5
+    In Tableau, what is required to build a scatter plot?
+    => At least two Measures
+
+    6. Question 6
+    You are building a scatter plot in Tableau to see if there is a relationship between average low temperature and the sale of flannel pajamas. You place the temperature data on the x-axis and the sales data on the y-axis. Which variable is the independent variable?
+    => temperature
+
+    7. Question 7
+    What is the purpose of adding statistical features, such as reference lines or distribution bands, to your data visualizations?
+    => All  of the above
+
+    8. Question 8
+    When adding a trend line to a visualization in Tableau, what does the R-squared value tell you?
+    => It measure of how close the data is to the trends line
+
+    9. Question 9
+    Your data has a correlation coefficient (r) of about 0.25. What does this tell you about the strength of the relationship between your variables?
+    => Weak correlation
+
+    10. Question 10
+    You are creating a visualization in Tableau, and you add a trend line. In the tooltip, you see that the R-squared value is 0.85 (not to be confused with the correlation coefficient). Using the R-squared value, calculate the correlation coefficient and determine the strength of the relationship between the variables.
+    => Very strong correlation
+

@@ -1,0 +1,56 @@
+Predictive Analytics
+    - Predictive analytics includes a range of data analysis techniques designed to make predictions about future outcomes based on historical data
+    - Line graphs and scatter plots are two of the most common charts used for predictive analytics.
+
+Scatter Plots
+    - A scatter plots is a data visualization used to show the relationship between two quantitative variables
+    - Correlation is the relationship between variables. It is important to remember that just because one variable has a relationship with the other variable, that doesn't mean one caused the other.
+    - A scatter plot requires a measure in both the x-axis and y-axis to plot dimensional data points. 
+    - Scatter plots allow you to hypothesize whether a similar pattern may be followed in the future
+    - A few examples of questions:
+        + Does increased advertising spending result in higher product sales?
+        + What's the relationship between temperature and the number of ice cream cones sold?
+        + How does age impact the average hours os sleep a person gets?
+    => The questions you can answer with scatter plots always contain two numerical variables and usually a dimension you can plot on the numerically created grid
+    - Independent and Dependent Variables:
+        + Independent variable: 
+            * the independent variable is the variable that you believe may influence or explain changes in the dependent variable.
+            * It's often used in regression analysis (phân tích hồi quy), where you seek to understand the relationship between the independent variable(s) and the dependent variable.
+        + Dependent variable:
+            * The dependent variable in data analytics is the variable you're trying to predict, explain, or understand based on changes in the independent variable(s)
+            * It's the outcome or response that you're examining and measuring
+        + question: Which measure depends on the other?
+    - Scatter Plot Design
+        + DO: Communicate the removal of outliers; Use trend lines if there is added value
+        + DON'T: Automatically remove outliers; Compare too many trend lines; Add a trend line without enough data points
+
+
+Trend Lines
+    - Trend lines simplify the overall pattern in your data into an easily interpretable visual element
+    - Trend lines are created using statistical functions to help you confirm that trends exist
+    - There are five types of trend lines you can create in Tableau:
+        + linear
+        + logarithmic
+        + exponential
+        + polynomial
+        + power
+    - A linear trend line is a straight line that best fits a set of data points in a way that represents a linear trend in the data.
+
+Trend Lines, Correlation, and Regression
+    - the first value is the equation of the trend line, Y = mX + b => It quantifies the relationship between your variables and allows you to predict future values. 
+    - the second is the R-Squared value: R-Squared is a statistical measure of how the amount of variance (how close the data is to the trend line), and is displayed as a number from 0 to 1 => Simply put, it tells you how well the trend line "fits" the data. If the data is perfectly on the line, the r-squared value would be 1. 
+    - the third is the P-value: The p-value is used to show the probability of obtaining the desired result and is also displayed as a number between 0 and 1.
+    - correlation is the statistical measure that describes the strength and direction of a relationship between two quantitative variables. 
+    - Like correlation, a  linear regression also describes the direction and strength of the relationship between two numeric variables, but goes a step further. 
+
+
+Forecasting 
+    - Forecasting is a data analytics term that describes the process for creating predictions using historical data and algorithms
+    - Algorithms are made up of a sequence of well-defined computational instructions used to process information and are usually created by data scientist and software developers
+    - Tableau has a built-in forecasting algorithm that takes into account the two dominant behaviors that can affect a forecast:
+        + trends: Trends are the tendency of your data to follow an increasing or decreasing path
+        + seasonality: Seasonality exists when there is a pattern in your data that is related to a specific period of time.
+            * additive 
+            * multiplicative
+            
+    

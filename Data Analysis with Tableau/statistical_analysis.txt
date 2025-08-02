@@ -94,4 +94,13 @@ Box Plots
         + Box Plot Dos and Don'ts
             * DO: Use the right data; include and explain outliers; use annotations; assess symmetry
             * DON'T: Use for limited data points; Use when measurements are similar; Ignore scale
-        
+
+Custom Analytics
+    - Analytics is the process of discovering and interpreting meaning from data. 
+    - It is the application of a variety of disciplines such as statistics, computational mathematics, and modeling to discover patterns and draw reliable conclusions.
+    - Reference Lines: straight lines that are either vertical or horizontal and show a comparision between each data point on an axis and the value of the references line itself
+    - Reference Bands: similar to reference lines, but they also use a secondary number and shade the area between two values. The shaded can be useful for showing which data points fit within a specific range or area
+    - Distribution Bands: a visual representation of the distribution of data points within a given range or interval
+                        They help users understand the concentration or density of values across a continuous axis, typically used for numerical data
+                        These bands showcase the spread of data by indicating the frequency or density of values within specific ranges.
+                        
