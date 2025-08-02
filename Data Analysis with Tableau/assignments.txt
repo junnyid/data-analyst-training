@@ -102,3 +102,47 @@ Box Plots
     4. Question 4
     What type of data should be used for creating a box plot?
     => Continuous variable for primary data, discrete for category
+
+
+Statistical Analysis
+    1. Question 1
+    Which of the following statements is true about a positively skewed distribution?
+    => The mean is greater than the median
+
+    2. Question 2
+    What is the main difference between frequency and proportion distributions?
+    => Frequency distribution considers the count of occurrences, while proportion distribution considers the percentage of occurencess
+
+    3. Question 3
+    What does it mean for a distribution to be continuous?
+    => It can take on any value within an unbroken range
+
+    4. Question 4
+    What does a high standard deviation indicate about a dataset?
+    => The data values are widely spread out from the mean
+
+    5. Question 5
+    Which of the following statements is correct about the mean in a dataset? 
+    => It is the sum of all the values in the dataset divided by the number of values.
+
+    6. Question 6
+    If the p-value is low (e.g., below the significance level of 0.05), what decision would you make about the null hypothesis?
+    => You would reject the null hypothesis.
+
+    7. Question 7
+    How can you interpret a histogram with a long tail to the right?
+    => The data is right skewed
+
+    8. Question 8
+    Which option would you select to customize the size of the bins in a histogram within Tableau?
+    => Right-click on the bins and select "Edit"
+
+    9. Question 9
+    Which of the following are true about a box plot? Select all that apply. 
+    => The box represents the interquartile range.
+    => The median is represented by a line inside the box.
+    => The whiskers represent the range of the data, excluding outliers.
+
+    10. Question 10
+    If a data point is plotted as a dot outside the whiskers of a box plot, what does this indicate?
+    => The data point is a potential outlier
