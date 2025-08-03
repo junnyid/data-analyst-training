@@ -288,3 +288,98 @@ Predictive Analytics
     You are creating a visualization in Tableau, and you add a trend line. In the tooltip, you see that the R-squared value is 0.85 (not to be confused with the correlation coefficient). Using the R-squared value, calculate the correlation coefficient and determine the strength of the relationship between the variables.
     => Very strong correlation
 
+
+Prepare and Analyze the Superstore Dataset
+My grade is 92.38% 
+    1. Question 1
+    What action(s) should you take before you start creating data visualizations and calculating statistics? Select all that apply.
+    => Explore the data
+    => Preprocess the data
+
+    2. Question 2
+    How many fields (that were not generated) were interpreted by Tableau as geographic?
+    => 4
+
+    3. Question 3
+    With all of the hierarchies and folders collapsed, what is at the top of the left sidebar?
+    => The Customer folder
+
+    4. Question 4
+    What is the average profit per item for the West region?
+    Be sure to format your average profit per item so that it is a currency showing two numbers after the decimal to represent the number of cents. Your answer below should be in the following form:
+    => 8.84
+
+    5. Question 5
+    After adding the filters, how many states are currently in the table?
+    Hint: Because the two filters are acting independently, your table will not yet necessarily be showing the actual top 5 states by sales in the East region, but since there is a Top 5 filter, you should not be seeing any more than 5. Together, this means that your answer should be <= 5.
+    => 2
+
+    6. Now add the regional filter to the context so that it is applied before the Top 5 filter.
+    Order the table so the average Profits are in descending order.
+    At this point, you should have the correct table, which shows the average Profits of the top five performing States in the East region based on their average Sales.
+    Which of the following states appear in your table? Select all that apply.
+    => Vermont
+    => Rhlode Island
+    => District of Columnbia
+    => Delaware
+
+    7. Question 7
+    You're now interested in learning how the sales are distributed across all orders.
+    Create a histogram for the Sales.
+    Change the bin size to 50.
+    Add a filter on Sales to show a maximum sales amount of $1,000.
+    What is the skewness of the histogram?
+    => Positive (right)
+
+    8. Question 8
+    How many orders had sales amounts that ranged between $150 and $200?
+    Hint: The fourth bin from the left should represent the bin with a range of $150-200. Hover over the bin to see the count.
+    => 499
+
+    9. Question 9
+    You're now looking into the state sales performance and are interested in how spread out they are.
+    Create a box plot to show the total Sales for each state and use it to determine which value below represents the third quartile.
+    => $49.096
+
+    10. Question 10
+    Return to your box plot and break it up based on the newly created Sales Region. In other words, you should have four box plots on a single visualization, one for each newly created Sales Region. Each box plot should be made up of the respective States in each Sales Region.
+    Which Sales Region has the smallest interquartile range?
+    => Northwest
+
+    11. Question 11
+    You're interested in determining the correlation between the discount and the quantity sold. You have a hunch that the higher the discount, the higher the quantity will be.
+    Create a scatter plot with the average Discount on the x-axis and average Quantity on the y-axis, and set the level of detail to Sub-Category.
+    What is the R-squared value?
+    => 0.0435
+
+    12. Question 12
+    You would like to further explore the sub-categories. This time, you would like to learn more about how each Sub-Category is doing in terms of Sales.
+    Build a table to show both the Category and Sub-Category as rows, showing the total Sales for each.
+    Add a quick table calculation to show the "Percent of Total."
+    What percentage of the total does the "Storage" sub-category make up?
+    => 9.74%
+
+    13. Question 13
+    Now add column grand totals and subtotals to your table.
+    What is the total sales from the "Office Supplies" sub-category?
+    => $719,047
+
+    14. Question 14
+    You'd now like to review the daily average profit in 2016.
+    Create a time-series plot using the Order Date and average Profit.
+    Adjust the Order Date to display it as a continuous Day field.
+    Filter on the year 2016.
+    Add a distribution band to the table with the following settings:
+    Value: Standard Deviation
+    Factors: -1, 1
+    Sample (not Population)
+    You can leave "Recalculate band for selected data" checked.
+    Now it's time to determine the standard deviation. The upper and lower band lines will show you the values that are one standard deviation in both directions from the mean. This means that the band represents two standard deviations, so if you divide that number in half, you can determine the standard deviation.
+    For example, consider an example where an upper band line is at $100 and a lower band line is at -$20. This span is $100 - (-$20) = $120. Dividing that by two will give you $60, which would be the standard deviation.
+    Use the lower and upper distribution band lines (hover over them to obtain the values) to determine the standard deviation. (It's okay to use a calculator!)
+    => $108
+
+    15. Question 15
+    Add a forecast to your time-series plot.
+    What is the forecasted average profit for January 7, 2017? (Hint: Hover over January 7, 2017.)
+    => $16
