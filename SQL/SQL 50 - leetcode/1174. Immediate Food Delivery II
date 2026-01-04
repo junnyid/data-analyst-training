@@ -6,12 +6,16 @@ Write a solution to find the percentage of immediate orders in the first orders 
 
 The result format is in the following example.
 
--- Write your PostgreSQL query statement below
-with temp as (select distinct on (customer_id) customer_id,
-case when order_date = customer_pref_delivery_date then 1 else null end as "immediate",
-case when order_date != customer_pref_delivery_date then 1 else null end as "schedule"
-from Delivery
-order by customer_id, order_date )
+distinct on: The DISTINCT ON clause is a PostgreSQL-specific extension to the standard SELECT DISTINCT statement. It is used to return only the first row of each set of rows that are identical based on the expression(s) provided to DISTINCT ON. 
+CTE: take first_order
+immediate_percentage = (immediate first_order / all customer) * 100
 
+-- Write your PostgreSQL query statement below
+with frist_order as (
+    select distinct on (customer_id) customer_id
+    ,case when order_date = customer_pref_delivery_date then 1 else null end as immediate
+    from Delivery
+    order by customer_id, order_date
+)
 select round(count(immediate)::numeric/count(*) * 100, 2) as immediate_percentage
-from temp
+from frist_order

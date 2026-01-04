@@ -2,6 +2,10 @@ Write a solution to report the fraction of players that logged in again on the d
 
 The result format is in the following example.
 
+This is FRACTION using *1.0
+I have a trouble when *100, mistakes between fraction and percentage
+After this filter in "where" sentence => the table contains only player who returned on day 2.
+
 -- Write your PostgreSQL query statement below
 select round(1.0 * count(player_id) / (select count(distinct player_id) from Activity), 2) as fraction
 from Activity
