@@ -1,3 +1,18 @@
+Table: Transactions
+
++---------------+---------+
+| Column Name   | Type    |
++---------------+---------+
+| id            | int     |
+| country       | varchar |
+| state         | enum    |
+| amount        | int     |
+| trans_date    | date    |
++---------------+---------+
+id is the primary key of this table.
+The table has information about incoming transactions.
+The state column is an enum of type ["approved", "declined"].
+
 Write an SQL query to find for each month and country, the number of transactions and their total amount, the number of approved transactions and their total amount.
 Return the result table in any order.
 The query result format is in the following example.
@@ -5,13 +20,14 @@ The query result format is in the following example.
 My answer:
 to_char: a versatile tool used to convert date, timestamp, or numeric values into a formatted string (character) data type.
 COALESCE: return the first non-null value from a lists of expressions.
+filter
 
 -- Write your PostgreSQL query statement below
 select to_char(trans_date, 'YYYY-MM') as month,
- country,
- count(*) as trans_count,
- count(*) filter (where state = 'approved') AS approved_count,
- sum(amount) AS trans_total_amount,
- COALESCE(sum(amount) FILTER(where state='approved'),0) as approved_total_amount
- from Transactions
+country,
+count(*) trans_count,
+count(*) filter (where state = 'approved') approved_count,
+sum(amount) trans_total_amount,
+coalesce(sum(amount) filter (where state = 'approved'), 0) as approved_total_amount
+from Transactions
 group by month, country

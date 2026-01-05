@@ -1,0 +1,28 @@
+Table: Prices
+
++---------------+---------+
+| Column Name   | Type    |
++---------------+---------+
+| product_id    | int     |
+| start_date    | date    |
+| end_date      | date    |
+| price         | int     |
++---------------+---------+
+Table: UnitsSold
+
++---------------+---------+
+| Column Name   | Type    |
++---------------+---------+
+| product_id    | int     |
+| purchase_date | date    |
+| units         | int     |
++---------------+---------+
+Write a solution to find the average selling price for each product. average_price should be rounded to 2 decimal places. If a product does not have any sold units, its average selling price is assumed to be 0.
+Return the result table in any order.
+The result format is in the following example.
+
+select p.product_id,
+coalesce(round(sum(p.price * u.units) / sum(u.units)::numeric, 2), 0) average_price
+from Prices p left join UnitsSold u on p.product_id = u.product_id
+and u.purchase_date between p.start_date and p.end_date
+group by p.product_id
