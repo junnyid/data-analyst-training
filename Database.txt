@@ -1,0 +1,35 @@
+1. Database System
+- Data consits of raw facts, have not been processed to reveal their meaning
+- Information is the result of processing raw data to real its meaning. Processing can include:
+    + organizing data to reveal patterns
+    + making forecast or drawing inferences
+=> To reveal meaning, information requires context.
+
+Raw data must be properly fromatted for:
+    Storage
+    Processing
+    Presentation
+
+This data could vary from a few megabytes on just one or two topic to terrabytes
+
+Data: ----ubiquitous
+      ----pervasive
+
+=> Database is the best way to store and manage data. It makes data persistent and shareable in a secure way.
+
+
+2. Database and Database Management System
+The database include:
+    + Raw data
+    + Metadata ---describe the data characteristic + the set of relationship that links the data within the database
+               ---catalog
+
+A Database management system (DBMS) is a collection of programs that manage the database structure and control access to the data stored in the database.
+
+3. Structured Query Language (SQL)
+    - Allows users to access data in relational DBMS (Hệ thống QLDL quan hệ)
+    - Allows users to describe data
+    - Allows to embed within other language SQL modules, libraries and pre-complier
+    - Allows users to create and drop DBs and table
+    - Allows users to create view, stored procedure, functions in a database 
+    - Allows users to set permission on tables, procedures and views.
