@@ -33,3 +33,30 @@ A Database management system (DBMS) is a collection of programs that manage the 
     - Allows users to create and drop DBs and table
     - Allows users to create view, stored procedure, functions in a database 
     - Allows users to set permission on tables, procedures and views.
+
+
+Data Model 
+    Data Modeling is the frist step in designing database:
+        - Relatively simple representation, ussually graphical
+        - An abstaction of a more complex real-worl object
+        - Represents data structures and their characteristic, realtions, constranints, transformations
+    => Data modeling is an iterative, progressive process, start with a simple model then make the complex one.
+
+    Data model basic block:
+        The basic including blocks of all data models are:
+        + Entities (Thực thể): person, place, thing, or event about which data will collected and stored
+        + Attributes: characteristic of an entity
+        + relationships: describes an assocation among Entities
+        + Constrains: is a retriction placed on the data => helps to ensure data integrity
+    
+    Relationship:
+        Data model use 3 types of relationship:
+        + one-to-many (|:M or |..*)
+        + many-to-many (M:N or *..*)
+        + one-to-one (|:| or |:|)
+    
+    Data Abstraction: 3 level
+    -----External level
+    -----Conceptual level
+    -----Internal level
+    
