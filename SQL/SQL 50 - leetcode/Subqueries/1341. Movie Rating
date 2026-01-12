@@ -1,0 +1,65 @@
+Table: Movies
+
++---------------+---------+
+| Column Name   | Type    |
++---------------+---------+
+| movie_id      | int     |
+| title         | varchar |
++---------------+---------+
+movie_id is the primary key (column with unique values) for this table.
+title is the name of the movie.
+Each movie has a unique title.
+
+Table: Users
+
++---------------+---------+
+| Column Name   | Type    |
++---------------+---------+
+| user_id       | int     |
+| name          | varchar |
++---------------+---------+
+user_id is the primary key (column with unique values) for this table.
+The column 'name' has unique values.
+
+Table: MovieRating
+
++---------------+---------+
+| Column Name   | Type    |
++---------------+---------+
+| movie_id      | int     |
+| user_id       | int     |
+| rating        | int     |
+| created_at    | date    |
++---------------+---------+
+(movie_id, user_id) is the primary key (column with unique values) for this table.
+This table contains the rating of a movie by a user in their review.
+created_at is the user's review date. 
+
+Write a solution to:
+    Find the name of the user who has rated the greatest number of movies. In case of a tie, return the lexicographically smaller user name.
+    Find the movie name with the highest average rating in February 2020. In case of a tie, return the lexicographically smaller movie name.
+
+-- Write your PostgreSQL query statement below
+with most_rated_user as (
+    select u.name as user_name, count(*) as nums_rating
+    from MovieRating mr
+    join Users u on u.user_id = mr.user_id
+    group by u.user_id, u.name
+    order by nums_rating desc, u.name
+    limit 1
+),
+most_rated_movie as (
+    select m.title as movie_name, avg(mr.rating) as nums_rating
+    from MovieRating mr
+    join Movies m on mr.movie_id = m.movie_id
+    where extract (year from created_at) = 2020
+        and extract (month from created_at) = 2
+    group by mr.movie_id, m.title
+    order by nums_rating desc, m.title
+    limit 1
+)
+select user_name as results
+from most_rated_user
+union all
+select movie_name as results
+from most_rated_movie
