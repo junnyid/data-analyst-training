@@ -39,6 +39,8 @@ Write a solution to:
     Find the name of the user who has rated the greatest number of movies. In case of a tie, return the lexicographically smaller user name.
     Find the movie name with the highest average rating in February 2020. In case of a tie, return the lexicographically smaller movie name.
 
+This exact method for extracting the year, month from a created_at timestamp and comparing it
+
 -- Write your PostgreSQL query statement below
 with most_rated_user as (
     select u.name as user_name, count(*) as nums_rating

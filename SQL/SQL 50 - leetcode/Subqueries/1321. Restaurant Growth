@@ -1,0 +1,45 @@
+Table: Customer
+
++---------------+---------+
+| Column Name   | Type    |
++---------------+---------+
+| customer_id   | int     |
+| name          | varchar |
+| visited_on    | date    |
+| amount        | int     |
++---------------+---------+
+In SQL,(customer_id, visited_on) is the primary key for this table.
+This table contains data about customer transactions in a restaurant.
+visited_on is the date on which the customer with ID (customer_id) has visited the restaurant.
+amount is the total paid by a customer.
+
+You are the restaurant owner and you want to analyze a possible expansion (there will be at least one customer every day).
+Compute the moving average of how much the customer paid in a seven days window (i.e., current day + 6 days before). average_amount should be rounded to two decimal places.
+
+Return the result table ordered by visited_on in ascending order.
+
+The result format is in the following example.
+
+-- Write your PostgreSQL query statement below
+with last_6_days as (
+    select distinct visited_on
+    from Customer
+    order by visited_on 
+    offset 6
+)
+select l6d.visited_on,
+    sum(c.amount) as amount,
+    round(sum(c.amount)::numeric/7, 2) as average_amount
+from last_6_days as l6d
+join Customer as c
+on c.visited_on between l6d.visited_on - 6 and l6d.visited_on
+group by l6d.visited_on
+
+
+last_6_days:
+| visited_on | 
+| ---------- |
+| 2019-01-07 |
+| 2019-01-08 |
+| 2019-01-09 | 
+| 2019-01-10 |
