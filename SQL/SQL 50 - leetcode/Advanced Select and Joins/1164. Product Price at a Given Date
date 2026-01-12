@@ -32,4 +32,51 @@ order by change_date desc
 limit 1), 10) as price
 from (select distinct product_id from Products order by product_id) p
 
---- Way 2
+--- Way 2: using union all
+The UNION ALL operator is used to combine the result-set of two or more SELECT statements.
+
+select product_id, 10 as price
+from Products
+group by product_id
+having min(change_date) > '2019-08-16'
+
+union all
+
+select product_id, new_price as price
+from Products
+where (product_id, change_date) in (
+    select product_id, max(change_date)
+    from Products
+    where change_date <= '2019-08-16'
+    group by product_id
+)
+
+--- Way 3: Using Windown function
+ROW_NUMBER() là một hàm trong SQL được sử dụng để xếp hạng các bản ghi trong một tập kết quả, KHÔNG quan tâm giá trị ở các bản ghi đó là giống hay khác nhau.
+Hàm này thường đi kèm với mệnh đề OVER để xác định phạm vi của việc đánh số.
+
+row_number() over (partition by product_id order by change_date desc) as row_num
+=> is a windown function that assigns a unique, sequential integer to each row within specific groups (partition) of your data.
+(gán 1 số nguyên tuần tự duy nhất cho mỗi hàng trong các nhóm (phân vùng) dữ liệu cụ thể)
+row_number(): This is the windown function itself, which assigns sequential numbers starting from 1
+over (...): this mandatory clause defines the 'window' or set of rows the function operates on (mệnh đề bắt buộc xác định 'cửa sổ' hoặc tập hợp các hàng mà hàm hoạt động trên đó.)
+partition by product_id: this devides the results set into separate groups (partition) for each unique product_id. The row_number() count resets to 1 at the start to each new product_id group.
+                        (Chia tập kết quả thành các nhóm (phân vùng) riêng biệt cho mỗi product_id duy nhất. Số lượng row_number() đặt lại thành 1 khi bắt đầu mỗi nhóm product_id mới)
+order by change_date desc: this specific the order of the row within each product_id partition. the rows with the most recent change_date (descending order) will receive the lower row numbers (1, 2, 3,..)
+as row_num: This gives an alias to the new column created by the function. 
+
+-- Write your PostgreSQL query statement below
+with cte as (
+    select product_id, 
+    new_price as price, 
+    row_number() over (partition by product_id order by change_date desc) as row_num
+    from products
+    where change_date <= '2019-08-16'
+)
+select product_id, price
+from cte
+where row_num = 1
+union
+select product_id, 10 as price
+from products
+where product_id not in (select distinct product_id from cte)
