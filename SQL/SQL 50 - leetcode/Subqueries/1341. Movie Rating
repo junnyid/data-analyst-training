@@ -63,3 +63,14 @@ from most_rated_user
 union all
 select movie_name as results
 from most_rated_movie
+
+
+CTE 1:
+| user_name | nums_rating |
+| --------- | ----------- |
+| Daniel    | 3           |
+
+CTE 2:
+| movie_name | nums_rating |
+| ---------- | ----------- |
+| Frozen 2   | 3.5         |
