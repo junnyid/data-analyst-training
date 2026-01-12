@@ -20,3 +20,36 @@ The result table must contain all three categories. If there are no accounts in 
 Return the result table in any order.
 
 The result format is in the following example.
+
+--- WAY 1: Using UNION ALL => so easy to understand
+
+-- Write your PostgreSQL query statement below
+
+select 'Low Salary' as category, count (*) as accounts_count 
+from Accounts
+where income < 20000
+union all
+select 'Average Salary' as category, count (*) as accounts_count 
+from Accounts
+where income between 20000 and 50000
+union all
+select 'High Salary' as category, count (*) as accounts_count 
+from Accounts
+where income > 50000
+
+-- Way 2: Using unnesting arrays
+Một hàm phổ biến được sử dụng với mảng là unnest, cho phép trích xuất các phần tử của mảng thành 1 tập hợp các hàng 
+We can sum but count better than sum because: 
+If Accounts is empty:
+    * sum(case when...) -> return NULL
+    * count(case when...) ->return 0
+
+-- Write your PostgreSQL query statement below
+select 
+    unnest (array['Low Salary', 'Average Salary', 'High Salary']) AS category,
+    unnest (array[
+        count (case when income < 20000 then 1 end),
+        count (case when income between 20000 and 50000 then 1 end),
+        count (case when income > 50000 then 1 end)
+    ]) as accounts_count
+from Accounts
