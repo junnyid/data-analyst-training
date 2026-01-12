@@ -1,0 +1,36 @@
+Table: Seat
+
++-------------+---------+
+| Column Name | Type    |
++-------------+---------+
+| id          | int     |
+| student     | varchar |
++-------------+---------+
+id is the primary key (unique value) column for this table.
+Each row of this table indicates the name and the ID of a student.
+The ID sequence always starts from 1 and increments continuously.
+
+Write a solution to swap the seat id of every two consecutive students. If the number of students is odd, the id of the last student is not swapped.
+
+Return the result table ordered by id in ascending order.
+
+The result format is in the following example.
+
+using mod(id, 2) or %
+the mod function or the % operator is used to calculate the modules (remainder) of a division operation
+mod(id, 2) = 1 and id != (select max(id) from Seat): this condition identifies odd id, except the very last one in the tables
+    -> For these student, the id is incremented by 1 (id+1) to swap them with the next student
+mod(id, 2) = 0: This condition identifies all even id
+    -> For these student, the id is decremented by 1 (id-1) to swap them with the previou student
+else id: handles the final odd id if the total number of students is odd, leaving id unchanged.
+
+-- Write your PostgreSQL query statement below
+select 
+    case
+        when mod(id, 2) = 1 and id != (select max(id) from Seat) then id + 1
+        when mod(id, 2) = 0 then id - 1
+        else id
+    end as id,
+    student
+from Seat
+order by id

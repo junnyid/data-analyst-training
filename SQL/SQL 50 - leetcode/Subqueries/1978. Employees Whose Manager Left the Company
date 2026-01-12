@@ -15,7 +15,7 @@ Find the IDs of the employees whose salary is strictly less than $30000 and whos
 
 Return the result table ordered by employee_id.
 -- Write your PostgreSQL query statement below
-select employee_id 
+select employee_id
 from Employees
 where manager_id not in (
     select employee_id
