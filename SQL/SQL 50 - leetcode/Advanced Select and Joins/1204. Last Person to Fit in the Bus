@@ -18,3 +18,25 @@ There is a queue of people waiting to board a bus. However, the bus has a weight
 Write a solution to find the person_name of the last person that can fit on the bus without exceeding the weight limit. The test cases are generated such that the first person does not exceed the weight limit.
 Note that only one person can board the bus at any given turn.
 The result format is in the following example.
+
+---- WAY 1: using Windown Function:
+-- Write your PostgreSQL query statement below
+with cte as (
+    select turn, person_id, person_name, 
+    sum(weight) over (order by turn) as total_weight
+    from Queue
+)
+select person_name
+from cte
+where total_weight <= 1000
+order by turn desc
+limit 1
+
+--- WAY 2: Subqueries
+select person_name
+from (select turn, person_id, person_name,
+sum (weight) over (order by turn) as total_weight
+from Queue)
+where total_weight <= 1000
+order by turn desc
+limit 1
