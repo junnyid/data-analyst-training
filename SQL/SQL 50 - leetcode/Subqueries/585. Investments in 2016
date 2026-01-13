@@ -1,0 +1,45 @@
+Table: Insurance
+
++-------------+-------+
+| Column Name | Type  |
++-------------+-------+
+| pid         | int   |
+| tiv_2015    | float |
+| tiv_2016    | float |
+| lat         | float |
+| lon         | float |
++-------------+-------+
+pid is the primary key (column with unique values) for this table.
+Each row of this table contains information about one policy where:
+pid is the policyholder's policy ID.
+tiv_2015 is the total investment value in 2015 and tiv_2016 is the total investment value in 2016.
+lat is the latitude of the policy holder's city. It's guaranteed that lat is not NULL.
+lon is the longitude of the policy holder's city. It's guaranteed that lon is not NULL.
+
+creat cte check_rows:
+    count(*) over (partition by tiv_2015) as count_tiv_2015: this windown function counts how many rows share the same tiv_2015 value as the current row
+    count(*) over (partition by lat, lon) as count_location: this counts how many rows share the exact same (lat, lon) pair as the current row
+
+
+-- Write your PostgreSQL query statement below
+with check_rows as (
+    select tiv_2016,
+        count(*) over (partition by tiv_2015) as count_tiv_2015,
+        count(*) over (partition by lat, lon) as count_location
+    from Insurance
+)
+select round(sum(tiv_2016)::numeric, 2) as tiv_2016
+from check_rows
+where count_tiv_2015 > 1 and count_location = 1
+
+
+CTE check_rows:
+| tiv_2016 | count_tiv_2015 | count_location |
+| -------- | -------------- | -------------- |
+| 5        | 3              | 1              |
+| 30       | 3              | 2              |
+| 40       | 3              | 1              |
+| 20       | 1              | 2              |
+
+count_tive_2025 > 1 => remove tiv_2016 = 20
+count_location = 1 => remove tiv_2016 = 20 and tiv_2016 = 30 because count_location = 2
