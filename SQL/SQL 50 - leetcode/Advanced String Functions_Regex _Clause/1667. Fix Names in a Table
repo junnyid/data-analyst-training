@@ -1,0 +1,25 @@
+Table: Users
+
++----------------+---------+
+| Column Name    | Type    |
++----------------+---------+
+| user_id        | int     |
+| name           | varchar |
++----------------+---------+
+user_id is the primary key (column with unique values) for this table.
+This table contains the ID and the name of the user. The name consists of only lowercase and uppercase characters.
+Write a solution to fix the names so that only the first character is uppercase and the rest are lowercase.
+
+Return the result table ordered by user_id.
+
+- Extract the first character of the name using left(name, 1) and convert it to uppercase with upper() => upper(left(name, 1))
+- Extract the rest of the string from position 2 using substring(name from 2) and convert with lower() => lower(substring(name from 2))
+- Concatenate both parts using || (string concatenate oparator in PostgreSQL)
+
+
+-- Write your PostgreSQL query statement below
+select 
+    user_id, 
+    upper(left(name, 1)) || lower(substring(name from 2)) as name
+from Users
+order by user_id
