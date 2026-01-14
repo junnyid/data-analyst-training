@@ -17,11 +17,11 @@ The test cases are generated so that only one person has the most friends.
 
 -- Write your PostgreSQL query statement below
 with id_num as (
-select requester_id as id
-from RequestAccepted
-union all
-select accepter_id as num
-from RequestAccepted
+    select requester_id as id
+    from RequestAccepted
+    union all
+    select accepter_id as num
+    from RequestAccepted
 )
 select id, count(id) as num
 from id_num
