@@ -1,0 +1,48 @@
+Table: Products
+
++------------------+---------+
+| Column Name      | Type    |
++------------------+---------+
+| product_id       | int     |
+| product_name     | varchar |
+| product_category | varchar |
++------------------+---------+
+product_id is the primary key (column with unique values) for this table.
+This table contains data about the company's products.
+
+Table: Orders
+
++---------------+---------+
+| Column Name   | Type    |
++---------------+---------+
+| product_id    | int     |
+| order_date    | date    |
+| unit          | int     |
++---------------+---------+
+This table may have duplicate rows.
+product_id is a foreign key (reference column) to the Products table.
+unit is the number of products ordered in order_date.
+
+Write a solution to get the names of products that have at least 100 units ordered in February 2020 and their amount.
+Return the result table in any order.
+using CTE: create sold_unit with 2 column: product_id, total_units
+using to_char: filter February 2020
+
+| product_id | total_units |
+| ---------- | ----------- |
+| 1          | 130         |
+| 2          | 80          |
+| 3          | 5           |
+| 5          | 100         |
+
+-- Write your PostgreSQL query statement below
+with sold_unit as (
+select product_id, sum(unit) as total_units
+from Orders
+where to_char(order_date, 'YYYY-MM') = '2020-02'
+group by product_id 
+)
+select p.product_name, su.total_units as unit
+from Products p 
+join sold_unit su on p.product_id = su.product_id
+where su.total_units >= 100
