@@ -1,0 +1,33 @@
+Table: Users
+
++---------------+---------+
+| Column Name   | Type    |
++---------------+---------+
+| user_id       | int     |
+| name          | varchar |
+| mail          | varchar |
++---------------+---------+
+user_id is the primary key (column with unique values) for this table.
+This table contains information of the users signed up in a website. Some e-mails are invalid.
+
+Write a solution to find the users who have valid emails.
+A valid e-mail has a prefix name and a domain where:
+    The prefix name is a string that may contain letters (upper or lower case), digits, underscore '_', period '.', and/or dash '-'. The prefix name must start with a letter.
+    The domain is '@leetcode.com'.
+
+Approach:
+The prefix must start with a letter, can contain letters/digist/underscore'_'/period'.'/dash'-' 
+must end with @leetcode.com 
+
+using (~)
+^: ensures pattern starts at beginning
+[a-zA-Z]: requires first character must to be letter
+[a-zA-Z0-9_.-]: allow leeter, digits, underscore, period, dash
+@leetcode\.com: matches the requires domain
+$: ensures pattern ends here
+
+
+-- Write your PostgreSQL query statement below
+select *
+from users
+where mail ~ '^[a-zA-Z]+[a-zA-Z0-9_.-]*@leetcode\.com$'
